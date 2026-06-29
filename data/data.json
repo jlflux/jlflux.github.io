@@ -1,0 +1,2096 @@
+{
+  "schema": 1,
+  "meta": {
+    "season": "2026",
+    "updated": "2026-06-29T06:01:00.335Z"
+  },
+  "newsNote": "",
+  "classifications": {
+    "6A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0001",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0002",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0003",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0004",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0005",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0006",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0007",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0008",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0009",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000a",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000b",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000c",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_000d",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000e",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000f",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000g",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000h",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000i",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_000j",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000k",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000l",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000m",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000n",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000o",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "results": {}
+      }
+    },
+    "5A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_000p",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000q",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000r",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000s",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_000t",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000u",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000v",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000w",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_000x",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000y",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000z",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0010",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0011",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0012",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0013",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0014",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0015",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0016",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0017",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0018",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0019",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001a",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001b",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001c",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_001d",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001e",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001f",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001g",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_001h",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001i",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001j",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001k",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "4A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_001l",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001m",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001n",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001o",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_001p",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001q",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001r",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001s",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_001t",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001u",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001v",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001w",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_001x",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001y",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001z",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0020",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0021",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0022",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0023",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0024",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0025",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0026",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0027",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0028",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0029",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002a",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002b",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002c",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_002d",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002e",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002f",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002g",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "3A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_002h",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002i",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002j",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002k",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_002l",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002m",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002n",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002o",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_002p",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002q",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002r",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002s",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_002t",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002u",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002v",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002w",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_002x",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002y",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002z",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0030",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0031",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0032",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0033",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0034",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0035",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0036",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0037",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0038",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0039",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003a",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003b",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003c",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "2A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_003d",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003e",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003f",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003g",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_003h",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003i",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003j",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003k",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_003l",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003m",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003n",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003o",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_003p",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003q",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003r",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003s",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_003t",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003u",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003v",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003w",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_003x",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003y",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003z",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0040",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0041",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0042",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0043",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0044",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0045",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0046",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0047",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0048",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "1A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0049",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004a",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004b",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004c",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004d",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004e",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004f",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004g",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004h",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004i",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004j",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004k",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004l",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004m",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004n",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004o",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004p",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004q",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004r",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004s",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004t",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004u",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004v",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004w",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004x",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004y",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004z",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0050",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0051",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0052",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0053",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0054",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "AA": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0055",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0056",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0057",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0058",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0059",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005a",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005b",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005c",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2"
+        ],
+        "results": {}
+      }
+    },
+    "A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_005d",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005e",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005f",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005g",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_005h",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005i",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005j",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005k",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_005l",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005m",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005n",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005o",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_005p",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005q",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005r",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005s",
+              "name": "",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "results": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AHSAA Football Playoff Brackets</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23e01b1b'/%3E%3Ctext x='16' y='23' font-size='20' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
+  <meta name="description" content="Brackets and region standings for the AHSAA high school football playoffs." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <span class="mark">A</span>
+        <span>AHSAA Football Playoffs
+          <small id="season">Brackets &amp; Standings</small>
+        </span>
+      </a>
+      <span class="header-spacer"></span>
+      <button class="icon-btn" id="themeBtn" type="button">🌙 Dark</button>
+      <a class="btn btn-sm" href="admin.html">Admin</a>
+    </div>
+    <nav class="tabs">
+      <button class="tab active" data-view="brackets" type="button">Brackets</button>
+      <button class="tab" data-view="standings" type="button">Region Standings</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div id="newsBox" class="news-box empty"></div>
+    <div id="classNav" class="class-nav"></div>
+    <div id="view"></div>
+  </main>
+
+  <footer class="footer">
+    AHSAA Football Playoff Brackets · Seeds shown as <strong>R#-#</strong> (region-place).
+    Ratings come from a personal ratings index. <a href="admin.html">Admin login</a>.
+  </footer>
+
+  <!-- Game detail modal -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-head">
+        <h3 id="modalTitle">Game</h3>
+        <button class="close" id="modalClose" type="button" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/public.js"></script>
+</body>
+</html>
