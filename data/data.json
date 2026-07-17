@@ -1,0 +1,3576 @@
+{
+  "schema": 1,
+  "meta": {
+    "season": "2026",
+    "updated": "2026-06-29T14:48:27.710Z"
+  },
+  "newsNote": "",
+  "classifications": {
+    "6A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_00a2",
+              "name": "Alma Bryant",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a3",
+              "name": "Baker",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a4",
+              "name": "Daphne",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a5",
+              "name": "Davidson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a6",
+              "name": "Fairhope",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a7",
+              "name": "Foley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a8",
+              "name": "Mary Montgomery",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a9",
+              "name": "Robertsdale",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_00aa",
+              "name": "Auburn",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ab",
+              "name": "Carver-Montgomery",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ac",
+              "name": "Central-Phenix City",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ad",
+              "name": "Dothan",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ae",
+              "name": "Enterprise",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00af",
+              "name": "JAG",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ag",
+              "name": "Opelika",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ah",
+              "name": "Smiths Station",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_00ai",
+              "name": "Hewitt-Trussville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00aj",
+              "name": "Hoover",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ak",
+              "name": "Oak Mountain",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00al",
+              "name": "Prattville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00am",
+              "name": "Spain Park",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00an",
+              "name": "Thompson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ao",
+              "name": "Tuscaloosa County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ap",
+              "name": "Vestavia Hills",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_00aq",
+              "name": "Bob Jones",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ar",
+              "name": "Buckhorn",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00as",
+              "name": "Gadsden City",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00at",
+              "name": "Grissom",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00au",
+              "name": "Hazel Green",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00av",
+              "name": "Huntsville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00aw",
+              "name": "James Clemens",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ax",
+              "name": "Sparkman",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "results": {}
+      }
+    },
+    "5A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_008b",
+              "name": "Baldwin County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008c",
+              "name": "Elberta",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008d",
+              "name": "Gulf Shores",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008e",
+              "name": "Blount",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008f",
+              "name": "Murphy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008g",
+              "name": "Saraland",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008h",
+              "name": "Spanish Fort",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008i",
+              "name": "Theodore",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_008j",
+              "name": "Benjamin Russell",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008k",
+              "name": "Park Crossing",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008l",
+              "name": "Percy Julian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008m",
+              "name": "Pike Road",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008n",
+              "name": "Rehobeth",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008o",
+              "name": "Russell County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008p",
+              "name": "Stanhope Elmore",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008q",
+              "name": "Wetumpka",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_008r",
+              "name": "Bessemer City",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008s",
+              "name": "Brookwood",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008t",
+              "name": "Central-Tuscaloosa",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008u",
+              "name": "Hillcrest-Tuscaloosa",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008v",
+              "name": "Hueytown",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008w",
+              "name": "McAdory",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008x",
+              "name": "Northridge",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008y",
+              "name": "Paul Bryant",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_008z",
+              "name": "Calera",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0090",
+              "name": "Chelsea",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0091",
+              "name": "Chilton County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0092",
+              "name": "Helena",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0093",
+              "name": "Homewood",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0094",
+              "name": "Mountain Brook",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0095",
+              "name": "Pelham",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0096",
+              "name": "Ramsay",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0097",
+              "name": "Parker",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0098",
+              "name": "Cullman",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0099",
+              "name": "Gardendale",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009a",
+              "name": "Huffman",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009b",
+              "name": "Jasper",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009c",
+              "name": "Minor",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009d",
+              "name": "Mortimer Jordan",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009e",
+              "name": "Jackson-Olin",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_009f",
+              "name": "Clay-Chalkville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009g",
+              "name": "Oxford",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009h",
+              "name": "Pell City",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009i",
+              "name": "Pinson Valley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009j",
+              "name": "Southside-Gadsden",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009k",
+              "name": "Springville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009l",
+              "name": "St. Clair County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_009m",
+              "name": "Athens",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009n",
+              "name": "Austin",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009o",
+              "name": "Decatur",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009p",
+              "name": "East Limestone",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009q",
+              "name": "Florence",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009r",
+              "name": "Hartselle",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009s",
+              "name": "Muscle Shoals",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009t",
+              "name": "Russellville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_009u",
+              "name": "Albertville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009v",
+              "name": "Arab",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009w",
+              "name": "Boaz",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009x",
+              "name": "Columbia",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009y",
+              "name": "Douglas",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009z",
+              "name": "Fort Payne",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a0",
+              "name": "Lee-Huntsville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a1",
+              "name": "Mae Jemison",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "4A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_006j",
+              "name": "BC Rain",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006k",
+              "name": "Citronelle",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006l",
+              "name": "LeFlore",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006m",
+              "name": "Orange Beach",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006n",
+              "name": "Satsuma",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006o",
+              "name": "Vigor",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006p",
+              "name": "Williamson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_006q",
+              "name": "Andalusia",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006r",
+              "name": "Ashford",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006s",
+              "name": "Carroll",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006t",
+              "name": "Dale County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006u",
+              "name": "Eufaula",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006v",
+              "name": "Headland",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006w",
+              "name": "New Brockton",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006x",
+              "name": "Straughn",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_006y",
+              "name": "Demopolis",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006z",
+              "name": "Holt",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0070",
+              "name": "Jemison",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0071",
+              "name": "Montevallo",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0072",
+              "name": "Northside",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0073",
+              "name": "Selma",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0074",
+              "name": "Shelby County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0075",
+              "name": "Sipsey Valley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0076",
+              "name": "Beauregard",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0077",
+              "name": "Charles Henderson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0078",
+              "name": "Elmore County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0079",
+              "name": "Greenville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007a",
+              "name": "Holtville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007b",
+              "name": "Marbury",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007c",
+              "name": "Tallassee",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007d",
+              "name": "Valley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_007e",
+              "name": "Center Point",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007f",
+              "name": "Dora",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007g",
+              "name": "Fairfield",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007h",
+              "name": "Carver-Birmingham",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007i",
+              "name": "Oak Grove",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007j",
+              "name": "Shades Valley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007k",
+              "name": "Wenonah",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007l",
+              "name": "Woodlawn",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_007m",
+              "name": "Alexandria",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007n",
+              "name": "Anniston",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007o",
+              "name": "Central-Clay County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007p",
+              "name": "Jacksonville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007q",
+              "name": "Leeds",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007r",
+              "name": "Lincoln",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007s",
+              "name": "Moody",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007t",
+              "name": "Sylacauga",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007u",
+              "name": "Ardmore",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_007v",
+              "name": "Brooks",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007w",
+              "name": "Deshler",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007x",
+              "name": "Hamilton",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007y",
+              "name": "Lawrence County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007z",
+              "name": "Priceville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0080",
+              "name": "West Morgan",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0081",
+              "name": "West Point",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0082",
+              "name": "Brewer",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0083",
+              "name": "Cherokee County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0084",
+              "name": "Crossville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0085",
+              "name": "Fairview",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0086",
+              "name": "Good Hope",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0087",
+              "name": "Guntersville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0088",
+              "name": "Hayden",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0089",
+              "name": "Sardis",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008a",
+              "name": "Scottsboro",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "3A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004r",
+              "name": "Escambia County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004s",
+              "name": "Excel",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004t",
+              "name": "Flomaton",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004u",
+              "name": "Jackson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004v",
+              "name": "Opp",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004w",
+              "name": "TR Miller",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004x",
+              "name": "Wilcox Central",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004y",
+              "name": "WS Neal",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004z",
+              "name": "Beulah",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0050",
+              "name": "BT Washington",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0051",
+              "name": "Bullock County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0052",
+              "name": "Daleville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0053",
+              "name": "Geneva",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0054",
+              "name": "Pike County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0055",
+              "name": "Slocomb",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0056",
+              "name": "Wicksburg",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0057",
+              "name": "Bibb County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0058",
+              "name": "Cordova",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0059",
+              "name": "Corner",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005a",
+              "name": "Fultondale",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005b",
+              "name": "Hale County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005c",
+              "name": "Pleasant Grove",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005d",
+              "name": "Tarrant",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005e",
+              "name": "West Blocton",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_005f",
+              "name": "Ashville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005g",
+              "name": "Childersburg",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005h",
+              "name": "Cleburne County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005i",
+              "name": "Handley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005j",
+              "name": "Munford",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005k",
+              "name": "Talladega",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005l",
+              "name": "Weaver",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005m",
+              "name": "White Plains",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_005n",
+              "name": "Curry",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005o",
+              "name": "Danville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005p",
+              "name": "East Lawrence",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005q",
+              "name": "Fayette County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005r",
+              "name": "Haleyville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005s",
+              "name": "Hatton",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005t",
+              "name": "Oakman",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005u",
+              "name": "Winfield",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_005v",
+              "name": "Etowah",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005w",
+              "name": "Glencoe",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005x",
+              "name": "Hanceville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005y",
+              "name": "Hokes Bluff",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005z",
+              "name": "Holly Pond",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0060",
+              "name": "Oneonta",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0061",
+              "name": "Susan Moore",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0062",
+              "name": "Vinemont",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0063",
+              "name": "Central-Florence",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0064",
+              "name": "Clements",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0065",
+              "name": "Colbert Heights",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0066",
+              "name": "Elkmont",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0067",
+              "name": "Lauderdale County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0068",
+              "name": "Rogers",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0069",
+              "name": "West Limestone",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006a",
+              "name": "Wilson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_006b",
+              "name": "Asbury",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006c",
+              "name": "Geraldine",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006d",
+              "name": "DAR",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006e",
+              "name": "Madison County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006f",
+              "name": "New Hope",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006g",
+              "name": "North Jackson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006h",
+              "name": "Plainview",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006i",
+              "name": "Sylvania",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "2A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0030",
+              "name": "Chickasaw",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0031",
+              "name": "Clarke County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0032",
+              "name": "Hillcrest-Evergreen",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0033",
+              "name": "JU Blacksher",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0034",
+              "name": "Luverne",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0035",
+              "name": "Monroe County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0036",
+              "name": "Thomasville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0037",
+              "name": "Ariton",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0038",
+              "name": "Cottonwood",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0039",
+              "name": "Geneva County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003a",
+              "name": "Goshen",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003b",
+              "name": "GW Long",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003c",
+              "name": "Highland Home",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003d",
+              "name": "Houston County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003e",
+              "name": "Zion Chapel",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_003f",
+              "name": "Aliceville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003g",
+              "name": "Dallas County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003h",
+              "name": "Greene County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003i",
+              "name": "Greensboro",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003j",
+              "name": "Isabella",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003k",
+              "name": "Southside-Selma",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003l",
+              "name": "Sumter Central",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003m",
+              "name": "Thorsby",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_003n",
+              "name": "BB Comer",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003o",
+              "name": "Central-Coosa",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003p",
+              "name": "Dadeville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003q",
+              "name": "Horseshoe Bend",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003r",
+              "name": "Lanett",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003s",
+              "name": "Ranburne",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003t",
+              "name": "Randolph County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003u",
+              "name": "Reeltown",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_003v",
+              "name": "Carbon Hill",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003w",
+              "name": "Cleveland",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003x",
+              "name": "Cold Springs",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003y",
+              "name": "Gordo",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003z",
+              "name": "Lamar County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0040",
+              "name": "Locust Fork",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0041",
+              "name": "Midfield",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0042",
+              "name": "Southeastern",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0043",
+              "name": "Gaston",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0044",
+              "name": "Ohatchee",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0045",
+              "name": "Piedmont",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0046",
+              "name": "Pleasant Valley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0047",
+              "name": "Saks",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0048",
+              "name": "Vincent",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0049",
+              "name": "Walter Wellborn",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004a",
+              "name": "West End",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004b",
+              "name": "Colbert County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004c",
+              "name": "Falkville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004d",
+              "name": "JB Pennington",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004e",
+              "name": "Lexington",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004f",
+              "name": "Phil Campbell",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004g",
+              "name": "Sheffield",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004h",
+              "name": "Tanner",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004i",
+              "name": "Winston County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_004j",
+              "name": "Brindlee Mountain",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004k",
+              "name": "Collinsville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004l",
+              "name": "Fyffe",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004m",
+              "name": "Ider",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004n",
+              "name": "North Sand Mountain",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004o",
+              "name": "Pisgah",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004p",
+              "name": "Sand Rock",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004q",
+              "name": "Section",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "1A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0019",
+              "name": "Choctaw County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001a",
+              "name": "Fruitdale",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001b",
+              "name": "Leroy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001c",
+              "name": "Marengo",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001d",
+              "name": "McIntosh",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001e",
+              "name": "Millry",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001f",
+              "name": "Southern Choctaw",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001g",
+              "name": "Washington County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_001h",
+              "name": "Abbeville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001i",
+              "name": "Barbour County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001j",
+              "name": "Brantley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001k",
+              "name": "Elba",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001l",
+              "name": "Florala",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001m",
+              "name": "Kinston",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001n",
+              "name": "Pleasant Home",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001o",
+              "name": "Samson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_001p",
+              "name": "Breakthrough Charter",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001q",
+              "name": "Francis Marion",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001r",
+              "name": "JF Shields",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001s",
+              "name": "Keith",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001t",
+              "name": "Linden",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001u",
+              "name": "RC Hatch",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001v",
+              "name": "Sweet Water",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001w",
+              "name": "University Charter",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_001x",
+              "name": "Billingsley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001y",
+              "name": "Calhoun",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001z",
+              "name": "Central-Hayneville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0020",
+              "name": "Georgiana",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0021",
+              "name": "Maplesville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0022",
+              "name": "McKenzie",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0023",
+              "name": "Red Level",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0024",
+              "name": "Verbena",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "5": {
+          "name": "Region 5",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0025",
+              "name": "Berry",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0026",
+              "name": "Brilliant",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0027",
+              "name": "Hubbertville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0028",
+              "name": "Lynn",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0029",
+              "name": "Marion County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002a",
+              "name": "Pickens County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002b",
+              "name": "South Lamar",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002c",
+              "name": "Sulligent",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "6": {
+          "name": "Region 6",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_002d",
+              "name": "Alabama Aerospace and Aviation",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002e",
+              "name": "Fayetteville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002f",
+              "name": "LaFayette",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002g",
+              "name": "Loachapoka",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002h",
+              "name": "Notasulga",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002i",
+              "name": "Wadley",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002j",
+              "name": "Winterboro",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002k",
+              "name": "Woodland",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "7": {
+          "name": "Region 7",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_002l",
+              "name": "Addison",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002m",
+              "name": "Belgreen",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002n",
+              "name": "Cherokee",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002o",
+              "name": "Hackleburg",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002p",
+              "name": "Meek",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002q",
+              "name": "Phillips",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002r",
+              "name": "Red Bay",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002s",
+              "name": "Waterloo",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "8": {
+          "name": "Region 8",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_002t",
+              "name": "Appalachian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002u",
+              "name": "Cedar Bluff",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002v",
+              "name": "Gaylesville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002w",
+              "name": "Ragland",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002x",
+              "name": "Spring Garden",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002y",
+              "name": "Valley Head",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002z",
+              "name": "Woodville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "results": {}
+      }
+    },
+    "AA": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_000t",
+              "name": "Faith Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000u",
+              "name": "Glenwood",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000v",
+              "name": "Houston Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000w",
+              "name": "McGill-Toolen",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000x",
+              "name": "Montgomery Catholic",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000y",
+              "name": "St. Michael",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000z",
+              "name": "St. Paul's",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0010",
+              "name": "UMS-Wright",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0011",
+              "name": "American Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0012",
+              "name": "Briarwood",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0013",
+              "name": "John Carroll",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0014",
+              "name": "Lee-Scott",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0015",
+              "name": "Madison Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0016",
+              "name": "Randolph",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0017",
+              "name": "St. John Paul II",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0018",
+              "name": "Westminster Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2"
+        ],
+        "results": {}
+      }
+    },
+    "A": {
+      "regions": {
+        "1": {
+          "name": "Region 1",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0001",
+              "name": "Bayshore Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0002",
+              "name": "Bayside Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0003",
+              "name": "Cottage Hill Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0004",
+              "name": "Mobile Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0005",
+              "name": "Northside Methodist",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0006",
+              "name": "Providence Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0007",
+              "name": "St. Luke's",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "2": {
+          "name": "Region 2",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_0008",
+              "name": "Alabama Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0009",
+              "name": "Fort Dale",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000a",
+              "name": "Pike Liberal Arts",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000b",
+              "name": "Prattville Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000c",
+              "name": "St. James",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000d",
+              "name": "Montgomery Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000e",
+              "name": "Trinity",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "3": {
+          "name": "Region 3",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_000f",
+              "name": "Autauga Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000g",
+              "name": "Ellwood Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000h",
+              "name": "Holy Spirit",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000i",
+              "name": "Pickens Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000j",
+              "name": "Donoho",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000k",
+              "name": "Tuscaloosa Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000l",
+              "name": "Victory Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        },
+        "4": {
+          "name": "Region 4",
+          "note": "",
+          "teams": [
+            {
+              "id": "tm_000m",
+              "name": "Coosa Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000n",
+              "name": "Decatur Heritage",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000o",
+              "name": "Linsay Lane",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000p",
+              "name": "Mars Hill",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000q",
+              "name": "Shoals Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000r",
+              "name": "Westbrook Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000s",
+              "name": "Whitesburg Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            }
+          ]
+        }
+      },
+      "bracket": {
+        "alignment": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "results": {}
+      }
+    }
+  }
+}
