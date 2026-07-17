@@ -17,6 +17,15 @@
   --text-muted: #5c636e;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.10), 0 1px 2px rgba(0, 0, 0, 0.06);
   --header-bg: #ffffff;
+
+  /* bracket + standings accents */
+  --bracket-line: #b9c0cb;
+  --qualify-bg: #e3f0fb;   /* light blue behind in-playoff rows */
+  --qualify-seed: #1f5fa8;
+  --clinched-bg: #1d4ed8;  /* royal blue */
+
+  --bkt-col: 190px;
+  --bkt-gap: 46px;
 }
 
 [data-theme='dark'] {
@@ -29,6 +38,11 @@
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.6), 0 2px 8px rgba(0, 0, 0, 0.4);
   --header-bg: #101113;
   --red-soft: rgba(224, 27, 27, 0.18);
+
+  --bracket-line: #3a3f48;
+  --qualify-bg: rgba(59, 130, 246, 0.16);
+  --qualify-seed: #6ea8f0;
+  --clinched-bg: #2a54e0;
 }
 
 * { box-sizing: border-box; }
@@ -218,36 +232,76 @@ a { color: var(--red); }
 .toggle input:checked + .track::after { transform: translateX(18px); }
 
 /* ---------- Bracket --------------------------------------------------- */
-.bracket-scroll {
-  overflow-x: auto;
-  padding-bottom: 14px;
+/* Scale-to-fit wrapper: the whole bracket shrinks to the screen width so
+   there is never a horizontal scrollbar. */
+.bracket-fit {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
-.bracket {
+.bracket-fit-inner {
+  display: inline-block;
+  transform-origin: top left;
+}
+
+/* Round titles: one row across the top, aligned to the columns below. */
+.bracket-titles {
   display: flex;
-  gap: 30px;
-  min-width: min-content;
-  padding: 8px 2px;
+  gap: var(--bkt-gap);
+  margin-bottom: 10px;
 }
-.round-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-width: 188px;
-}
-.round-title {
+.col-title {
+  width: var(--bkt-col);
+  flex: none;
   text-align: center;
   font-size: 0.72rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--text-muted);
-  margin-bottom: 8px;
 }
-.round-col.has-title > .game:first-of-type { /* spacing handled by justify */ }
+
+.bracket {
+  position: relative;
+  display: flex;
+  gap: var(--bkt-gap);
+}
+.round-col {
+  width: var(--bkt-col);
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* First round sets the height (equal margins keep every game's centre on the
+   same grid the later rounds' space-around lands on -> perfect alignment). */
+.round-col.first {
+  justify-content: flex-start;
+}
+.round-col.first .game {
+  margin: 8px 0;
+}
+.round-col.champion-col {
+  justify-content: center;
+}
+
+/* Faint connector lines drawn as an SVG behind the cards. */
+.bracket-conn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.bracket-conn .conn-path {
+  fill: none;
+  stroke: var(--bracket-line);
+  stroke-width: 1.4;
+}
 
 .game {
   position: relative;
-  margin: 10px 0;
+  z-index: 1;
 }
 .game-card {
   background: var(--surface);
@@ -364,8 +418,8 @@ a { color: var(--red); }
 .standings-table td.seed-cell { color: var(--text-muted); font-weight: 800; width: 26px; }
 .standings-table td.name-cell { font-weight: 700; }
 .standings-table td.center { text-align: center; }
-.standings-table tr.qualifies td.seed-cell { color: var(--red); }
-.standings-table tr.qualifies { background: var(--red-soft); }
+.standings-table tr.qualifies td.seed-cell { color: var(--qualify-seed); }
+.standings-table tr.qualifies { background: var(--qualify-bg); }
 
 .status-pill {
   display: inline-block;
@@ -376,9 +430,9 @@ a { color: var(--red); }
   color: #fff;
   white-space: nowrap;
 }
-.status-clinched { background: #e01b1b; }
+.status-clinched { background: var(--clinched-bg); }
 .status-high     { background: #1f9d4d; }
-.status-medium   { background: #d9a700; color: #1a1500; }
+.status-medium   { background: #d9a700; color: #ffffff; }
 .status-low      { background: #e8730e; }
 .status-out      { background: #8b929c; }
 

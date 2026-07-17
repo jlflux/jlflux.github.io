@@ -10,6 +10,7 @@
     view: 'brackets',        // 'brackets' | 'standings'
     classKey: A.CLASS_ORDER[0],
     projected: {},           // classKey -> bool
+    fit: null,               // current scale-to-fit refs
   };
 
   /* ---------- Theme ---------- */
@@ -93,9 +94,12 @@
     return slot;
   }
 
+  var SVGNS = 'http://www.w3.org/2000/svg';
+
   function renderBracket() {
     var host = document.getElementById('view');
     host.innerHTML = '';
+    state.fit = null;
 
     // header w/ projection toggle
     var head = el('div', 'section-head');
@@ -115,36 +119,97 @@
     var projected = !!state.projected[state.classKey];
     var built = A.buildClassification(state.data, state.classKey);
 
-    var scroll = el('div', 'bracket-scroll');
-    var bracket = el('div', 'bracket');
+    var outer = el('div', 'bracket-fit');
+    var inner = el('div', 'bracket-fit-inner');
 
+    // Round titles across the top, one per column (plus Champion).
+    var titles = el('div', 'bracket-titles');
+    built.rounds.forEach(function (rnd, i) {
+      titles.appendChild(el('div', 'col-title', A.roundName(i + 1, built.totalRounds)));
+    });
+    titles.appendChild(el('div', 'col-title', 'Champion'));
+    inner.appendChild(titles);
+
+    var bracket = el('div', 'bracket');
+    var cardMap = {};
     built.rounds.forEach(function (rnd, rIdx) {
-      var col = el('div', 'round-col');
-      col.appendChild(el('div', 'round-title', A.roundName(rIdx + 1, built.totalRounds)));
+      var col = el('div', 'round-col' + (rIdx === 0 ? ' first' : ''));
       rnd.forEach(function (g) {
-        bracket; // noop
-        col.appendChild(gameEl(built, g, projected));
+        var ge = gameEl(built, g, projected);
+        cardMap[g.id] = ge; // wrapper; offsetParent is .bracket
+        col.appendChild(ge);
       });
       bracket.appendChild(col);
     });
 
     // Champion column
-    if (built.rounds.length) {
-      var finalGame = built.rounds[built.rounds.length - 1][0];
-      var champCol = el('div', 'round-col champion-col');
-      champCol.appendChild(el('div', 'round-title', 'Champion'));
-      var champ = built.winnerOf(finalGame.id, projected);
-      var box = el('div', 'champion-box');
-      box.appendChild(el('div', 'lbl', 'State Champion'));
-      box.appendChild(el('div', 'name', (champ && champ.team && champ.team.name) ? champ.team.name + (projected && !isDecidedFinal(built) ? ' (proj)' : '') : '—'));
-      champCol.appendChild(box);
-      bracket.appendChild(champCol);
-    }
+    var finalGame = built.rounds[built.rounds.length - 1][0];
+    var champCol = el('div', 'round-col champion-col');
+    var champ = built.winnerOf(finalGame.id, projected);
+    var box = el('div', 'champion-box');
+    box.appendChild(el('div', 'lbl', 'State Champion'));
+    box.appendChild(el('div', 'name', (champ && champ.team && champ.team.name) ? champ.team.name + (projected && !isDecidedFinal(built) ? ' (proj)' : '') : '—'));
+    champCol.appendChild(box);
+    cardMap['__champion'] = box;
+    bracket.appendChild(champCol);
 
-    scroll.appendChild(bracket);
-    host.appendChild(scroll);
-
+    inner.appendChild(bracket);
+    outer.appendChild(inner);
+    host.appendChild(outer);
     host.appendChild(legend());
+
+    // Connectors are measured in natural (pre-scale) coordinates.
+    drawConnectors(bracket, built, cardMap, finalGame);
+
+    state.fit = { outer: outer, inner: inner };
+    applyFit();
+  }
+
+  function drawConnectors(bracketEl, built, cardMap, finalGame) {
+    var svg = document.createElementNS(SVGNS, 'svg');
+    svg.setAttribute('class', 'bracket-conn');
+    svg.setAttribute('width', bracketEl.scrollWidth);
+    svg.setAttribute('height', bracketEl.scrollHeight);
+
+    function line(x1, y1, x2, y2) {
+      var midX = (x1 + x2) / 2;
+      var p = document.createElementNS(SVGNS, 'path');
+      p.setAttribute('d', 'M' + x1 + ' ' + y1 + ' H' + midX + ' V' + y2 + ' H' + x2);
+      p.setAttribute('class', 'conn-path');
+      svg.appendChild(p);
+    }
+    function rightMid(elm) { return [elm.offsetLeft + elm.offsetWidth, elm.offsetTop + elm.offsetHeight / 2]; }
+    function leftMid(elm) { return [elm.offsetLeft, elm.offsetTop + elm.offsetHeight / 2]; }
+
+    built.rounds.forEach(function (rnd, ri) {
+      if (ri === 0) return; // first-round slots are seeds, no incoming line
+      rnd.forEach(function (g) {
+        [g.top, g.bottom].forEach(function (slot) {
+          if (slot.kind !== 'game') return;
+          var child = cardMap[slot.ref], parent = cardMap[g.id];
+          if (!child || !parent) return;
+          var a = rightMid(child), b = leftMid(parent);
+          line(a[0], a[1], b[0], b[1]);
+        });
+      });
+    });
+    // final -> champion box
+    var fc = cardMap[finalGame.id], cb = cardMap['__champion'];
+    if (fc && cb) { var a = rightMid(fc), b = leftMid(cb); line(a[0], a[1], b[0], b[1]); }
+
+    bracketEl.insertBefore(svg, bracketEl.firstChild);
+  }
+
+  function applyFit() {
+    if (!state.fit) return;
+    var inner = state.fit.inner, outer = state.fit.outer;
+    inner.style.transform = 'none';
+    var naturalW = inner.offsetWidth;
+    var naturalH = inner.offsetHeight;
+    if (!naturalW) return;
+    var scale = Math.min(1, outer.clientWidth / naturalW);
+    inner.style.transform = 'scale(' + scale + ')';
+    outer.style.height = Math.ceil(naturalH * scale) + 'px';
   }
 
   function isDecidedFinal(built) {
@@ -349,6 +414,12 @@
       if (e.target.id === 'modal') closeModal();
     };
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+
+    var rT;
+    window.addEventListener('resize', function () {
+      clearTimeout(rT);
+      rT = setTimeout(function () { if (state.view === 'brackets') applyFit(); }, 120);
+    });
 
     A.loadPublic().then(function (data) {
       state.data = data;
