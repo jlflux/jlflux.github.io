@@ -296,7 +296,114 @@
           "3",
           "4"
         ],
-        "results": {}
+        "results": {},
+        "projected": {},
+        "slots": [
+          {
+            "region": "1",
+            "place": 1
+          },
+          null,
+          {
+            "region": "1",
+            "place": 4
+          },
+          {
+            "region": "1",
+            "place": 5
+          },
+          {
+            "region": "1",
+            "place": 2
+          },
+          null,
+          {
+            "region": "1",
+            "place": 3
+          },
+          {
+            "region": "1",
+            "place": 6
+          },
+          {
+            "region": "2",
+            "place": 1
+          },
+          null,
+          {
+            "region": "2",
+            "place": 4
+          },
+          {
+            "region": "2",
+            "place": 5
+          },
+          {
+            "region": "2",
+            "place": 2
+          },
+          null,
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 6
+          },
+          {
+            "region": "3",
+            "place": 1
+          },
+          null,
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "3",
+            "place": 5
+          },
+          {
+            "region": "3",
+            "place": 2
+          },
+          null,
+          {
+            "region": "3",
+            "place": 3
+          },
+          {
+            "region": "3",
+            "place": 6
+          },
+          {
+            "region": "4",
+            "place": 1
+          },
+          null,
+          {
+            "region": "4",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 5
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          null,
+          {
+            "region": "4",
+            "place": 3
+          },
+          {
+            "region": "4",
+            "place": 6
+          }
+        ]
       }
     },
     "5A": {
@@ -865,7 +972,138 @@
           "7",
           "8"
         ],
-        "results": {}
+        "results": {},
+        "projected": {},
+        "slots": [
+          {
+            "region": "1",
+            "place": 1
+          },
+          {
+            "region": "2",
+            "place": 4
+          },
+          {
+            "region": "1",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 2
+          },
+          {
+            "region": "1",
+            "place": 2
+          },
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
+            "region": "1",
+            "place": 4
+          },
+          {
+            "region": "2",
+            "place": 1
+          },
+          {
+            "region": "3",
+            "place": 1
+          },
+          {
+            "region": "4",
+            "place": 4
+          },
+          {
+            "region": "3",
+            "place": 3
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          {
+            "region": "3",
+            "place": 2
+          },
+          {
+            "region": "4",
+            "place": 3
+          },
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 1
+          },
+          {
+            "region": "5",
+            "place": 1
+          },
+          {
+            "region": "6",
+            "place": 4
+          },
+          {
+            "region": "5",
+            "place": 3
+          },
+          {
+            "region": "6",
+            "place": 2
+          },
+          {
+            "region": "5",
+            "place": 2
+          },
+          {
+            "region": "6",
+            "place": 3
+          },
+          {
+            "region": "5",
+            "place": 4
+          },
+          {
+            "region": "6",
+            "place": 1
+          },
+          {
+            "region": "7",
+            "place": 1
+          },
+          {
+            "region": "8",
+            "place": 4
+          },
+          {
+            "region": "7",
+            "place": 3
+          },
+          {
+            "region": "8",
+            "place": 2
+          },
+          {
+            "region": "7",
+            "place": 2
+          },
+          {
+            "region": "8",
+            "place": 3
+          },
+          {
+            "region": "7",
+            "place": 4
+          },
+          {
+            "region": "8",
+            "place": 1
+          }
+        ]
       }
     },
     "4A": {
@@ -1442,7 +1680,138 @@
           "7",
           "8"
         ],
-        "results": {}
+        "results": {},
+        "projected": {},
+        "slots": [
+          {
+            "region": "1",
+            "place": 1
+          },
+          {
+            "region": "2",
+            "place": 4
+          },
+          {
+            "region": "1",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 2
+          },
+          {
+            "region": "1",
+            "place": 2
+          },
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
+            "region": "1",
+            "place": 4
+          },
+          {
+            "region": "2",
+            "place": 1
+          },
+          {
+            "region": "3",
+            "place": 1
+          },
+          {
+            "region": "4",
+            "place": 4
+          },
+          {
+            "region": "3",
+            "place": 3
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          {
+            "region": "3",
+            "place": 2
+          },
+          {
+            "region": "4",
+            "place": 3
+          },
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 1
+          },
+          {
+            "region": "5",
+            "place": 1
+          },
+          {
+            "region": "6",
+            "place": 4
+          },
+          {
+            "region": "5",
+            "place": 3
+          },
+          {
+            "region": "6",
+            "place": 2
+          },
+          {
+            "region": "5",
+            "place": 2
+          },
+          {
+            "region": "6",
+            "place": 3
+          },
+          {
+            "region": "5",
+            "place": 4
+          },
+          {
+            "region": "6",
+            "place": 1
+          },
+          {
+            "region": "7",
+            "place": 1
+          },
+          {
+            "region": "8",
+            "place": 4
+          },
+          {
+            "region": "7",
+            "place": 3
+          },
+          {
+            "region": "8",
+            "place": 2
+          },
+          {
+            "region": "7",
+            "place": 2
+          },
+          {
+            "region": "8",
+            "place": 3
+          },
+          {
+            "region": "7",
+            "place": 4
+          },
+          {
+            "region": "8",
+            "place": 1
+          }
+        ]
       }
     },
     "3A": {
@@ -2019,7 +2388,138 @@
           "7",
           "8"
         ],
-        "results": {}
+        "results": {},
+        "projected": {},
+        "slots": [
+          {
+            "region": "1",
+            "place": 1
+          },
+          {
+            "region": "2",
+            "place": 4
+          },
+          {
+            "region": "1",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 2
+          },
+          {
+            "region": "1",
+            "place": 2
+          },
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
+            "region": "1",
+            "place": 4
+          },
+          {
+            "region": "2",
+            "place": 1
+          },
+          {
+            "region": "3",
+            "place": 1
+          },
+          {
+            "region": "4",
+            "place": 4
+          },
+          {
+            "region": "3",
+            "place": 3
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          {
+            "region": "3",
+            "place": 2
+          },
+          {
+            "region": "4",
+            "place": 3
+          },
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 1
+          },
+          {
+            "region": "5",
+            "place": 1
+          },
+          {
+            "region": "6",
+            "place": 4
+          },
+          {
+            "region": "5",
+            "place": 3
+          },
+          {
+            "region": "6",
+            "place": 2
+          },
+          {
+            "region": "5",
+            "place": 2
+          },
+          {
+            "region": "6",
+            "place": 3
+          },
+          {
+            "region": "5",
+            "place": 4
+          },
+          {
+            "region": "6",
+            "place": 1
+          },
+          {
+            "region": "7",
+            "place": 1
+          },
+          {
+            "region": "8",
+            "place": 4
+          },
+          {
+            "region": "7",
+            "place": 3
+          },
+          {
+            "region": "8",
+            "place": 2
+          },
+          {
+            "region": "7",
+            "place": 2
+          },
+          {
+            "region": "8",
+            "place": 3
+          },
+          {
+            "region": "7",
+            "place": 4
+          },
+          {
+            "region": "8",
+            "place": 1
+          }
+        ]
       }
     },
     "2A": {
@@ -2588,7 +3088,138 @@
           "7",
           "8"
         ],
-        "results": {}
+        "results": {},
+        "projected": {},
+        "slots": [
+          {
+            "region": "1",
+            "place": 1
+          },
+          {
+            "region": "2",
+            "place": 4
+          },
+          {
+            "region": "1",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 2
+          },
+          {
+            "region": "1",
+            "place": 2
+          },
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
+            "region": "1",
+            "place": 4
+          },
+          {
+            "region": "2",
+            "place": 1
+          },
+          {
+            "region": "3",
+            "place": 1
+          },
+          {
+            "region": "4",
+            "place": 4
+          },
+          {
+            "region": "3",
+            "place": 3
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          {
+            "region": "3",
+            "place": 2
+          },
+          {
+            "region": "4",
+            "place": 3
+          },
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 1
+          },
+          {
+            "region": "5",
+            "place": 1
+          },
+          {
+            "region": "6",
+            "place": 4
+          },
+          {
+            "region": "5",
+            "place": 3
+          },
+          {
+            "region": "6",
+            "place": 2
+          },
+          {
+            "region": "5",
+            "place": 2
+          },
+          {
+            "region": "6",
+            "place": 3
+          },
+          {
+            "region": "5",
+            "place": 4
+          },
+          {
+            "region": "6",
+            "place": 1
+          },
+          {
+            "region": "7",
+            "place": 1
+          },
+          {
+            "region": "8",
+            "place": 4
+          },
+          {
+            "region": "7",
+            "place": 3
+          },
+          {
+            "region": "8",
+            "place": 2
+          },
+          {
+            "region": "7",
+            "place": 2
+          },
+          {
+            "region": "8",
+            "place": 3
+          },
+          {
+            "region": "7",
+            "place": 4
+          },
+          {
+            "region": "8",
+            "place": 1
+          }
+        ]
       }
     },
     "1A": {
@@ -3157,7 +3788,138 @@
           "7",
           "8"
         ],
-        "results": {}
+        "results": {},
+        "projected": {},
+        "slots": [
+          {
+            "region": "1",
+            "place": 1
+          },
+          {
+            "region": "2",
+            "place": 4
+          },
+          {
+            "region": "1",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 2
+          },
+          {
+            "region": "1",
+            "place": 2
+          },
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
+            "region": "1",
+            "place": 4
+          },
+          {
+            "region": "2",
+            "place": 1
+          },
+          {
+            "region": "3",
+            "place": 1
+          },
+          {
+            "region": "4",
+            "place": 4
+          },
+          {
+            "region": "3",
+            "place": 3
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          {
+            "region": "3",
+            "place": 2
+          },
+          {
+            "region": "4",
+            "place": 3
+          },
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 1
+          },
+          {
+            "region": "5",
+            "place": 1
+          },
+          {
+            "region": "6",
+            "place": 4
+          },
+          {
+            "region": "5",
+            "place": 3
+          },
+          {
+            "region": "6",
+            "place": 2
+          },
+          {
+            "region": "5",
+            "place": 2
+          },
+          {
+            "region": "6",
+            "place": 3
+          },
+          {
+            "region": "5",
+            "place": 4
+          },
+          {
+            "region": "6",
+            "place": 1
+          },
+          {
+            "region": "7",
+            "place": 1
+          },
+          {
+            "region": "8",
+            "place": 4
+          },
+          {
+            "region": "7",
+            "place": 3
+          },
+          {
+            "region": "8",
+            "place": 2
+          },
+          {
+            "region": "7",
+            "place": 2
+          },
+          {
+            "region": "8",
+            "place": 3
+          },
+          {
+            "region": "7",
+            "place": 4
+          },
+          {
+            "region": "8",
+            "place": 1
+          }
+        ]
       }
     },
     "AA": {
@@ -3308,7 +4070,42 @@
           "1",
           "2"
         ],
-        "results": {}
+        "results": {},
+        "projected": {},
+        "slots": [
+          {
+            "region": "1",
+            "place": 1
+          },
+          {
+            "region": "2",
+            "place": 4
+          },
+          {
+            "region": "1",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 2
+          },
+          {
+            "region": "1",
+            "place": 2
+          },
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
+            "region": "1",
+            "place": 4
+          },
+          {
+            "region": "2",
+            "place": 1
+          }
+        ]
       }
     },
     "A": {
@@ -3569,7 +4366,74 @@
           "3",
           "4"
         ],
-        "results": {}
+        "results": {},
+        "projected": {},
+        "slots": [
+          {
+            "region": "1",
+            "place": 1
+          },
+          {
+            "region": "2",
+            "place": 4
+          },
+          {
+            "region": "1",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 2
+          },
+          {
+            "region": "1",
+            "place": 2
+          },
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
+            "region": "1",
+            "place": 4
+          },
+          {
+            "region": "2",
+            "place": 1
+          },
+          {
+            "region": "3",
+            "place": 1
+          },
+          {
+            "region": "4",
+            "place": 4
+          },
+          {
+            "region": "3",
+            "place": 3
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          {
+            "region": "3",
+            "place": 2
+          },
+          {
+            "region": "4",
+            "place": 3
+          },
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 1
+          }
+        ]
       }
     }
   }

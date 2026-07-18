@@ -122,30 +122,6 @@
       nodes = next;
       r++;
     }
-
-    // Collapse first-round BYE games: instead of showing "Team vs BYE",
-    // drop the game and advance the seeded team directly into round 2.
-    const replace = {}; // removed gameId -> the surviving leaf ref (or null)
-    rounds[0] = rounds[0].filter(function (g) {
-      const topBye = g.top.ref === null;
-      const botBye = g.bottom.ref === null;
-      if (topBye || botBye) {
-        replace[g.id] = topBye ? g.bottom.ref : g.top.ref;
-        return false;
-      }
-      return true;
-    });
-    for (let ri = 1; ri < rounds.length; ri++) {
-      rounds[ri].forEach(function (g) {
-        ['top', 'bottom'].forEach(function (side) {
-          const slot = g[side];
-          if (slot.kind === 'game' && Object.prototype.hasOwnProperty.call(replace, slot.ref)) {
-            g[side] = { kind: 'leaf', ref: replace[slot.ref] };
-          }
-        });
-      });
-    }
-
     return rounds;
   }
 
@@ -189,8 +165,9 @@
       classifications[key] = {
         regions: regions,
         bracket: {
-          alignment: alignment, // ordered region ids -> bracket region slots
-          results: {},          // gameId -> { topScore, bottomScore, winner, date, time, location, note }
+          alignment: alignment,                              // default region order (used to seed `slots`)
+          slots: TEMPLATES[cfg.template].leaves(alignment),  // first-round slot refs, freely re-arranged in admin
+          results: {},          // gameId -> { topScore, bottomScore, winner, home, date, time, location, note }
           projected: {},        // gameId -> 'top' | 'bottom' (manual projected winner)
         },
       };
@@ -248,6 +225,19 @@
       const al = Array.isArray(cl.bracket.alignment) ? cl.bracket.alignment.filter((x) => ids.indexOf(x) >= 0) : [];
       ids.forEach((id) => { if (al.indexOf(id) < 0) al.push(id); });
       cl.bracket.alignment = al.slice(0, cfg.regionCount);
+
+      // First-round slots: the editable seed layout. Seed from the template
+      // the first time; afterwards keep whatever the admin has arranged.
+      const tmpl = TEMPLATES[cfg.template];
+      const defLeaves = tmpl.leaves(cl.bracket.alignment.slice(0, tmpl.regionSlots));
+      if (!Array.isArray(cl.bracket.slots) || cl.bracket.slots.length !== defLeaves.length) {
+        cl.bracket.slots = defLeaves;
+      } else {
+        cl.bracket.slots = cl.bracket.slots.map(function (s) {
+          if (s && s.region != null && s.place != null) return { region: String(s.region), place: s.place };
+          return null;
+        });
+      }
     });
     return data;
   }
@@ -316,8 +306,9 @@
     const cfg = CLASS_CONFIG[classKey];
     const cl = data.classifications[classKey];
     const tmpl = TEMPLATES[cfg.template];
-    const alignment = cl.bracket.alignment.slice(0, tmpl.regionSlots);
-    const leaves = tmpl.leaves(alignment);
+    const alignment = (cl.bracket.alignment || []).slice(0, tmpl.regionSlots);
+    let leaves = cl.bracket.slots;
+    if (!Array.isArray(leaves) || !leaves.length) leaves = tmpl.leaves(alignment);
     const rounds = buildBracket(leaves);
     const totalRounds = rounds.length;
     const gamesById = {};

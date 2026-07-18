@@ -66,20 +66,22 @@
   }
 
   /* ---------- Render: bracket ---------- */
-  function slotEl(part, ref, projected, isWinner, isLoser, score) {
+  // The seed shown is the seed of whoever actually occupies the slot, so it
+  // travels with the team as it advances. A bye's empty side renders blank.
+  function slotEl(part, projected, isWinner, isLoser, score, isHome) {
     var slot = el('div', 'slot');
     if (isWinner) slot.classList.add('winner');
     if (isLoser) slot.classList.add('loser');
 
-    var seed = el('div', 'seed', ref ? A.seedLabel(ref) : '');
-    slot.appendChild(seed);
+    var ref = part && part.ref ? part.ref : null;
+    slot.appendChild(el('div', 'seed', ref ? A.seedLabel(ref) : ''));
 
     var team = el('div', 'team');
     var span = el('span');
+    var hasTeam = part && part.team && part.team.name;
     if (part && part.bye) {
-      slot.classList.add('bye');
-      span.textContent = 'BYE';
-    } else if (part && part.team && part.team.name) {
+      slot.classList.add('blank'); // bye: nothing next to the seeded team
+    } else if (hasTeam) {
       span.textContent = part.team.name;
       if (projected) slot.classList.add('projected');
     } else {
@@ -87,6 +89,7 @@
       span.textContent = ref ? '—' : 'TBD';
     }
     team.appendChild(span);
+    if (isHome && hasTeam) { var h = el('span', 'home-tag', 'H'); h.title = 'Home'; team.appendChild(h); }
     slot.appendChild(team);
 
     var sc = el('div', 'score', (score != null && score !== '') ? String(score) : '');
@@ -211,14 +214,11 @@
     var botIsWin = winner && bot && sameParticipant(winner, bot);
     var decided = !!winner && !(top && top.bye) && !(bot && bot.bye);
 
-    var topRef = g.top.kind === 'leaf' ? g.top.ref : null;
-    var botRef = g.bottom.kind === 'leaf' ? g.bottom.ref : null;
-
     var topProjected = projected && top && top.team && top.team.name && !res.winner && !hasScores(res);
     var botProjected = projected && bot && bot.team && bot.team.name && !res.winner && !hasScores(res);
 
-    card.appendChild(slotEl(top, topRef, topProjected, topIsWin && decided, decided && botIsWin, res.topScore));
-    card.appendChild(slotEl(bot, botRef, botProjected, botIsWin && decided, decided && topIsWin, res.bottomScore));
+    card.appendChild(slotEl(top, topProjected, topIsWin && decided, decided && botIsWin, res.topScore, res.home === 'top'));
+    card.appendChild(slotEl(bot, botProjected, botIsWin && decided, decided && topIsWin, res.bottomScore, res.home === 'bottom'));
 
     card.onclick = function () { openGameModal(built, g, top, bot, projected); };
     wrap.appendChild(card);
@@ -264,8 +264,8 @@
     }
 
     var winner = built.winnerOf(g.id, projected);
-    body.appendChild(teamRow(top, g.top, res.topScore, winner && sameParticipant(winner, top)));
-    body.appendChild(teamRow(bot, g.bottom, res.bottomScore, winner && sameParticipant(winner, bot)));
+    body.appendChild(teamRow(top, res.topScore, winner && sameParticipant(winner, top), res.home === 'top'));
+    body.appendChild(teamRow(bot, res.bottomScore, winner && sameParticipant(winner, bot), res.home === 'bottom'));
 
     overlay.classList.add('open');
   }
@@ -275,18 +275,18 @@
     d.appendChild(document.createTextNode(v));
     return d;
   }
-  function teamRow(part, slot, score, isWin) {
+  function teamRow(part, score, isWin, isHome) {
     var row = el('div', 'matchup-team' + (isWin ? ' win' : ''));
     var name = el('div', 'mt-name');
-    if (part && part.bye) name.textContent = 'BYE';
-    else if (part && part.team && part.team.name) name.textContent = part.team.name;
+    if (part && part.bye) name.textContent = '—';
+    else if (part && part.team && part.team.name) name.textContent = part.team.name + (isHome ? ' (H)' : '');
     else name.textContent = 'TBD';
     row.appendChild(name);
 
     var sc = el('div', 'mt-score', (score != null && score !== '') ? String(score) : '');
     row.appendChild(sc);
 
-    var ref = slot.kind === 'leaf' ? slot.ref : null;
+    var ref = part && part.ref ? part.ref : null;
     var seed = el('div', 'mt-seed', ref ? 'Seed ' + A.seedLabel(ref) : '');
     row.appendChild(seed);
 
