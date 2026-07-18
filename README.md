@@ -14,11 +14,13 @@ Live site: **https://jlflux.github.io/** · Admin: **https://jlflux.github.io/ad
   | 5A–1A | Public | 8 | 4 | 32 each | Adjacent regions paired into pods |
   | AA | Private | 2 | 4 | 8 | Two regions cross-seeded |
   | A | Private | 4 | 4 | 16 | Two pods of two regions |
-- **Seed labels** on the left of every first-round slot (e.g. `R4-2` = 2nd
-  place in Region 4), auto-derived from the standings order.
-- Each slot shows the **team name (left)** and **score (right)**. Click a game
-  for a pop-up with date, time, location, and both teams' overall & region records.
-- **Bye teams advance directly** into the second round — no "vs BYE" games.
+- **Seed labels** (e.g. `R4-2` = 2nd place in Region 4) travel with each team as
+  it advances, so every slot shows who's there and where they came from.
+- Each slot shows the **team name (left)** and **score (right)**, with an **(H)**
+  tag on the home team. Click a game for a pop-up with date, time, location, home
+  team, and both teams' overall & region records.
+- **Byes keep the full bracket shape** (e.g. 6A is a 32-slot bracket): a bye team
+  sits in the first round with a blank slot beside it and advances automatically.
 - Faint **connector lines** show advancement; round titles sit across the top and
   the whole bracket **scales to fit the screen** (no horizontal scrollbar).
 - **Projected results** toggle on every bracket — shows the projected bracket you
@@ -36,9 +38,11 @@ Login: `jl@fluxmedia.org` / `alpreps2026`.
 - **Standings & Seeding** — drag the `⠿` handle to reorder teams (order = seed;
   top N qualify and feed the bracket). Edit name, overall/region records, and
   status inline. Add/remove teams. Write per-region notes.
-- **Bracket & Results** — drag to set **region alignment** (which region sits
-  where / how regions are paired). Enter scores to advance winners automatically,
-  or pick a winner manually for ties. Add date, time, location and a note per game.
+- **Bracket & Results** — a visual bracket you arrange yourself. **Drag a seed**
+  (e.g. `R4-2`) onto any slot to place it; the team follows the region standings,
+  so re-seeding a region updates the bracket. **Click a match-up** to open a popup
+  and enter score, **home/away** (check the home team → shows as "H"), winner
+  override, date, time, location and a note.
 - **Projected Bracket** — click a team to project them as a game's winner; they
   advance to the next round. This is what the public "Show projected results"
   toggle displays. Games with an actual result are locked to that result.

@@ -309,145 +309,210 @@
     });
   }
 
-  /* ---------- Render: Bracket editor ---------- */
+  /* ---------- Render: Bracket editor (drag seeds + click a game) ------- */
   function renderBracket() {
     var host = document.getElementById('adminBody');
-    var cfg = A.CLASS_CONFIG[state.classKey];
     var cl = state.data.classifications[state.classKey];
 
-    // --- Region alignment ---
-    var alignPanel = el('div', 'panel');
-    alignPanel.appendChild(el('h3', null, 'Region Alignment'));
-    alignPanel.appendChild(el('p', 'hint', alignmentHelp(cfg.template)));
-    var list = el('div', 'align-list');
-    renderAlignList(list, cl, cfg);
-    alignPanel.appendChild(list);
-    host.appendChild(alignPanel);
+    var panel = el('div', 'panel');
+    panel.appendChild(el('h3', null, 'Bracket & Results'));
+    panel.appendChild(el('p', 'hint', 'Drag a seed (e.g. R4-2) onto another slot to arrange the first round — the team follows your region standings, so if the standings order changes the slot updates too. Click a match-up (anywhere except the seed) to enter score, home/away, date, time and location.'));
 
-    // --- Results / game info ---
     var built = A.buildClassification(state.data, state.classKey);
-    var resPanel = el('div', 'panel');
-    resPanel.appendChild(el('h3', null, 'Scores & Game Details'));
-    resPanel.appendChild(el('p', 'hint', 'Enter scores to advance winners automatically. For ties or undecided games, pick a winner manually. Add date, time and location for the game pop-up.'));
 
-    built.rounds.forEach(function (rnd, rIdx) {
-      resPanel.appendChild(el('h4', null, A.roundName(rIdx + 1, built.totalRounds)));
-      var grid = el('div', 'results-grid');
-      rnd.forEach(function (g) { grid.appendChild(resultCard(built, g)); });
-      resPanel.appendChild(grid);
+    var scroll = el('div');
+    scroll.style.overflowX = 'auto';
+    scroll.style.paddingBottom = '12px';
+    var inner = el('div');
+    inner.style.display = 'inline-block';
+
+    var titles = el('div', 'bracket-titles');
+    built.rounds.forEach(function (rnd, i) {
+      titles.appendChild(el('div', 'col-title', A.roundName(i + 1, built.totalRounds)));
     });
-    host.appendChild(resPanel);
+    inner.appendChild(titles);
+
+    var bracket = el('div', 'bracket');
+    built.rounds.forEach(function (rnd, rIdx) {
+      var col = el('div', 'round-col' + (rIdx === 0 ? ' first' : ''));
+      rnd.forEach(function (g, gi) { col.appendChild(adminGameEl(built, g, gi, rIdx === 0, cl)); });
+      bracket.appendChild(col);
+    });
+    inner.appendChild(bracket);
+    scroll.appendChild(inner);
+    panel.appendChild(scroll);
+    host.appendChild(panel);
+
+    enableSeedDrag(bracket, cl);
   }
 
-  function alignmentHelp(tmpl) {
-    if (tmpl === '6A') return 'Each region runs its own block (top 2 seeds bye to round 2); the 4 region champions meet in the semifinals. Drag to set which region block sits where in the bracket.';
-    if (tmpl === '8') return 'The two regions are cross-seeded into one 8-team pod. Drag to swap which region is A vs B.';
-    return 'Adjacent pairs of regions share a pod (positions 1&2, 3&4, …). Drag regions to set the pairings and bracket placement.';
+  function adminGameEl(built, g, gi, isFirst, cl) {
+    var wrap = el('div', 'game');
+    var card = el('div', 'game-card admin-game');
+    var top = built.resolveSlot(g.top, false);
+    var bot = built.resolveSlot(g.bottom, false);
+    var res = cl.bracket.results[g.id] = cl.bracket.results[g.id] || {};
+    var winner = built.winnerOf(g.id, false);
+    var decided = !!res.winner || bothScores(res);
+
+    card.appendChild(adminSlot(g, 'top', top, winner, decided, isFirst ? 2 * gi : null, res.topScore, res.home === 'top'));
+    card.appendChild(adminSlot(g, 'bottom', bot, winner, decided, isFirst ? 2 * gi + 1 : null, res.bottomScore, res.home === 'bottom'));
+
+    card.onclick = function () { openAdminGameModal(g.id); };
+    wrap.appendChild(card);
+    return wrap;
   }
 
-  function renderAlignList(list, cl, cfg) {
-    list.innerHTML = '';
-    var dragIdx = null;
-    cl.bracket.alignment.forEach(function (rid, idx) {
-      var item = el('div', 'align-item');
-      item.draggable = true;
-      item.dataset.idx = idx;
-      item.appendChild(el('span', 'pos', 'Slot ' + (idx + 1)));
-      item.appendChild(el('span', null, 'Region ' + rid));
-      item.addEventListener('dragstart', function (e) {
-        dragIdx = idx; item.classList.add('dragging');
+  function adminSlot(g, side, part, winner, decided, slotIndex, score, isHome) {
+    var slot = el('div', 'slot');
+    var ref = part && part.ref ? part.ref : null;
+    var seedCell = el('div', 'seed', ref ? A.seedLabel(ref) : '');
+    if (slotIndex != null) {
+      seedCell.classList.add('seed-drag');
+      seedCell.draggable = true;
+      seedCell.dataset.slot = slotIndex;
+      seedCell.title = 'Drag to move this seed';
+      seedCell.onclick = function (e) { e.stopPropagation(); };
+    }
+    slot.appendChild(seedCell);
+
+    var team = el('div', 'team');
+    var span = el('span');
+    var hasTeam = part && part.team && part.team.name;
+    if (part && part.bye) { slot.classList.add('blank'); }
+    else if (hasTeam) { span.textContent = part.team.name; }
+    else { slot.classList.add('empty'); span.textContent = ref ? '—' : 'TBD'; }
+    team.appendChild(span);
+    if (isHome && hasTeam) { team.appendChild(el('span', 'home-tag', 'H')); }
+    slot.appendChild(team);
+
+    if (decided && winner && part && sameParticipant(winner, part)) slot.classList.add('winner');
+    slot.appendChild(el('div', 'score', (score != null && score !== '') ? String(score) : ''));
+    return slot;
+  }
+
+  function enableSeedDrag(bracket, cl) {
+    var fromIdx = null;
+    bracket.querySelectorAll('.seed-drag').forEach(function (cell) {
+      cell.addEventListener('dragstart', function (e) {
+        fromIdx = parseInt(cell.dataset.slot, 10);
+        cell.classList.add('dragging');
         e.dataTransfer.effectAllowed = 'move';
-        e.dataTransfer.setData('text/plain', String(idx));
+        e.dataTransfer.setData('text/plain', cell.dataset.slot);
+        e.stopPropagation();
       });
-      item.addEventListener('dragend', function () {
-        item.classList.remove('dragging');
-        list.querySelectorAll('.align-item').forEach(function (x) { x.classList.remove('drag-over'); });
+      cell.addEventListener('dragend', function () {
+        cell.classList.remove('dragging');
+        bracket.querySelectorAll('.seed-drag').forEach(function (x) { x.classList.remove('drag-over'); });
       });
-      item.addEventListener('dragover', function (e) { e.preventDefault(); item.classList.add('drag-over'); });
-      item.addEventListener('dragleave', function () { item.classList.remove('drag-over'); });
-      item.addEventListener('drop', function (e) {
-        e.preventDefault();
-        var to = parseInt(item.dataset.idx, 10);
-        if (dragIdx == null || dragIdx === to) return;
-        var arr = cl.bracket.alignment;
-        var moved = arr.splice(dragIdx, 1)[0];
-        arr.splice(to, 0, moved);
+      cell.addEventListener('dragover', function (e) { e.preventDefault(); cell.classList.add('drag-over'); });
+      cell.addEventListener('dragleave', function () { cell.classList.remove('drag-over'); });
+      cell.addEventListener('drop', function (e) {
+        e.preventDefault(); e.stopPropagation();
+        cell.classList.remove('drag-over');
+        var to = parseInt(cell.dataset.slot, 10);
+        if (fromIdx == null || fromIdx === to) return;
+        var s = cl.bracket.slots;
+        var tmp = s[to]; s[to] = s[fromIdx]; s[fromIdx] = tmp;
         save(false);
         renderBody();
       });
-      list.appendChild(item);
     });
   }
 
-  function resultCard(built, g) {
-    var card = el('div', 'result-card');
+  function partLabel(part) {
+    if (part && part.bye) return 'BYE';
+    if (part && part.team && part.team.name) return part.team.name;
+    if (part && part.ref) return A.seedLabel(part.ref);
+    return 'TBD';
+  }
+
+  /* ---------- Admin game modal (score / home / details) --------------- */
+  function openAdminGameModal(gameId) {
+    state.adminGameId = gameId;
+    document.getElementById('adminModal').classList.add('open');
+    renderAdminGameModal();
+  }
+  function closeAdminGameModal() {
+    document.getElementById('adminModal').classList.remove('open');
+    state.adminGameId = null;
+    renderBody();
+  }
+  function renderAdminGameModal() {
+    var gameId = state.adminGameId;
+    if (!gameId) return;
+    var cl = state.data.classifications[state.classKey];
+    var built = A.buildClassification(state.data, state.classKey);
+    var g = built.gamesById[gameId];
+    if (!g) return;
     var top = built.resolveSlot(g.top, false);
     var bot = built.resolveSlot(g.bottom, false);
-    var res = built.results[g.id] = built.results[g.id] || {};
-    // make sure stored on data
-    state.data.classifications[state.classKey].bracket.results[g.id] = res;
+    var res = cl.bracket.results[gameId] = cl.bracket.results[gameId] || {};
 
-    card.appendChild(el('div', 'rc-head', partLabel(top, g.top) + '  vs  ' + partLabel(bot, g.bottom)));
+    document.getElementById('adminModalTitle').textContent = A.roundName(g.round, built.totalRounds);
+    var body = document.getElementById('adminModalBody');
+    body.innerHTML = '';
 
-    card.appendChild(scoreRow(partLabel(top, g.top), res, 'topScore'));
-    card.appendChild(scoreRow(partLabel(bot, g.bottom), res, 'bottomScore'));
+    body.appendChild(el('p', 'hint', 'Check the box next to the home team (shown as "H" on the bracket) — put their stadium in Location.'));
+    body.appendChild(teamEditRow(res, 'top', partLabel(top)));
+    body.appendChild(teamEditRow(res, 'bottom', partLabel(bot)));
 
     // winner override
-    var wrap = el('div', 'field');
-    wrap.style.margin = '6px 0';
+    var wf = el('div', 'field');
+    wf.appendChild(el('label', null, 'Winner'));
     var sel = document.createElement('select');
-    [['', 'Winner: auto (by score)'], ['top', 'Winner: ' + partLabel(top, g.top)], ['bottom', 'Winner: ' + partLabel(bot, g.bottom)]]
+    [['', 'Auto (by score)'], ['top', partLabel(top) + ' wins'], ['bottom', partLabel(bot) + ' wins']]
       .forEach(function (o) {
         var op = document.createElement('option'); op.value = o[0]; op.textContent = o[1];
         if ((res.winner || '') === o[0]) op.selected = true;
         sel.appendChild(op);
       });
-    sel.onchange = function () { res.winner = sel.value; save(false); renderBody(); };
-    wrap.appendChild(sel);
-    card.appendChild(wrap);
+    sel.onchange = function () { res.winner = sel.value || undefined; save(false); };
+    wf.appendChild(sel);
+    body.appendChild(wf);
 
-    var meta = el('div', 'rc-meta');
-    meta.appendChild(metaInput(res, 'date', 'Date (e.g. Fri Nov 13)'));
-    meta.appendChild(metaInput(res, 'time', 'Time (e.g. 7:00 PM)'));
-    var locWrap = el('div'); locWrap.style.gridColumn = '1 / -1';
-    locWrap.appendChild(metaInputRaw(res, 'location', 'Location'));
-    meta.appendChild(locWrap);
-    var noteWrap = el('div'); noteWrap.style.gridColumn = '1 / -1';
-    noteWrap.appendChild(metaInputRaw(res, 'note', 'Note (optional)'));
-    meta.appendChild(noteWrap);
-    card.appendChild(meta);
-
-    return card;
+    var grid = el('div', 'modal-grid');
+    grid.appendChild(textField(res, 'date', 'Date', 'e.g. Fri, Nov 13'));
+    grid.appendChild(textField(res, 'time', 'Time', 'e.g. 7:00 PM'));
+    body.appendChild(grid);
+    body.appendChild(textField(res, 'location', 'Location (stadium)', 'e.g. Saraland Spartan Stadium'));
+    body.appendChild(textField(res, 'note', 'Note (optional)', 'Any extra detail'));
   }
 
-  function partLabel(part, slot) {
-    if (part && part.bye) return 'BYE';
-    if (part && part.team && part.team.name) return part.team.name;
-    if (slot.kind === 'leaf' && slot.ref) return A.seedLabel(slot.ref);
-    return 'TBD';
-  }
-  function scoreRow(name, res, key) {
-    var row = el('div', 'rc-row');
-    row.appendChild(el('span', 'nm', name));
-    var inp = document.createElement('input');
-    inp.type = 'number'; inp.placeholder = '–';
-    inp.value = res[key] != null ? res[key] : '';
-    inp.oninput = function () { res[key] = inp.value; save(false); };
-    inp.onchange = function () { renderBody(); };
-    row.appendChild(inp);
+  function teamEditRow(res, side, label) {
+    var scoreKey = side === 'top' ? 'topScore' : 'bottomScore';
+    var row = el('div', 'ag-team');
+    var homeLbl = el('label', 'ag-home');
+    var cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = res.home === side;
+    cb.onchange = function () {
+      if (cb.checked) res.home = side;
+      else if (res.home === side) res.home = undefined;
+      save(false);
+      renderAdminGameModal();
+    };
+    homeLbl.appendChild(cb);
+    homeLbl.appendChild(document.createTextNode(' Home'));
+    row.appendChild(homeLbl);
+    row.appendChild(el('div', 'ag-name', label));
+    var sc = document.createElement('input');
+    sc.type = 'number'; sc.placeholder = 'Score'; sc.className = 'ag-score';
+    sc.value = res[scoreKey] != null ? res[scoreKey] : '';
+    sc.oninput = function () { res[scoreKey] = sc.value; save(false); };
+    row.appendChild(sc);
     return row;
   }
-  function metaInput(res, key, ph) {
-    var d = el('div');
-    d.appendChild(metaInputRaw(res, key, ph));
-    return d;
-  }
-  function metaInputRaw(res, key, ph) {
+
+  function textField(res, key, label, ph) {
+    var f = el('div', 'field');
+    f.appendChild(el('label', null, label));
     var inp = document.createElement('input');
-    inp.type = 'text'; inp.placeholder = ph;
+    inp.type = 'text'; inp.placeholder = ph || '';
     inp.value = res[key] != null ? res[key] : '';
     inp.oninput = function () { res[key] = inp.value; save(false); };
-    return inp;
+    f.appendChild(inp);
+    return f;
   }
 
   /* ---------- Render: Projected bracket editor ---------- */
@@ -584,6 +649,14 @@
 
     document.querySelectorAll('.admin-section-tab').forEach(function (t) {
       t.onclick = function () { state.section = t.dataset.section; renderBody(); };
+    });
+
+    document.getElementById('adminModalClose').onclick = closeAdminGameModal;
+    document.getElementById('adminModal').onclick = function (e) {
+      if (e.target.id === 'adminModal') closeAdminGameModal();
+    };
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && document.getElementById('adminModal').classList.contains('open')) closeAdminGameModal();
     });
 
     if (isAuthed()) showAdmin();
