@@ -122,6 +122,30 @@
       nodes = next;
       r++;
     }
+
+    // Collapse first-round BYE games: instead of showing "Team vs BYE",
+    // drop the game and advance the seeded team directly into round 2.
+    const replace = {}; // removed gameId -> the surviving leaf ref (or null)
+    rounds[0] = rounds[0].filter(function (g) {
+      const topBye = g.top.ref === null;
+      const botBye = g.bottom.ref === null;
+      if (topBye || botBye) {
+        replace[g.id] = topBye ? g.bottom.ref : g.top.ref;
+        return false;
+      }
+      return true;
+    });
+    for (let ri = 1; ri < rounds.length; ri++) {
+      rounds[ri].forEach(function (g) {
+        ['top', 'bottom'].forEach(function (side) {
+          const slot = g[side];
+          if (slot.kind === 'game' && Object.prototype.hasOwnProperty.call(replace, slot.ref)) {
+            g[side] = { kind: 'leaf', ref: replace[slot.ref] };
+          }
+        });
+      });
+    }
+
     return rounds;
   }
 
@@ -167,6 +191,7 @@
         bracket: {
           alignment: alignment, // ordered region ids -> bracket region slots
           results: {},          // gameId -> { topScore, bottomScore, winner, date, time, location, note }
+          projected: {},        // gameId -> 'top' | 'bottom' (manual projected winner)
         },
       };
     });
@@ -199,8 +224,9 @@
       }
       const cl = data.classifications[key];
       cl.regions = cl.regions || {};
-      cl.bracket = cl.bracket || { alignment: [], results: {} };
+      cl.bracket = cl.bracket || { alignment: [], results: {}, projected: {} };
       cl.bracket.results = cl.bracket.results || {};
+      cl.bracket.projected = cl.bracket.projected || {};
       for (let i = 1; i <= cfg.regionCount; i++) {
         const rid = String(i);
         if (!cl.regions[rid]) cl.regions[rid] = makeRegion('Region ' + i, cfg.playoff);
@@ -283,11 +309,6 @@
     return 'R' + ref.region + '-' + ref.place;
   }
 
-  function numericRating(team) {
-    if (!team) return null;
-    const v = parseFloat(team.rating);
-    return isNaN(v) ? null : v;
-  }
 
   // Build everything needed to render a classification bracket.
   // Returns { rounds, gamesById, totalRounds, resolve(slot, projected) }
@@ -302,6 +323,7 @@
     const gamesById = {};
     rounds.forEach((rnd) => rnd.forEach((g) => { gamesById[g.id] = g; }));
     const results = cl.bracket.results || {};
+    const projPicks = cl.bracket.projected || {};
 
     const memo = {};
 
@@ -346,7 +368,8 @@
         memo[cacheKey] = null; return null; // undecided
       }
 
-      // projected: prefer actual result if decided, else higher rating
+      // projected: prefer an actual result if decided, otherwise use the
+      // manually-set projected pick (edited in the admin projected bracket).
       if (res.winner === 'top') { memo[cacheKey] = top; return top; }
       if (res.winner === 'bottom') { memo[cacheKey] = bot; return bot; }
       const ts = parseFloat(res.topScore);
@@ -354,13 +377,9 @@
       if (!isNaN(ts) && !isNaN(bs) && ts !== bs) {
         const w = ts > bs ? top : bot; memo[cacheKey] = w; return w;
       }
-      const tr = top ? numericRating(top.team) : null;
-      const br = bot ? numericRating(bot.team) : null;
-      if (tr == null && br == null) { memo[cacheKey] = null; return null; }
-      if (tr == null) { memo[cacheKey] = bot; return bot; }
-      if (br == null) { memo[cacheKey] = top; return top; }
-      const w = tr >= br ? top : bot;
-      memo[cacheKey] = w; return w;
+      if (projPicks[gameId] === 'top') { memo[cacheKey] = top; return top; }
+      if (projPicks[gameId] === 'bottom') { memo[cacheKey] = bot; return bot; }
+      memo[cacheKey] = null; return null; // no projection set yet
     }
 
     return {

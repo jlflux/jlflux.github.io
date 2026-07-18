@@ -167,7 +167,7 @@
     var cfg = A.CLASS_CONFIG[state.classKey];
     var cl = state.data.classifications[state.classKey];
 
-    var intro = el('p', 'hint', 'Drag the ⠿ handle to reorder teams — order = seed (top ' + cfg.playoff + ' qualify and feed the bracket). Edit records, rating and status inline. Add per-region notes at the bottom of each panel.');
+    var intro = el('p', 'hint', 'Drag the ⠿ handle to reorder teams — order = seed (top ' + cfg.playoff + ' qualify and feed the bracket). Edit records and status inline. Add per-region notes at the bottom of each panel.');
     host.appendChild(intro);
 
     var ids = [];
@@ -183,7 +183,7 @@
         '<thead><tr>' +
         '<th></th><th>Seed</th><th>Team</th>' +
         '<th class="col-narrow">Overall</th><th class="col-narrow">Region</th>' +
-        '<th class="col-rating">Rating</th><th class="col-status">Status</th><th></th>' +
+        '<th class="col-status">Status</th><th></th>' +
         '</tr></thead>';
       var tb = el('tbody');
       tb.dataset.rid = rid;
@@ -231,7 +231,6 @@
     tr.appendChild(inputCell(t, 'name', 'text', 'Team name'));
     tr.appendChild(inputCell(t, 'overall', 'text', '0-0'));
     tr.appendChild(inputCell(t, 'region', 'text', '0-0'));
-    tr.appendChild(inputCell(t, 'rating', 'number', '0.0'));
 
     var stTd = el('td');
     var sel = document.createElement('select');
@@ -451,6 +450,105 @@
     return inp;
   }
 
+  /* ---------- Render: Projected bracket editor ---------- */
+  function sameParticipant(a, b) {
+    if (!a || !b) return false;
+    if (a.team && b.team) return a.team === b.team || (a.team.id && a.team.id === b.team.id);
+    return a === b;
+  }
+  function bothScores(res) {
+    var ts = parseFloat(res.topScore), bs = parseFloat(res.bottomScore);
+    return !isNaN(ts) && !isNaN(bs);
+  }
+
+  function renderProjected() {
+    var host = document.getElementById('adminBody');
+    var cl = state.data.classifications[state.classKey];
+    cl.bracket.projected = cl.bracket.projected || {};
+
+    var panel = el('div', 'panel');
+    panel.appendChild(el('h3', null, 'Projected Bracket'));
+    panel.appendChild(el('p', 'hint', 'Click a team to project them as the winner of a game — they advance to the next round. Games that already have an actual score/result (in "Bracket & Results") are locked to that result. This is exactly what the public "Show projected results" toggle displays.'));
+
+    var toolbar = el('div', 'toolbar');
+    toolbar.style.marginBottom = '12px';
+    var clearBtn = el('button', 'btn btn-sm btn-danger', 'Clear all projections');
+    clearBtn.onclick = function () {
+      if (!confirm('Clear all projected picks for this classification?')) return;
+      cl.bracket.projected = {};
+      save(false); renderBody();
+    };
+    toolbar.appendChild(clearBtn);
+    panel.appendChild(toolbar);
+
+    var built = A.buildClassification(state.data, state.classKey);
+
+    var scroll = el('div');
+    scroll.style.overflowX = 'auto';
+    scroll.style.paddingBottom = '12px';
+    var inner = el('div');
+    inner.style.display = 'inline-block';
+
+    var titles = el('div', 'bracket-titles');
+    built.rounds.forEach(function (rnd, i) {
+      titles.appendChild(el('div', 'col-title', A.roundName(i + 1, built.totalRounds)));
+    });
+    inner.appendChild(titles);
+
+    var bracket = el('div', 'bracket');
+    built.rounds.forEach(function (rnd, rIdx) {
+      var col = el('div', 'round-col' + (rIdx === 0 ? ' first' : ''));
+      rnd.forEach(function (g) { col.appendChild(projGameEl(built, g, cl)); });
+      bracket.appendChild(col);
+    });
+    inner.appendChild(bracket);
+    scroll.appendChild(inner);
+    panel.appendChild(scroll);
+    host.appendChild(panel);
+  }
+
+  function projGameEl(built, g, cl) {
+    var wrap = el('div', 'game');
+    var card = el('div', 'game-card');
+    var top = built.resolveSlot(g.top, true);
+    var bot = built.resolveSlot(g.bottom, true);
+    var res = (cl.bracket.results || {})[g.id] || {};
+    var actualDecided = !!res.winner || bothScores(res);
+    var winner = built.winnerOf(g.id, true);
+    card.appendChild(projSlot(built, g, 'top', top, winner, actualDecided, cl));
+    card.appendChild(projSlot(built, g, 'bottom', bot, winner, actualDecided, cl));
+    wrap.appendChild(card);
+    return wrap;
+  }
+
+  function projSlot(built, g, side, part, winner, actualDecided, cl) {
+    var slot = el('div', 'slot');
+    var ref = g[side].kind === 'leaf' ? g[side].ref : null;
+    slot.appendChild(el('div', 'seed', ref ? A.seedLabel(ref) : ''));
+    var team = el('div', 'team');
+    var span = el('span');
+    var hasTeam = part && part.team && part.team.name;
+    span.textContent = hasTeam ? part.team.name : (part && part.bye ? 'BYE' : (ref ? '—' : 'TBD'));
+    team.appendChild(span);
+    slot.appendChild(team);
+
+    var isWin = winner && part && sameParticipant(winner, part);
+    if (isWin) slot.classList.add('winner');
+
+    if (actualDecided) {
+      if (!isWin) slot.classList.add('loser');
+      slot.title = 'Result is final (set in Bracket & Results)';
+    } else if (hasTeam) {
+      slot.classList.add('pickable');
+      slot.onclick = function () {
+        if (cl.bracket.projected[g.id] === side) delete cl.bracket.projected[g.id];
+        else cl.bracket.projected[g.id] = side;
+        save(false); renderBody();
+      };
+    }
+    return slot;
+  }
+
   /* ---------- Body render ---------- */
   function renderBody() {
     renderClassTabs();
@@ -458,6 +556,7 @@
     var host = document.getElementById('adminBody');
     host.innerHTML = '';
     if (state.section === 'standings') renderStandings();
+    else if (state.section === 'projected') renderProjected();
     else renderBracket();
   }
   function renderAll() {

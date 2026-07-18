@@ -127,7 +127,6 @@
     built.rounds.forEach(function (rnd, i) {
       titles.appendChild(el('div', 'col-title', A.roundName(i + 1, built.totalRounds)));
     });
-    titles.appendChild(el('div', 'col-title', 'Champion'));
     inner.appendChild(titles);
 
     var bracket = el('div', 'bracket');
@@ -142,30 +141,19 @@
       bracket.appendChild(col);
     });
 
-    // Champion column
-    var finalGame = built.rounds[built.rounds.length - 1][0];
-    var champCol = el('div', 'round-col champion-col');
-    var champ = built.winnerOf(finalGame.id, projected);
-    var box = el('div', 'champion-box');
-    box.appendChild(el('div', 'lbl', 'State Champion'));
-    box.appendChild(el('div', 'name', (champ && champ.team && champ.team.name) ? champ.team.name + (projected && !isDecidedFinal(built) ? ' (proj)' : '') : '—'));
-    champCol.appendChild(box);
-    cardMap['__champion'] = box;
-    bracket.appendChild(champCol);
-
     inner.appendChild(bracket);
     outer.appendChild(inner);
     host.appendChild(outer);
     host.appendChild(legend());
 
     // Connectors are measured in natural (pre-scale) coordinates.
-    drawConnectors(bracket, built, cardMap, finalGame);
+    drawConnectors(bracket, built, cardMap);
 
     state.fit = { outer: outer, inner: inner };
     applyFit();
   }
 
-  function drawConnectors(bracketEl, built, cardMap, finalGame) {
+  function drawConnectors(bracketEl, built, cardMap) {
     var svg = document.createElementNS(SVGNS, 'svg');
     svg.setAttribute('class', 'bracket-conn');
     svg.setAttribute('width', bracketEl.scrollWidth);
@@ -193,9 +181,6 @@
         });
       });
     });
-    // final -> champion box
-    var fc = cardMap[finalGame.id], cb = cardMap['__champion'];
-    if (fc && cb) { var a = rightMid(fc), b = leftMid(cb); line(a[0], a[1], b[0], b[1]); }
 
     bracketEl.insertBefore(svg, bracketEl.firstChild);
   }
@@ -212,13 +197,6 @@
     outer.style.height = Math.ceil(naturalH * scale) + 'px';
   }
 
-  function isDecidedFinal(built) {
-    var f = built.rounds[built.rounds.length - 1][0];
-    var r = built.results[f.id] || {};
-    if (r.winner) return true;
-    var ts = parseFloat(r.topScore), bs = parseFloat(r.bottomScore);
-    return !isNaN(ts) && !isNaN(bs) && ts !== bs;
-  }
 
   function gameEl(built, g, projected) {
     var wrap = el('div', 'game');
@@ -260,7 +238,7 @@
   function legend() {
     var l = el('div', 'hint');
     l.style.marginTop = '12px';
-    l.textContent = 'Seeds are shown on the left of each first-round slot (e.g. R4-2 = 2nd place in Region 4). Click any game for date, location, records and ratings. Toggle "Show projected results" to fill the bracket from the ratings index.';
+    l.textContent = 'Seeds are shown on the left of each first-round slot (e.g. R4-2 = 2nd place in Region 4). Click any game for date, location and team records. Toggle "Show projected results" to see the projected bracket.';
     return l;
   }
 
@@ -316,8 +294,7 @@
     var t = part && part.team;
     stats.innerHTML =
       'Overall: <b>' + (t && t.overall ? t.overall : '—') + '</b>' +
-      '&nbsp; Region: <b>' + (t && t.region ? t.region : '—') + '</b>' +
-      '&nbsp; Rating: <b>' + (t && t.rating !== '' && t.rating != null ? t.rating : '—') + '</b>';
+      '&nbsp; Region: <b>' + (t && t.region ? t.region : '—') + '</b>';
     row.appendChild(stats);
     return row;
   }
@@ -346,7 +323,7 @@
       table.innerHTML =
         '<thead><tr>' +
         '<th></th><th>Team</th><th class="center">Overall</th>' +
-        '<th class="center">Region</th><th class="center hide-sm">Rating</th>' +
+        '<th class="center">Region</th>' +
         '<th class="center">Status</th></tr></thead>';
       var tb = el('tbody');
       reg.teams.forEach(function (t, idx) {
@@ -356,7 +333,6 @@
         tr.appendChild(el('td', 'name-cell', t.name || '—'));
         tr.appendChild(el('td', 'center', t.overall || '—'));
         tr.appendChild(el('td', 'center', t.region || '—'));
-        tr.appendChild(el('td', 'center hide-sm', (t.rating !== '' && t.rating != null) ? t.rating : '—'));
         var stTd = el('td', 'center');
         var opt = A.STATUS_OPTIONS.filter(function (o) { return o.key === t.status; })[0];
         if (opt) {
@@ -369,7 +345,7 @@
       if (!reg.teams.length) {
         var tr0 = el('tr');
         var td0 = el('td', 'center');
-        td0.colSpan = 6; td0.textContent = 'No teams entered yet.'; td0.style.color = 'var(--text-muted)';
+        td0.colSpan = 5; td0.textContent = 'No teams entered yet.'; td0.style.color = 'var(--text-muted)';
         tr0.appendChild(td0); tb.appendChild(tr0);
       }
       table.appendChild(tb);
