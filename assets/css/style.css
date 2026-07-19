@@ -84,11 +84,13 @@ a { color: var(--red); }
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-weight: 900;
+  letter-spacing: -0.03em;
   text-decoration: none;
-  color: var(--text);
-  font-size: 1.05rem;
+  color: var(--red);
+  font-size: clamp(1.5rem, 4.5vw, 2.15rem);
+  line-height: 1.05;
+  text-transform: uppercase;
 }
 .brand .mark {
   width: 30px; height: 30px;
@@ -98,7 +100,7 @@ a { color: var(--red); }
   color: #fff; font-weight: 900; font-size: 0.9rem;
   flex: none;
 }
-.brand small { display: block; font-weight: 500; color: var(--text-muted); font-size: 0.72rem; }
+.brand small { display: block; font-weight: 600; color: var(--text-muted); font-size: 0.78rem; letter-spacing: 0.02em; text-transform: none; margin-top: 2px; }
 .header-spacer { flex: 1; }
 
 .icon-btn, .btn {

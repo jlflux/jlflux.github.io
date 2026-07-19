@@ -401,7 +401,7 @@
       state.data = data;
       var season = (data.meta && data.meta.season) || '';
       var sEl = document.getElementById('season');
-      if (sEl && season) sEl.textContent = season + ' Season';
+      if (sEl) sEl.textContent = 'AHSAA Football Playoffs' + (season ? ' · ' + season : '');
       render();
     });
   }
