@@ -125,13 +125,65 @@
 
   /* ---------- Data load / save ---------- */
   function loadAndRender() {
-    var local = A.loadLocal();
-    if (local) { state.data = local; renderAll(); return; }
-    A.fetchPublished().then(function (d) { state.data = d; renderAll(); });
+    A.loadAdmin().then(function (res) {
+      state.data = res.data;
+      state.publishedSignature = (res.source === 'draft') ? null : A.contentSignature(res.data);
+      renderAll();
+      announceLoad(res);
+      renderSyncState();
+    });
   }
+
+  function announceLoad(res) {
+    if (res.source === 'published-newer') {
+      notice(
+        'Loaded the live data. This browser had an older unpublished draft from ' + when(res.draftAt) +
+        ', but newer data was published ' + when(res.publishedAt) + ' (probably from another device), so the live version was used. ' +
+        'Your old draft was backed up — click "Recover old draft" if you need it.',
+        'warn'
+      );
+    } else if (res.source === 'draft') {
+      notice(
+        'This browser has unpublished changes from ' + when(res.draftAt) + '. They are not live yet — click Save & Publish.',
+        'warn'
+      );
+    }
+  }
+
+  function when(iso) {
+    if (!iso) return 'an unknown time';
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return 'an unknown time';
+    return d.toLocaleString();
+  }
+
+  // Persistent "is what I'm looking at live?" indicator.
+  function renderSyncState() {
+    var elx = document.getElementById('syncState');
+    if (!elx) return;
+    var dirty = state.publishedSignature === null || A.contentSignature(state.data) !== state.publishedSignature;
+    elx.textContent = dirty ? '● Unpublished changes' : '● In sync with live site';
+    elx.className = 'sync-state ' + (dirty ? 'dirty' : 'clean');
+    var recover = document.getElementById('recoverBtn');
+    if (recover) recover.style.display = A.hasStaleBackup() ? '' : 'none';
+  }
+
   function save(banner) {
     A.saveLocal(state.data);
+    renderSyncState();
     if (banner !== false) flash('Saved in this browser. Click Save & Publish to go live.');
+  }
+
+  function recoverDraft() {
+    var backup = A.restoreStaleBackup();
+    if (!backup) { flash('There is no backed-up draft to recover.', 'error'); return; }
+    if (!confirm('Replace what you are editing with the backed-up older draft from this browser?\n\nThis does not publish anything — you can still review it first.')) return;
+    state.data = backup;
+    state.publishedSignature = null;
+    A.saveLocal(state.data);
+    renderAll();
+    renderSyncState();
+    flash('Recovered the backed-up draft. Review it, then Save & Publish if it is correct.');
   }
   function flash(msg, kind, sticky) {
     var b = document.getElementById('statusBanner');
@@ -139,6 +191,19 @@
     b.className = 'status-banner show ' + (kind === 'error' ? 'err' : 'ok');
     clearTimeout(flash._t);
     if (!sticky) flash._t = setTimeout(function () { b.className = 'status-banner'; }, 3200);
+  }
+
+  // A dismissible message that stays put (used for load-time reconciliation).
+  function notice(msg, kind) {
+    var host = document.getElementById('noticeArea');
+    if (!host) return;
+    host.innerHTML = '';
+    var box = el('div', 'notice ' + (kind === 'warn' ? 'warn' : 'info'));
+    box.appendChild(el('div', null, msg));
+    var close = el('button', 'btn btn-sm', 'Dismiss');
+    close.onclick = function () { host.innerHTML = ''; };
+    box.appendChild(close);
+    host.appendChild(box);
   }
 
   /* ---------- Publish to the live site ---------- */
@@ -169,6 +234,9 @@
       })
       .then(function (out) {
         if (out.ok && out.body.ok) {
+          state.publishedSignature = A.contentSignature(state.data);
+          A.clearStaleBackup();
+          renderSyncState();
           flash('Published' + (out.body.commit ? ' (' + out.body.commit + ')' : '') + '. The live site updates in about a minute.');
           return;
         }
@@ -216,8 +284,10 @@
       try {
         var parsed = JSON.parse(reader.result);
         state.data = A.migrate(parsed);
+        state.publishedSignature = null;
         save(false);
         renderAll();
+        renderSyncState();
         flash('Imported data successfully.');
       } catch (e) {
         flash('Import failed: invalid JSON.');
@@ -228,7 +298,14 @@
   function resetToPublished() {
     if (!confirm('Discard local changes and reload the published data.json?')) return;
     A.clearLocal();
-    A.fetchPublished().then(function (d) { state.data = d; renderAll(); flash('Reloaded published data.'); });
+    A.fetchPublished().then(function (d) {
+      state.data = d;
+      state.publishedSignature = A.contentSignature(d);
+      A.saveLocal(d);
+      renderAll();
+      renderSyncState();
+      flash('Reloaded published data.');
+    });
   }
 
   /* ---------- Render: chrome ---------- */
@@ -738,6 +815,7 @@
     document.getElementById('logoutBtn').onclick = logout;
 
     document.getElementById('publishBtn').onclick = publish;
+    document.getElementById('recoverBtn').onclick = recoverDraft;
     document.getElementById('exportBtn').onclick = exportJSON;
     document.getElementById('copyBtn').onclick = copyJSON;
     document.getElementById('resetBtn').onclick = resetToPublished;

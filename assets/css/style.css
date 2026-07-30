@@ -613,6 +613,32 @@ input:focus, textarea:focus, select:focus { outline: 2px solid var(--red); outli
 .status-banner.ok { background: var(--qualify-bg); color: var(--qualify-seed); }
 .status-banner.err { background: var(--red-soft); color: var(--red); }
 
+.notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 0.86rem;
+  line-height: 1.5;
+  margin-bottom: 14px;
+  border: 1px solid var(--border);
+}
+.notice > div { flex: 1; }
+.notice .btn { flex: none; }
+.notice.warn { background: var(--red-soft); border-color: var(--red); color: var(--text); }
+.notice.info { background: var(--qualify-bg); border-color: var(--qualify-seed); color: var(--text); }
+
+.sync-state {
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.sync-state.clean { color: #1f9d4d; background: rgba(31, 157, 77, 0.12); }
+.sync-state.dirty { color: var(--red); background: var(--red-soft); }
+
 .login-wrap { max-width: 380px; margin: 60px auto; }
 .login-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); padding: 26px; }
 .login-card h2 { margin: 0 0 4px; }
