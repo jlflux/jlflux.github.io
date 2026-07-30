@@ -62,6 +62,23 @@ published `data/data.json`, never your local draft.
 
 Publishing requires a valid admin session, so you must be signed in.
 
+#### Working across multiple computers
+
+Drafts live in the browser you typed them in, so the admin reconciles against
+the live site every time it opens:
+
+- **No local draft** → loads the published data. Indicator reads *In sync with
+  live site*.
+- **Local draft newer than published** → keeps your draft and warns that it is
+  not live yet. Indicator reads *Unpublished changes*.
+- **Published data newer than the local draft** (you published from another
+  machine since) → loads the published data so a stale draft can never silently
+  overwrite newer work. The old draft is backed up and recoverable via
+  **Recover old draft**.
+
+The indicator next to the Publish button always tells you whether what you are
+editing matches the live site.
+
 ### Authentication
 
 Login is enforced **server-side**. `POST /api/login` checks your email and

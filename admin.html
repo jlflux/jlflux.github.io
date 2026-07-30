@@ -44,10 +44,12 @@
   <!-- ADMIN -->
   <main id="adminView" class="container" style="display:none">
     <div class="status-banner" id="statusBanner"></div>
+    <div id="noticeArea"></div>
 
     <div class="panel" style="margin-bottom:18px">
       <div class="toolbar">
         <strong style="font-size:1.05rem">Publish</strong>
+        <span id="syncState" class="sync-state">&nbsp;</span>
         <span class="grow hint">Changes auto-save in this browser only. Click <strong>Save &amp; Publish</strong> to push them to the live site for everyone.</span>
         <button class="btn btn-primary" id="publishBtn" type="button">🚀 Save &amp; Publish</button>
       </div>
@@ -59,6 +61,7 @@
           <input type="file" id="importInput" accept="application/json" style="display:none" />
         </label>
         <button class="btn btn-sm btn-danger" id="resetBtn" type="button">Reset to published</button>
+        <button class="btn btn-sm" id="recoverBtn" type="button" style="display:none">Recover old draft</button>
       </div>
     </div>
 

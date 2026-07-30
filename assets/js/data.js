@@ -275,6 +275,70 @@
       .catch(() => defaultData());
   }
 
+  const STALE_BACKUP_KEY = STORAGE_KEY + '_stale_backup';
+
+  // Compare two data sets ignoring the auto-touched timestamp.
+  function contentSignature(d) {
+    if (!d) return '';
+    const copy = JSON.parse(JSON.stringify(d));
+    if (copy.meta) delete copy.meta.updated;
+    return JSON.stringify(copy);
+  }
+  function updatedAt(d) {
+    const t = d && d.meta && d.meta.updated ? Date.parse(d.meta.updated) : 0;
+    return isNaN(t) ? 0 : t;
+  }
+
+  // What the ADMIN should open, reconciling this browser's local draft with
+  // what is actually published. Prevents a stale draft on one machine from
+  // silently shadowing (and later clobbering) newer published work.
+  //
+  // -> { data, source, draftAt, publishedAt }
+  //    source: 'published'        nothing local, or local matches published
+  //            'draft'            local draft has newer unpublished edits
+  //            'published-newer'  local draft was stale; published data won
+  function loadAdmin() {
+    return fetchPublished().then((pub) => {
+      const local = loadLocal();
+      if (!local) return { data: pub, source: 'published', publishedAt: pub.meta && pub.meta.updated };
+
+      if (contentSignature(local) === contentSignature(pub)) {
+        saveLocal(pub);
+        return { data: pub, source: 'published', publishedAt: pub.meta && pub.meta.updated };
+      }
+
+      const lt = updatedAt(local);
+      const pt = updatedAt(pub);
+      if (lt > pt) {
+        return { data: local, source: 'draft', draftAt: local.meta && local.meta.updated, publishedAt: pub.meta && pub.meta.updated };
+      }
+
+      // Published data is newer than this browser's draft: the draft is stale
+      // (edited elsewhere since). Keep a recoverable backup, then use published.
+      try { global.localStorage.setItem(STALE_BACKUP_KEY, JSON.stringify(local)); } catch (e) { /* noop */ }
+      saveLocal(pub);
+      return {
+        data: pub,
+        source: 'published-newer',
+        draftAt: local.meta && local.meta.updated,
+        publishedAt: pub.meta && pub.meta.updated,
+      };
+    });
+  }
+
+  function restoreStaleBackup() {
+    try {
+      const raw = global.localStorage.getItem(STALE_BACKUP_KEY);
+      return raw ? migrate(JSON.parse(raw)) : null;
+    } catch (e) { return null; }
+  }
+  function hasStaleBackup() {
+    try { return !!global.localStorage.getItem(STALE_BACKUP_KEY); } catch (e) { return false; }
+  }
+  function clearStaleBackup() {
+    try { global.localStorage.removeItem(STALE_BACKUP_KEY); } catch (e) { /* noop */ }
+  }
+
   // The public site always shows the PUBLISHED data, never a local draft, so
   // what you see here is exactly what every visitor sees. (Add ?preview=1 to
   // preview an unpublished local working copy.)
@@ -405,6 +469,11 @@
     clearLocal: clearLocal,
     fetchPublished: fetchPublished,
     loadPublic: loadPublic,
+    loadAdmin: loadAdmin,
+    contentSignature: contentSignature,
+    restoreStaleBackup: restoreStaleBackup,
+    hasStaleBackup: hasStaleBackup,
+    clearStaleBackup: clearStaleBackup,
     buildBracket: buildBracket,
     buildClassification: buildClassification,
     roundName: roundName,
