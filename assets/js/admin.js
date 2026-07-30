@@ -82,14 +82,73 @@
   }
   function save(banner) {
     A.saveLocal(state.data);
-    if (banner !== false) flash('Saved to this browser. Use Export JSON to publish.');
+    if (banner !== false) flash('Saved in this browser. Click Save & Publish to go live.');
   }
-  function flash(msg) {
+  function flash(msg, kind, sticky) {
     var b = document.getElementById('statusBanner');
     b.textContent = msg;
-    b.className = 'status-banner ok show';
+    b.className = 'status-banner show ' + (kind === 'error' ? 'err' : 'ok');
     clearTimeout(flash._t);
-    flash._t = setTimeout(function () { b.className = 'status-banner'; }, 2600);
+    if (!sticky) flash._t = setTimeout(function () { b.className = 'status-banner'; }, 3200);
+  }
+
+  /* ---------- Publish to the live site ---------- */
+  var PUBLISH_KEY_STORE = 'ahsaa_publish_key';
+
+  function publish() {
+    var btn = document.getElementById('publishBtn');
+    var key = localStorage.getItem(PUBLISH_KEY_STORE);
+    if (!key) {
+      key = window.prompt('Publish key\n\nThis is the PUBLISH_KEY you set in the Vercel project settings. It is stored in this browser so you only enter it once.');
+      if (!key) return;
+      key = key.trim();
+      if (!key) return;
+    }
+
+    state.data.meta = state.data.meta || {};
+    state.data.meta.updated = new Date().toISOString();
+    A.saveLocal(state.data);
+
+    btn.disabled = true;
+    var label = btn.textContent;
+    btn.textContent = 'Publishing…';
+    flash('Publishing to the live site…', 'ok', true);
+
+    fetch('/api/publish', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ key: key, data: state.data }),
+    })
+      .then(function (r) {
+        return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok, status: r.status, body: j }; });
+      })
+      .then(function (out) {
+        if (out.ok && out.body.ok) {
+          localStorage.setItem(PUBLISH_KEY_STORE, key);
+          flash('Published' + (out.body.commit ? ' (' + out.body.commit + ')' : '') + '. The live site updates in about a minute.');
+          return;
+        }
+        if (out.status === 401) {
+          localStorage.removeItem(PUBLISH_KEY_STORE);
+          flash('Wrong publish key — nothing was published. Click Save & Publish to try again.', 'error', true);
+          return;
+        }
+        var msg = (out.body && out.body.error) || ('Publish failed (HTTP ' + out.status + ').');
+        if (out.body && out.body.hint) msg += ' ' + out.body.hint;
+        flash(msg, 'error', true);
+      })
+      .catch(function (e) {
+        flash('Could not reach the publish endpoint: ' + e.message + '. Your edits are still saved in this browser.', 'error', true);
+      })
+      .then(function () {
+        btn.disabled = false;
+        btn.textContent = label;
+      });
+  }
+
+  function forgetKey() {
+    localStorage.removeItem(PUBLISH_KEY_STORE);
+    flash('Publish key forgotten. You will be asked for it next time you publish.');
   }
 
   /* ---------- Export / Import ---------- */
@@ -102,7 +161,7 @@
     a.href = url; a.download = 'data.json';
     document.body.appendChild(a); a.click(); document.body.removeChild(a);
     URL.revokeObjectURL(url);
-    flash('Exported data.json — commit it to data/data.json to publish.');
+    flash('Exported data.json as a backup. Use Save & Publish to go live.');
   }
   function copyJSON() {
     var txt = JSON.stringify(state.data, null, 2);
@@ -639,6 +698,8 @@
     document.getElementById('loginEmail').addEventListener('keydown', function (e) { if (e.key === 'Enter') document.getElementById('loginPass').focus(); });
     document.getElementById('logoutBtn').onclick = logout;
 
+    document.getElementById('publishBtn').onclick = publish;
+    document.getElementById('forgetKeyBtn').onclick = forgetKey;
     document.getElementById('exportBtn').onclick = exportJSON;
     document.getElementById('copyBtn').onclick = copyJSON;
     document.getElementById('resetBtn').onclick = resetToPublished;

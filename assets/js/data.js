@@ -275,10 +275,15 @@
       .catch(() => defaultData());
   }
 
-  // Public site load order: localStorage working copy (if any) -> published.
+  // The public site always shows the PUBLISHED data, never a local draft, so
+  // what you see here is exactly what every visitor sees. (Add ?preview=1 to
+  // preview an unpublished local working copy.)
   function loadPublic() {
-    const local = loadLocal();
-    if (local) return Promise.resolve(local);
+    const wantPreview = /[?&]preview=1\b/.test(global.location ? global.location.search : '');
+    if (wantPreview) {
+      const local = loadLocal();
+      if (local) return Promise.resolve(local);
+    }
     return fetchPublished();
   }
 

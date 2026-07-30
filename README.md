@@ -1,9 +1,10 @@
-# AHSAA Football Playoff Brackets
+# ALPreps Bracketology
 
-A static site (GitHub Pages) that houses brackets and region standings for the
-AHSAA high school football playoffs, with a full browser-based admin suite.
+Brackets and region standings for the AHSAA high school football playoffs, with a
+browser-based admin suite and one-click publishing. Hosted on Vercel.
 
-Live site: **https://jlflux.github.io/** · Admin: **https://jlflux.github.io/admin.html**
+Live site: **https://jlflux-github-io.vercel.app/**
+Admin: **/admin.html** (intentionally not linked from the public site)
 
 ## Features
 
@@ -50,26 +51,47 @@ Login: `jl@fluxmedia.org` / `alpreps2026`.
 
 ### Publishing changes
 
-GitHub Pages is a **static host** — there is no server or database, so the admin
-saves your working edits in the browser (`localStorage`). To publish to the live
-site:
+Edits auto-save in your browser as you type. Click **🚀 Save & Publish** to push
+them live for everyone — that's the whole workflow.
 
-1. Make your edits in the admin (they auto-save locally as you type).
-2. Click **Export JSON** (downloads `data.json`).
-3. Commit that file to **`data/data.json`** in this repo.
+Under the hood the button posts to `/api/publish` (a Vercel serverless function),
+which commits `data/data.json` to this repo; Vercel then redeploys automatically,
+so the change is live in about a minute. The public site always reads the
+published `data/data.json`, never your local draft.
 
-The public site loads `data/data.json`. **Reset to published** discards local
-edits and reloads the committed file. **Import JSON** loads a `data.json` back
-into the editor (e.g. on another computer).
+The first time you publish you'll be asked for your **publish key**; it's
+remembered in that browser afterwards (**Forget publish key** clears it).
 
-> The login is a convenience gate only. Because the site is fully static, it is
-> not server-enforced security — anything published in `data/data.json` is public.
+#### One-time Vercel setup
+
+In the Vercel project → **Settings → Environment Variables**, add:
+
+| Name | Value |
+|------|-------|
+| `PUBLISH_KEY` | Any strong secret you choose — this is what the admin asks for |
+| `GITHUB_TOKEN` | A GitHub fine-grained token with **Contents: Read and write** on this repo |
+
+Optional overrides: `GITHUB_REPO` (default `jlflux/jlflux.github.io`) and
+`GITHUB_BRANCH` (default `main`). Redeploy once after adding them.
+
+The `GITHUB_TOKEN` stays on Vercel's server and is never sent to the browser.
+
+#### Backup / manual tools
+
+**Export JSON** downloads a backup, **Import JSON** loads one back in, and
+**Reset to published** discards local edits and reloads what's live. To preview an
+unpublished draft on the public page, append `?preview=1` to the URL.
+
+> The admin login is a convenience gate, not server-enforced security. Publishing
+> *is* protected server-side by `PUBLISH_KEY`. Anything published in
+> `data/data.json` is public.
 
 ## Project structure
 
 ```
 index.html            Public site (Brackets + Region Standings tabs)
-admin.html            Admin suite
+admin.html            Admin suite (not linked from the public site)
+api/publish.js        Serverless function: commits data.json to publish
 assets/css/style.css  Styles, theming, responsive layout
 assets/js/data.js     Data model, bracket templates, tree builder, resolution
 assets/js/public.js   Public rendering

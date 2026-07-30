@@ -48,13 +48,18 @@
     <div class="panel" style="margin-bottom:18px">
       <div class="toolbar">
         <strong style="font-size:1.05rem">Publish</strong>
-        <span class="grow hint">Changes auto-save in this browser. To publish to the live site, Export and commit the file as <code>data/data.json</code>.</span>
-        <button class="btn btn-primary btn-sm" id="exportBtn" type="button">⬇ Export JSON</button>
+        <span class="grow hint">Changes auto-save in this browser only. Click <strong>Save &amp; Publish</strong> to push them to the live site for everyone.</span>
+        <button class="btn btn-primary" id="publishBtn" type="button">🚀 Save &amp; Publish</button>
+      </div>
+      <div class="toolbar" style="margin-top:10px">
+        <span class="grow hint">Backup / manual tools</span>
+        <button class="btn btn-sm" id="exportBtn" type="button">⬇ Export JSON</button>
         <button class="btn btn-sm" id="copyBtn" type="button">Copy JSON</button>
         <label class="btn btn-sm" style="margin:0">Import JSON
           <input type="file" id="importInput" accept="application/json" style="display:none" />
         </label>
         <button class="btn btn-sm btn-danger" id="resetBtn" type="button">Reset to published</button>
+        <button class="btn btn-sm" id="forgetKeyBtn" type="button">Forget publish key</button>
       </div>
     </div>
 

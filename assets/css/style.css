@@ -610,7 +610,8 @@ input:focus, textarea:focus, select:focus { outline: 2px solid var(--red); outli
   display: none;
 }
 .status-banner.show { display: block; }
-.status-banner.ok { background: var(--red-soft); color: var(--red); }
+.status-banner.ok { background: var(--qualify-bg); color: var(--qualify-seed); }
+.status-banner.err { background: var(--red-soft); color: var(--red); }
 
 .login-wrap { max-width: 380px; margin: 60px auto; }
 .login-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); padding: 26px; }
