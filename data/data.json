@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-30T01:55:39.975Z"
+    "updated": "2026-07-30T02:13:33.740Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -306,7 +306,9 @@
             "note": "Eastern time"
           },
           "r1g2": {},
-          "r1g3": {},
+          "r1g3": {
+            "home": "top"
+          },
           "r1g4": {},
           "r1g5": {},
           "r1g6": {},
@@ -319,14 +321,30 @@
           "r1g13": {},
           "r1g14": {},
           "r1g15": {},
-          "r2g0": {},
-          "r2g1": {},
-          "r2g2": {},
-          "r2g3": {},
-          "r2g4": {},
-          "r2g5": {},
-          "r2g6": {},
-          "r2g7": {},
+          "r2g0": {
+            "home": "top"
+          },
+          "r2g1": {
+            "home": "top"
+          },
+          "r2g2": {
+            "home": "top"
+          },
+          "r2g3": {
+            "home": "top"
+          },
+          "r2g4": {
+            "home": "top"
+          },
+          "r2g5": {
+            "home": "top"
+          },
+          "r2g6": {
+            "home": "top"
+          },
+          "r2g7": {
+            "home": "top"
+          },
           "r3g0": {},
           "r3g1": {},
           "r3g2": {},
@@ -371,21 +389,21 @@
           },
           null,
           {
-            "region": "2",
+            "region": "4",
             "place": 4
           },
           {
-            "region": "2",
+            "region": "3",
             "place": 5
           },
           {
             "region": "1",
-            "place": 4
+            "place": 2
           },
           null,
           {
-            "region": "1",
-            "place": 1
+            "region": "2",
+            "place": 3
           },
           {
             "region": "1",
@@ -398,32 +416,32 @@
           null,
           {
             "region": "1",
-            "place": 2
-          },
-          {
-            "region": "3",
-            "place": 5
-          },
-          {
-            "region": "3",
-            "place": 2
-          },
-          null,
-          {
-            "region": "3",
-            "place": 3
-          },
-          {
-            "region": "3",
-            "place": 6
+            "place": 4
           },
           {
             "region": "2",
-            "place": 3
+            "place": 5
+          },
+          {
+            "region": "4",
+            "place": 2
           },
           null,
           {
+            "region": "3",
+            "place": 3
+          },
+          {
             "region": "4",
+            "place": 6
+          },
+          {
+            "region": "1",
+            "place": 1
+          },
+          null,
+          {
+            "region": "2",
             "place": 4
           },
           {
@@ -431,7 +449,7 @@
             "place": 5
           },
           {
-            "region": "4",
+            "region": "3",
             "place": 2
           },
           null,
@@ -440,7 +458,7 @@
             "place": 3
           },
           {
-            "region": "4",
+            "region": "3",
             "place": 6
           }
         ]
