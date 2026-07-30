@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-30T16:57:11.924Z"
+    "updated": "2026-07-30T16:58:16.901Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -91,16 +91,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_00ag",
-              "name": "Opelika",
+              "id": "tm_00aa",
+              "name": "Auburn",
               "overall": "",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_00aa",
-              "name": "Auburn",
+              "id": "tm_00ag",
+              "name": "Opelika",
               "overall": "",
               "region": "",
               "rating": "",
