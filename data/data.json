@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-30T16:56:49.394Z"
+    "updated": "2026-07-30T16:57:11.924Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -83,14 +83,6 @@
           "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_00aa",
-              "name": "Auburn",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_00ac",
               "name": "Central-Phenix City",
               "overall": "",
@@ -101,6 +93,14 @@
             {
               "id": "tm_00ag",
               "name": "Opelika",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00aa",
+              "name": "Auburn",
               "overall": "",
               "region": "",
               "rating": "",
