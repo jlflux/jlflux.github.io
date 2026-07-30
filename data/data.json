@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-30T17:04:29.810Z"
+    "updated": "2026-07-30T17:06:45.888Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -1206,11 +1206,19 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_006j",
-              "name": "BC Rain",
+              "id": "tm_006p",
+              "name": "Williamson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006o",
+              "name": "Vigor",
               "overall": "",
               "region": "",
               "rating": "",
@@ -1233,6 +1241,14 @@
               "status": "medium"
             },
             {
+              "id": "tm_006j",
+              "name": "BC Rain",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
               "id": "tm_006m",
               "name": "Orange Beach",
               "overall": "",
@@ -1247,56 +1263,16 @@
               "region": "",
               "rating": "",
               "status": "medium"
-            },
-            {
-              "id": "tm_006o",
-              "name": "Vigor",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006p",
-              "name": "Williamson",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
             }
           ]
         },
         "2": {
           "name": "Region 2",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
               "id": "tm_006q",
               "name": "Andalusia",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006r",
-              "name": "Ashford",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006s",
-              "name": "Carroll",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006t",
-              "name": "Dale County",
               "overall": "",
               "region": "",
               "rating": "",
@@ -1313,6 +1289,30 @@
             {
               "id": "tm_006v",
               "name": "Headland",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006s",
+              "name": "Carroll",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006r",
+              "name": "Ashford",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006t",
+              "name": "Dale County",
               "overall": "",
               "region": "",
               "rating": "",
@@ -1338,7 +1338,7 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
               "id": "tm_006y",
@@ -1408,7 +1408,7 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
               "id": "tm_0076",
@@ -1478,7 +1478,7 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
               "id": "tm_007e",
@@ -1548,7 +1548,7 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
               "id": "tm_007m",
@@ -1626,7 +1626,7 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
               "id": "tm_007v",
