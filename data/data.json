@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-30T02:13:33.740Z"
+    "updated": "2026-07-30T02:23:31.489Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -10,19 +10,27 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_00a2",
-              "name": "Alma Bryant",
+              "id": "tm_00a3",
+              "name": "Baker",
               "overall": "",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_00a3",
-              "name": "Baker",
+              "id": "tm_00a8",
+              "name": "Mary Montgomery",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a6",
+              "name": "Fairhope",
               "overall": "",
               "region": "",
               "rating": "",
@@ -45,24 +53,8 @@
               "status": "medium"
             },
             {
-              "id": "tm_00a6",
-              "name": "Fairhope",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_00a7",
               "name": "Foley",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00a8",
-              "name": "Mary Montgomery",
               "overall": "",
               "region": "",
               "rating": "",
@@ -75,13 +67,29 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_00a2",
+              "name": "Alma Bryant",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
         "2": {
           "name": "Region 2",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
+            {
+              "id": "tm_00ac",
+              "name": "Central-Phenix City",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
             {
               "id": "tm_00aa",
               "name": "Auburn",
@@ -91,16 +99,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_00ab",
-              "name": "Carver-Montgomery",
+              "id": "tm_00ag",
+              "name": "Opelika",
               "overall": "",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_00ac",
-              "name": "Central-Phenix City",
+              "id": "tm_00ab",
+              "name": "Carver-Montgomery",
               "overall": "",
               "region": "",
               "rating": "",
@@ -123,24 +131,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_00af",
-              "name": "JAG",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00ag",
-              "name": "Opelika",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_00ah",
               "name": "Smiths Station",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00af",
+              "name": "JAG",
               "overall": "",
               "region": "",
               "rating": "",
@@ -150,7 +150,7 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "Thompson and Hewitt-Trussville play this week to determine first.",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
               "id": "tm_00an",
@@ -158,7 +158,7 @@
               "overall": "9-1",
               "region": "6-1",
               "rating": "",
-              "status": "high"
+              "status": "medium"
             },
             {
               "id": "tm_00ai",
@@ -166,15 +166,7 @@
               "overall": "",
               "region": "",
               "rating": "",
-              "status": "clinched"
-            },
-            {
-              "id": "tm_00aj",
-              "name": "Hoover",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "low"
+              "status": "medium"
             },
             {
               "id": "tm_00ap",
@@ -185,8 +177,8 @@
               "status": "medium"
             },
             {
-              "id": "tm_00am",
-              "name": "Spain Park",
+              "id": "tm_00aj",
+              "name": "Hoover",
               "overall": "",
               "region": "",
               "rating": "",
@@ -195,6 +187,14 @@
             {
               "id": "tm_00al",
               "name": "Prattville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00am",
+              "name": "Spain Park",
               "overall": "",
               "region": "",
               "rating": "",
@@ -214,17 +214,33 @@
               "overall": "",
               "region": "",
               "rating": "",
-              "status": "out"
+              "status": "medium"
             }
           ]
         },
         "4": {
           "name": "Region 4",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_00aq",
-              "name": "Bob Jones",
+              "id": "tm_00ax",
+              "name": "Sparkman",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00aw",
+              "name": "James Clemens",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00as",
+              "name": "Gadsden City",
               "overall": "",
               "region": "",
               "rating": "",
@@ -239,8 +255,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_00as",
-              "name": "Gadsden City",
+              "id": "tm_00aq",
+              "name": "Bob Jones",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00av",
+              "name": "Huntsville",
               "overall": "",
               "region": "",
               "rating": "",
@@ -257,30 +281,6 @@
             {
               "id": "tm_00au",
               "name": "Hazel Green",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00av",
-              "name": "Huntsville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00aw",
-              "name": "James Clemens",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00ax",
-              "name": "Sparkman",
               "overall": "",
               "region": "",
               "rating": "",
