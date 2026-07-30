@@ -2,9 +2,9 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-06-29T14:48:27.710Z"
+    "updated": "2026-07-30T01:55:39.975Z"
   },
-  "newsNote": "",
+  "newsNote": "test",
   "classifications": {
     "6A": {
       "regions": {
@@ -150,15 +150,23 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "",
+          "note": "Thompson and Hewitt-Trussville play this week to determine first.",
           "teams": [
+            {
+              "id": "tm_00an",
+              "name": "Thompson",
+              "overall": "9-1",
+              "region": "6-1",
+              "rating": "",
+              "status": "high"
+            },
             {
               "id": "tm_00ai",
               "name": "Hewitt-Trussville",
               "overall": "",
               "region": "",
               "rating": "",
-              "status": "medium"
+              "status": "clinched"
             },
             {
               "id": "tm_00aj",
@@ -166,19 +174,11 @@
               "overall": "",
               "region": "",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
-              "id": "tm_00ak",
-              "name": "Oak Mountain",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00al",
-              "name": "Prattville",
+              "id": "tm_00ap",
+              "name": "Vestavia Hills",
               "overall": "",
               "region": "",
               "rating": "",
@@ -193,8 +193,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_00an",
-              "name": "Thompson",
+              "id": "tm_00al",
+              "name": "Prattville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ak",
+              "name": "Oak Mountain",
               "overall": "",
               "region": "",
               "rating": "",
@@ -206,15 +214,7 @@
               "overall": "",
               "region": "",
               "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00ap",
-              "name": "Vestavia Hills",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
+              "status": "out"
             }
           ]
         },
@@ -296,46 +296,60 @@
           "3",
           "4"
         ],
-        "results": {},
-        "projected": {},
+        "results": {
+          "r1g0": {},
+          "r1g1": {
+            "home": "top",
+            "date": "Fri, Nov 7",
+            "time": "7:00 pm",
+            "location": "Davidson Stadium",
+            "note": "Eastern time"
+          },
+          "r1g2": {},
+          "r1g3": {},
+          "r1g4": {},
+          "r1g5": {},
+          "r1g6": {},
+          "r1g7": {},
+          "r1g8": {},
+          "r1g9": {},
+          "r1g10": {},
+          "r1g11": {},
+          "r1g12": {},
+          "r1g13": {},
+          "r1g14": {},
+          "r1g15": {},
+          "r2g0": {},
+          "r2g1": {},
+          "r2g2": {},
+          "r2g3": {},
+          "r2g4": {},
+          "r2g5": {},
+          "r2g6": {},
+          "r2g7": {},
+          "r3g0": {},
+          "r3g1": {},
+          "r3g2": {},
+          "r3g3": {},
+          "r4g0": {},
+          "r4g1": {},
+          "r5g0": {}
+        },
+        "projected": {
+          "r2g0": "top"
+        },
         "slots": [
           {
-            "region": "1",
+            "region": "4",
             "place": 1
           },
           null,
           {
-            "region": "1",
+            "region": "3",
             "place": 4
           },
           {
-            "region": "1",
-            "place": 5
-          },
-          {
-            "region": "1",
-            "place": 2
-          },
-          null,
-          {
-            "region": "1",
-            "place": 3
-          },
-          {
-            "region": "1",
-            "place": 6
-          },
-          {
-            "region": "2",
-            "place": 1
-          },
-          null,
-          {
-            "region": "2",
-            "place": 4
-          },
-          {
-            "region": "2",
+            "region": "4",
             "place": 5
           },
           {
@@ -344,7 +358,7 @@
           },
           null,
           {
-            "region": "2",
+            "region": "1",
             "place": 3
           },
           {
@@ -357,8 +371,34 @@
           },
           null,
           {
-            "region": "3",
+            "region": "2",
             "place": 4
+          },
+          {
+            "region": "2",
+            "place": 5
+          },
+          {
+            "region": "1",
+            "place": 4
+          },
+          null,
+          {
+            "region": "1",
+            "place": 1
+          },
+          {
+            "region": "1",
+            "place": 6
+          },
+          {
+            "region": "2",
+            "place": 1
+          },
+          null,
+          {
+            "region": "1",
+            "place": 2
           },
           {
             "region": "3",
@@ -378,8 +418,8 @@
             "place": 6
           },
           {
-            "region": "4",
-            "place": 1
+            "region": "2",
+            "place": 3
           },
           null,
           {
@@ -387,7 +427,7 @@
             "place": 4
           },
           {
-            "region": "4",
+            "region": "1",
             "place": 5
           },
           {
@@ -964,19 +1004,73 @@
       "bracket": {
         "alignment": [
           "1",
+          "4",
           "2",
           "3",
-          "4",
           "5",
           "6",
           "7",
           "8"
         ],
-        "results": {},
+        "results": {
+          "r1g0": {
+            "winner": "top"
+          },
+          "r1g1": {},
+          "r1g2": {},
+          "r1g3": {},
+          "r1g4": {},
+          "r1g5": {},
+          "r1g6": {},
+          "r1g7": {},
+          "r1g8": {},
+          "r1g9": {},
+          "r1g10": {},
+          "r1g11": {},
+          "r1g12": {},
+          "r1g13": {},
+          "r1g14": {},
+          "r1g15": {},
+          "r2g0": {},
+          "r2g1": {},
+          "r2g2": {},
+          "r2g3": {
+            "winner": "bottom"
+          },
+          "r2g4": {},
+          "r2g5": {},
+          "r2g6": {},
+          "r2g7": {},
+          "r3g0": {},
+          "r3g1": {
+            "winner": "bottom"
+          },
+          "r3g2": {},
+          "r3g3": {},
+          "r4g0": {},
+          "r4g1": {},
+          "r5g0": {}
+        },
         "projected": {},
         "slots": [
           {
+            "region": "2",
+            "place": 1
+          },
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          {
             "region": "1",
+            "place": 3
+          },
+          {
+            "region": "3",
             "place": 1
           },
           {
@@ -985,19 +1079,15 @@
           },
           {
             "region": "1",
-            "place": 3
-          },
-          {
-            "region": "2",
             "place": 2
           },
           {
-            "region": "1",
-            "place": 2
+            "region": "4",
+            "place": 3
           },
           {
-            "region": "2",
-            "place": 3
+            "region": "4",
+            "place": 1
           },
           {
             "region": "1",
@@ -1005,10 +1095,14 @@
           },
           {
             "region": "2",
-            "place": 1
+            "place": 2
           },
           {
             "region": "3",
+            "place": 3
+          },
+          {
+            "region": "1",
             "place": 1
           },
           {
@@ -1017,30 +1111,30 @@
           },
           {
             "region": "3",
-            "place": 3
-          },
-          {
-            "region": "4",
             "place": 2
           },
           {
-            "region": "3",
-            "place": 2
-          },
-          {
-            "region": "4",
+            "region": "2",
             "place": 3
           },
           {
-            "region": "3",
-            "place": 4
-          },
-          {
-            "region": "4",
+            "region": "6",
             "place": 1
           },
           {
+            "region": "7",
+            "place": 4
+          },
+          {
+            "region": "8",
+            "place": 2
+          },
+          {
             "region": "5",
+            "place": 3
+          },
+          {
+            "region": "7",
             "place": 1
           },
           {
@@ -1049,19 +1143,15 @@
           },
           {
             "region": "5",
-            "place": 3
-          },
-          {
-            "region": "6",
             "place": 2
           },
           {
-            "region": "5",
-            "place": 2
+            "region": "8",
+            "place": 3
           },
           {
-            "region": "6",
-            "place": 3
+            "region": "8",
+            "place": 1
           },
           {
             "region": "5",
@@ -1069,10 +1159,14 @@
           },
           {
             "region": "6",
-            "place": 1
+            "place": 2
           },
           {
             "region": "7",
+            "place": 3
+          },
+          {
+            "region": "5",
             "place": 1
           },
           {
@@ -1081,27 +1175,11 @@
           },
           {
             "region": "7",
-            "place": 3
-          },
-          {
-            "region": "8",
             "place": 2
           },
           {
-            "region": "7",
-            "place": 2
-          },
-          {
-            "region": "8",
+            "region": "6",
             "place": 3
-          },
-          {
-            "region": "7",
-            "place": 4
-          },
-          {
-            "region": "8",
-            "place": 1
           }
         ]
       }
