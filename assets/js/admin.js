@@ -10,8 +10,8 @@
   'use strict';
   var A = window.AHSAA;
 
-  var ADMIN_EMAIL = 'jl@fluxmedia.org';
-  var ADMIN_PASSWORD = 'alpreps2026';
+  // Credentials are NOT stored here — the password is checked server-side by
+  // /api/login, which returns a signed session token we keep for a while.
   var SESSION_KEY = 'ahsaa_admin_session';
 
   var state = {
@@ -46,32 +46,81 @@
     return n;
   }
 
-  /* ---------- Auth ---------- */
-  function isAuthed() { return sessionStorage.getItem(SESSION_KEY) === '1'; }
-  function showLogin() {
+  /* ---------- Auth (verified server-side by /api/login) ---------- */
+  function storedSession() {
+    try {
+      var raw = localStorage.getItem(SESSION_KEY);
+      if (!raw) return null;
+      var s = JSON.parse(raw);
+      if (!s || !s.token || !s.expiresAt || s.expiresAt <= Date.now()) return null;
+      return s;
+    } catch (e) { return null; }
+  }
+  function sessionToken() {
+    var s = storedSession();
+    return s ? s.token : null;
+  }
+  function isAuthed() { return !!storedSession(); }
+
+  function showLogin(message) {
     document.getElementById('loginView').style.display = '';
     document.getElementById('adminView').style.display = 'none';
+    document.getElementById('logoutBtn').style.display = 'none';
+    document.getElementById('loginError').textContent = message || '';
   }
   function showAdmin() {
     document.getElementById('loginView').style.display = 'none';
     document.getElementById('adminView').style.display = '';
+    document.getElementById('logoutBtn').style.display = '';
     loadAndRender();
   }
+
   function attemptLogin() {
-    var email = document.getElementById('loginEmail').value.trim().toLowerCase();
+    var email = document.getElementById('loginEmail').value.trim();
     var pass = document.getElementById('loginPass').value;
     var err = document.getElementById('loginError');
-    if (email === ADMIN_EMAIL && pass === ADMIN_PASSWORD) {
-      sessionStorage.setItem(SESSION_KEY, '1');
-      err.textContent = '';
-      showAdmin();
-    } else {
-      err.textContent = 'Incorrect email or password.';
-    }
+    var btn = document.getElementById('loginBtn');
+
+    if (!email || !pass) { err.textContent = 'Enter your email and password.'; return; }
+
+    btn.disabled = true;
+    var label = btn.textContent;
+    btn.textContent = 'Signing in…';
+    err.textContent = '';
+
+    fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email, password: pass }),
+    })
+      .then(function (r) {
+        return r.json().catch(function () { return {}; })
+          .then(function (j) { return { ok: r.ok, status: r.status, body: j }; });
+      })
+      .then(function (out) {
+        if (out.ok && out.body.ok && out.body.token) {
+          localStorage.setItem(SESSION_KEY, JSON.stringify({
+            token: out.body.token,
+            expiresAt: out.body.expiresAt,
+          }));
+          document.getElementById('loginPass').value = '';
+          showAdmin();
+          return;
+        }
+        err.textContent = (out.body && out.body.error) || ('Sign in failed (HTTP ' + out.status + ').');
+      })
+      .catch(function () {
+        err.textContent = 'Could not reach the sign-in service. Check your connection (the admin needs the deployed site, not a local file).';
+      })
+      .then(function () {
+        btn.disabled = false;
+        btn.textContent = label;
+      });
   }
+
   function logout() {
-    sessionStorage.removeItem(SESSION_KEY);
-    showLogin();
+    localStorage.removeItem(SESSION_KEY);
+    showLogin('Signed out.');
   }
 
   /* ---------- Data load / save ---------- */
@@ -93,16 +142,12 @@
   }
 
   /* ---------- Publish to the live site ---------- */
-  var PUBLISH_KEY_STORE = 'ahsaa_publish_key';
-
   function publish() {
     var btn = document.getElementById('publishBtn');
-    var key = localStorage.getItem(PUBLISH_KEY_STORE);
-    if (!key) {
-      key = window.prompt('Publish key\n\nThis is the PUBLISH_KEY you set in the Vercel project settings. It is stored in this browser so you only enter it once.');
-      if (!key) return;
-      key = key.trim();
-      if (!key) return;
+    var token = sessionToken();
+    if (!token) {
+      showLogin('Your session expired. Please sign in again — your edits are still saved in this browser.');
+      return;
     }
 
     state.data.meta = state.data.meta || {};
@@ -117,20 +162,19 @@
     fetch('/api/publish', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ key: key, data: state.data }),
+      body: JSON.stringify({ token: token, data: state.data }),
     })
       .then(function (r) {
         return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok, status: r.status, body: j }; });
       })
       .then(function (out) {
         if (out.ok && out.body.ok) {
-          localStorage.setItem(PUBLISH_KEY_STORE, key);
           flash('Published' + (out.body.commit ? ' (' + out.body.commit + ')' : '') + '. The live site updates in about a minute.');
           return;
         }
         if (out.status === 401) {
-          localStorage.removeItem(PUBLISH_KEY_STORE);
-          flash('Wrong publish key — nothing was published. Click Save & Publish to try again.', 'error', true);
+          localStorage.removeItem(SESSION_KEY);
+          showLogin((out.body && out.body.error) || 'Please sign in again.');
           return;
         }
         var msg = (out.body && out.body.error) || ('Publish failed (HTTP ' + out.status + ').');
@@ -144,11 +188,6 @@
         btn.disabled = false;
         btn.textContent = label;
       });
-  }
-
-  function forgetKey() {
-    localStorage.removeItem(PUBLISH_KEY_STORE);
-    flash('Publish key forgotten. You will be asked for it next time you publish.');
   }
 
   /* ---------- Export / Import ---------- */
@@ -699,7 +738,6 @@
     document.getElementById('logoutBtn').onclick = logout;
 
     document.getElementById('publishBtn').onclick = publish;
-    document.getElementById('forgetKeyBtn').onclick = forgetKey;
     document.getElementById('exportBtn').onclick = exportJSON;
     document.getElementById('copyBtn').onclick = copyJSON;
     document.getElementById('resetBtn').onclick = resetToPublished;
