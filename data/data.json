@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-30T16:58:16.901Z"
+    "updated": "2026-07-30T17:04:29.810Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -468,19 +468,27 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_008b",
-              "name": "Baldwin County",
+              "id": "tm_008g",
+              "name": "Saraland",
               "overall": "",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_008c",
-              "name": "Elberta",
+              "id": "tm_008i",
+              "name": "Theodore",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008h",
+              "name": "Spanish Fort",
               "overall": "",
               "region": "",
               "rating": "",
@@ -489,6 +497,14 @@
             {
               "id": "tm_008d",
               "name": "Gulf Shores",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008b",
+              "name": "Baldwin County",
               "overall": "",
               "region": "",
               "rating": "",
@@ -511,24 +527,8 @@
               "status": "medium"
             },
             {
-              "id": "tm_008g",
-              "name": "Saraland",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008h",
-              "name": "Spanish Fort",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008i",
-              "name": "Theodore",
+              "id": "tm_008c",
+              "name": "Elberta",
               "overall": "",
               "region": "",
               "rating": "",
@@ -538,32 +538,8 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
-            {
-              "id": "tm_008j",
-              "name": "Benjamin Russell",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008k",
-              "name": "Park Crossing",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008l",
-              "name": "Percy Julian",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_008m",
               "name": "Pike Road",
@@ -573,8 +549,8 @@
               "status": "medium"
             },
             {
-              "id": "tm_008n",
-              "name": "Rehobeth",
+              "id": "tm_008j",
+              "name": "Benjamin Russell",
               "overall": "",
               "region": "",
               "rating": "",
@@ -603,37 +579,37 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_008n",
+              "name": "Rehobeth",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008l",
+              "name": "Percy Julian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008k",
+              "name": "Park Crossing",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
         "3": {
           "name": "Region 3",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
-            {
-              "id": "tm_008r",
-              "name": "Bessemer City",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008s",
-              "name": "Brookwood",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008t",
-              "name": "Central-Tuscaloosa",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_008u",
               "name": "Hillcrest-Tuscaloosa",
@@ -651,6 +627,14 @@
               "status": "medium"
             },
             {
+              "id": "tm_008r",
+              "name": "Bessemer City",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
               "id": "tm_008w",
               "name": "McAdory",
               "overall": "",
@@ -659,8 +643,24 @@
               "status": "medium"
             },
             {
+              "id": "tm_008t",
+              "name": "Central-Tuscaloosa",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
               "id": "tm_008x",
               "name": "Northridge",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008s",
+              "name": "Brookwood",
               "overall": "",
               "region": "",
               "rating": "",
@@ -678,35 +678,11 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_008z",
-              "name": "Calera",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0090",
-              "name": "Chelsea",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0091",
-              "name": "Chilton County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0092",
-              "name": "Helena",
+              "id": "tm_0094",
+              "name": "Mountain Brook",
               "overall": "",
               "region": "",
               "rating": "",
@@ -721,8 +697,8 @@
               "status": "medium"
             },
             {
-              "id": "tm_0094",
-              "name": "Mountain Brook",
+              "id": "tm_0092",
+              "name": "Helena",
               "overall": "",
               "region": "",
               "rating": "",
@@ -743,40 +719,40 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_0090",
+              "name": "Chelsea",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008z",
+              "name": "Calera",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0091",
+              "name": "Chilton County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
         "5": {
           "name": "Region 5",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
               "id": "tm_0097",
               "name": "Parker",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0098",
-              "name": "Cullman",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0099",
-              "name": "Gardendale",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009a",
-              "name": "Huffman",
               "overall": "",
               "region": "",
               "rating": "",
@@ -791,16 +767,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_009c",
-              "name": "Minor",
+              "id": "tm_009d",
+              "name": "Mortimer Jordan",
               "overall": "",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_009d",
-              "name": "Mortimer Jordan",
+              "id": "tm_0098",
+              "name": "Cullman",
               "overall": "",
               "region": "",
               "rating": "",
@@ -813,12 +789,36 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_009c",
+              "name": "Minor",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009a",
+              "name": "Huffman",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0099",
+              "name": "Gardendale",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
         "6": {
           "name": "Region 6",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
               "id": "tm_009f",
@@ -853,6 +853,14 @@
               "status": "medium"
             },
             {
+              "id": "tm_009l",
+              "name": "St. Clair County",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
               "id": "tm_009j",
               "name": "Southside-Gadsden",
               "overall": "",
@@ -867,24 +875,24 @@
               "region": "",
               "rating": "",
               "status": "medium"
-            },
-            {
-              "id": "tm_009l",
-              "name": "St. Clair County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
             }
           ]
         },
         "7": {
           "name": "Region 7",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_009m",
-              "name": "Athens",
+              "id": "tm_009s",
+              "name": "Muscle Shoals",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009r",
+              "name": "Hartselle",
               "overall": "",
               "region": "",
               "rating": "",
@@ -893,6 +901,30 @@
             {
               "id": "tm_009n",
               "name": "Austin",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009q",
+              "name": "Florence",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009t",
+              "name": "Russellville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009m",
+              "name": "Athens",
               "overall": "",
               "region": "",
               "rating": "",
@@ -913,56 +945,16 @@
               "region": "",
               "rating": "",
               "status": "medium"
-            },
-            {
-              "id": "tm_009q",
-              "name": "Florence",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009r",
-              "name": "Hartselle",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009s",
-              "name": "Muscle Shoals",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009t",
-              "name": "Russellville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
             }
           ]
         },
         "8": {
           "name": "Region 8",
-          "note": "",
+          "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_009u",
-              "name": "Albertville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009v",
-              "name": "Arab",
+              "id": "tm_009z",
+              "name": "Fort Payne",
               "overall": "",
               "region": "",
               "rating": "",
@@ -977,24 +969,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_009x",
-              "name": "Columbia",
+              "id": "tm_009v",
+              "name": "Arab",
               "overall": "",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_009y",
-              "name": "Douglas",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009z",
-              "name": "Fort Payne",
+              "id": "tm_00a1",
+              "name": "Mae Jemison",
               "overall": "",
               "region": "",
               "rating": "",
@@ -1009,8 +993,24 @@
               "status": "medium"
             },
             {
-              "id": "tm_00a1",
-              "name": "Mae Jemison",
+              "id": "tm_009u",
+              "name": "Albertville",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009y",
+              "name": "Douglas",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009x",
+              "name": "Columbia",
               "overall": "",
               "region": "",
               "rating": "",
