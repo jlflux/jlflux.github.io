@@ -34,7 +34,8 @@ Admin: **/admin.html** (intentionally not linked from the public site)
 
 ## Admin suite (`admin.html`)
 
-Login: `jl@fluxmedia.org` / `alpreps2026`.
+Sign in with your email and the password stored server-side as `ADMIN_PASSWORD`
+(see setup below). The admin is deliberately not linked from the public site.
 
 - **Standings & Seeding** — drag the `⠿` handle to reorder teams (order = seed;
   top N qualify and feed the bracket). Edit name, overall/region records, and
@@ -59,38 +60,51 @@ which commits `data/data.json` to this repo; Vercel then redeploys automatically
 so the change is live in about a minute. The public site always reads the
 published `data/data.json`, never your local draft.
 
-The first time you publish you'll be asked for your **publish key**; it's
-remembered in that browser afterwards (**Forget publish key** clears it).
+Publishing requires a valid admin session, so you must be signed in.
 
-#### One-time Vercel setup
+### Authentication
+
+Login is enforced **server-side**. `POST /api/login` checks your email and
+password against environment variables and returns an HMAC-signed session token
+(valid 12 hours) which the browser stores; `/api/publish` refuses to write
+anything without a valid token. No password or GitHub token is present in any
+file the browser downloads, so nothing can be extracted by reading the page
+source, and tokens cannot be forged without the server secret.
+
+### One-time Vercel setup
 
 In the Vercel project → **Settings → Environment Variables**, add:
 
-| Name | Value |
-|------|-------|
-| `PUBLISH_KEY` | Any strong secret you choose — this is what the admin asks for |
-| `GITHUB_TOKEN` | A GitHub fine-grained token with **Contents: Read and write** on this repo |
+| Name | Required | Value |
+|------|----------|-------|
+| `ADMIN_PASSWORD` | yes | The admin login password. Choose something strong — it is never sent to the browser. |
+| `GITHUB_TOKEN` | yes | GitHub fine-grained token with **Contents: Read and write** on this repo |
+| `ADMIN_EMAIL` | no | Login email (default `jl@fluxmedia.org`) |
+| `SESSION_SECRET` | no | Token signing key. Derived from the other secrets when unset. |
+| `GITHUB_REPO` | no | `owner/repo` (default `jlflux/jlflux.github.io`) |
+| `GITHUB_BRANCH` | no | Branch to commit to (default `main`) |
 
-Optional overrides: `GITHUB_REPO` (default `jlflux/jlflux.github.io`) and
-`GITHUB_BRANCH` (default `main`). Redeploy once after adding them.
+Redeploy once after adding them. Changing `ADMIN_PASSWORD` (or `SESSION_SECRET`)
+invalidates existing sessions, which is the way to force a re-login everywhere.
 
-The `GITHUB_TOKEN` stays on Vercel's server and is never sent to the browser.
-
-#### Backup / manual tools
+### Backup / manual tools
 
 **Export JSON** downloads a backup, **Import JSON** loads one back in, and
 **Reset to published** discards local edits and reloads what's live. To preview an
 unpublished draft on the public page, append `?preview=1` to the URL.
 
-> The admin login is a convenience gate, not server-enforced security. Publishing
-> *is* protected server-side by `PUBLISH_KEY`. Anything published in
-> `data/data.json` is public.
+> Note: `data/data.json` is committed to a public repo, so anything you publish is
+> public — that's the point. Keep secrets in Vercel environment variables only.
+> For an extra layer you can also enable Vercel's built-in password protection on
+> the deployment.
 
 ## Project structure
 
 ```
 index.html            Public site (Brackets + Region Standings tabs)
 admin.html            Admin suite (not linked from the public site)
+api/_auth.js          Shared server-side auth (session signing/verification)
+api/login.js          Serverless function: verifies the admin password
 api/publish.js        Serverless function: commits data.json to publish
 assets/css/style.css  Styles, theming, responsive layout
 assets/js/data.js     Data model, bracket templates, tree builder, resolution
