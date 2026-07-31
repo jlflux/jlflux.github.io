@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-31T01:58:07.250Z"
+    "updated": "2026-07-31T02:00:09.980Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -4166,7 +4166,23 @@
           "1",
           "2"
         ],
-        "results": {},
+        "results": {
+          "r1g0": {},
+          "r1g1": {},
+          "r1g2": {},
+          "r1g3": {},
+          "r1g4": {},
+          "r1g5": {},
+          "r1g6": {},
+          "r1g7": {},
+          "r2g0": {},
+          "r2g1": {},
+          "r2g2": {},
+          "r2g3": {},
+          "r3g0": {},
+          "r3g1": {},
+          "r4g0": {}
+        },
         "projected": {},
         "slots": [
           {
@@ -4174,11 +4190,11 @@
             "place": 1
           },
           {
-            "region": "2",
+            "region": "1",
             "place": 8
           },
           {
-            "region": "2",
+            "region": "1",
             "place": 4
           },
           {
@@ -4190,48 +4206,48 @@
             "place": 3
           },
           {
-            "region": "2",
-            "place": 6
-          },
-          {
-            "region": "2",
-            "place": 2
-          },
-          {
             "region": "1",
-            "place": 7
+            "place": 6
           },
           {
             "region": "1",
             "place": 2
           },
           {
-            "region": "2",
+            "region": "1",
             "place": 7
-          },
-          {
-            "region": "2",
-            "place": 3
-          },
-          {
-            "region": "1",
-            "place": 6
-          },
-          {
-            "region": "1",
-            "place": 4
-          },
-          {
-            "region": "2",
-            "place": 5
           },
           {
             "region": "2",
             "place": 1
           },
           {
-            "region": "1",
+            "region": "2",
             "place": 8
+          },
+          {
+            "region": "2",
+            "place": 4
+          },
+          {
+            "region": "2",
+            "place": 5
+          },
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 6
+          },
+          {
+            "region": "2",
+            "place": 2
+          },
+          {
+            "region": "2",
+            "place": 7
           }
         ]
       }
