@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-30T17:06:45.888Z"
+    "updated": "2026-07-31T01:52:39.906Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -1206,19 +1206,11 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
-              "id": "tm_006p",
-              "name": "Williamson",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006o",
-              "name": "Vigor",
+              "id": "tm_006j",
+              "name": "BC Rain",
               "overall": "",
               "region": "",
               "rating": "",
@@ -1241,14 +1233,6 @@
               "status": "medium"
             },
             {
-              "id": "tm_006j",
-              "name": "BC Rain",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_006m",
               "name": "Orange Beach",
               "overall": "",
@@ -1263,16 +1247,56 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_006p",
+              "name": "Williamson",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006o",
+              "name": "Vigor",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
         "2": {
           "name": "Region 2",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_006q",
               "name": "Andalusia",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006r",
+              "name": "Ashford",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006s",
+              "name": "Carroll",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006t",
+              "name": "Dale County",
               "overall": "",
               "region": "",
               "rating": "",
@@ -1289,30 +1313,6 @@
             {
               "id": "tm_006v",
               "name": "Headland",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006s",
-              "name": "Carroll",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006r",
-              "name": "Ashford",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006t",
-              "name": "Dale County",
               "overall": "",
               "region": "",
               "rating": "",
@@ -1338,7 +1338,7 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_006y",
@@ -1408,7 +1408,7 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0076",
@@ -1478,7 +1478,7 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_007e",
@@ -1548,7 +1548,7 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_007m",
@@ -1626,7 +1626,7 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_007v",
@@ -1688,7 +1688,7 @@
         },
         "8": {
           "name": "Region 8",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0082",
@@ -1914,7 +1914,7 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_004r",
@@ -1984,7 +1984,7 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_004z",
@@ -2054,7 +2054,7 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0057",
@@ -2124,7 +2124,7 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_005f",
@@ -2194,7 +2194,7 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_005n",
@@ -2264,7 +2264,7 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_005v",
@@ -2334,7 +2334,7 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0063",
@@ -2404,7 +2404,7 @@
         },
         "8": {
           "name": "Region 8",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_006b",
@@ -2622,7 +2622,7 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0030",
@@ -2684,7 +2684,7 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0037",
@@ -2754,7 +2754,7 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_003f",
@@ -2824,7 +2824,7 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_003n",
@@ -2894,7 +2894,7 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_003v",
@@ -2964,7 +2964,7 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0043",
@@ -3034,7 +3034,7 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_004b",
@@ -3104,7 +3104,7 @@
         },
         "8": {
           "name": "Region 8",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_004j",
@@ -3322,7 +3322,7 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0019",
@@ -3392,7 +3392,7 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_001h",
@@ -3462,7 +3462,7 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_001p",
@@ -3532,7 +3532,7 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_001x",
@@ -3602,7 +3602,7 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0025",
@@ -3672,7 +3672,7 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_002d",
@@ -3742,7 +3742,7 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_002l",
@@ -3812,7 +3812,7 @@
         },
         "8": {
           "name": "Region 8",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_002t",
@@ -4022,7 +4022,7 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_000t",
@@ -4092,7 +4092,7 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0011",
@@ -4208,7 +4208,7 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0001",
@@ -4270,7 +4270,7 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_0008",
@@ -4332,16 +4332,8 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
-            {
-              "id": "tm_000f",
-              "name": "Autauga Academy",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_000g",
               "name": "Ellwood Christian",
@@ -4394,7 +4386,7 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "",
+          "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
               "id": "tm_000m",
