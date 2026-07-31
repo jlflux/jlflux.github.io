@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-31T01:55:39.696Z"
+    "updated": "2026-07-31T01:58:07.250Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -4166,15 +4166,7 @@
           "1",
           "2"
         ],
-        "results": {
-          "r1g0": {},
-          "r1g1": {},
-          "r1g2": {},
-          "r1g3": {},
-          "r2g0": {},
-          "r2g1": {},
-          "r3g0": {}
-        },
+        "results": {},
         "projected": {},
         "slots": [
           {
@@ -4183,7 +4175,15 @@
           },
           {
             "region": "2",
+            "place": 8
+          },
+          {
+            "region": "2",
             "place": 4
+          },
+          {
+            "region": "1",
+            "place": 5
           },
           {
             "region": "1",
@@ -4191,7 +4191,15 @@
           },
           {
             "region": "2",
+            "place": 6
+          },
+          {
+            "region": "2",
             "place": 2
+          },
+          {
+            "region": "1",
+            "place": 7
           },
           {
             "region": "1",
@@ -4199,15 +4207,31 @@
           },
           {
             "region": "2",
+            "place": 7
+          },
+          {
+            "region": "2",
             "place": 3
           },
           {
             "region": "1",
+            "place": 6
+          },
+          {
+            "region": "1",
             "place": 4
+          },
+          {
+            "region": "2",
+            "place": 5
           },
           {
             "region": "2",
             "place": 1
+          },
+          {
+            "region": "1",
+            "place": 8
           }
         ]
       }

@@ -30,7 +30,8 @@
     '3A': { name: 'Class 3A',  group: 'Public',  template: '32', regionCount: 8, playoff: 4 },
     '2A': { name: 'Class 2A',  group: 'Public',  template: '32', regionCount: 8, playoff: 4 },
     '1A': { name: 'Class 1A',  group: 'Public',  template: '32', regionCount: 8, playoff: 4 },
-    'AA': { name: 'Class AA',  group: 'Private', template: '8',  regionCount: 2, playoff: 4 },
+    // AA takes every team from both regions (16 total) as of 2026.
+    'AA': { name: 'Class AA',  group: 'Private', template: '16x2', regionCount: 2, playoff: 8 },
     'A':  { name: 'Class A',   group: 'Private', template: '16', regionCount: 4, playoff: 4 },
   };
   const CLASS_ORDER = ['6A', '5A', '4A', '3A', '2A', '1A', 'AA', 'A'];
@@ -53,6 +54,18 @@
       { region: a, place: 3 }, { region: b, place: 2 },
       { region: a, place: 2 }, { region: b, place: 3 },
       { region: a, place: 4 }, { region: b, place: 1 },
+    ];
+  }
+
+  // 16-team bracket built from just TWO regions of 8 (every team qualifies).
+  // Cross-seeded aK vs b(9-K) and laid out in standard bracket order, so the
+  // two region champions can only meet in the final.
+  function bigPodLeaves(a, b) {
+    const A = (p) => ({ region: a, place: p });
+    const B = (p) => ({ region: b, place: p });
+    return [
+      A(1), B(8),   B(4), A(5),   A(3), B(6),   B(2), A(7),   // top half
+      A(2), B(7),   B(3), A(6),   A(4), B(5),   B(1), A(8),   // bottom half
     ];
   }
 
@@ -86,6 +99,10 @@
       leaves: (al) => [].concat(
         podLeaves(al[0], al[1]), podLeaves(al[2], al[3])
       ),
+    },
+    '16x2': {
+      regionSlots: 2,
+      leaves: (al) => bigPodLeaves(al[0], al[1]),
     },
     '8': {
       regionSlots: 2,
@@ -231,7 +248,12 @@
       const tmpl = TEMPLATES[cfg.template];
       const defLeaves = tmpl.leaves(cl.bracket.alignment.slice(0, tmpl.regionSlots));
       if (!Array.isArray(cl.bracket.slots) || cl.bracket.slots.length !== defLeaves.length) {
+        // The bracket changed shape (e.g. the AA field grew to 16 teams), so
+        // game ids no longer refer to the same match-ups. Reset the layout and
+        // drop results/projections that would land on the wrong games.
         cl.bracket.slots = defLeaves;
+        cl.bracket.results = {};
+        cl.bracket.projected = {};
       } else {
         cl.bracket.slots = cl.bracket.slots.map(function (s) {
           if (s && s.region != null && s.place != null) return { region: String(s.region), place: s.place };
