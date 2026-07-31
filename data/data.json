@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-31T01:52:39.906Z"
+    "updated": "2026-07-31T01:54:31.435Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -4166,7 +4166,15 @@
           "1",
           "2"
         ],
-        "results": {},
+        "results": {
+          "r1g0": {},
+          "r1g1": {},
+          "r1g2": {},
+          "r1g3": {},
+          "r2g0": {},
+          "r2g1": {},
+          "r3g0": {}
+        },
         "projected": {},
         "slots": [
           {
@@ -4406,7 +4414,7 @@
             },
             {
               "id": "tm_000o",
-              "name": "Linsay Lane",
+              "name": "Lindsay Lane",
               "overall": "",
               "region": "",
               "rating": "",
@@ -4454,7 +4462,23 @@
           "3",
           "4"
         ],
-        "results": {},
+        "results": {
+          "r1g0": {},
+          "r1g1": {},
+          "r1g2": {},
+          "r1g3": {},
+          "r1g4": {},
+          "r1g5": {},
+          "r1g6": {},
+          "r1g7": {},
+          "r2g0": {},
+          "r2g1": {},
+          "r2g2": {},
+          "r2g3": {},
+          "r3g0": {},
+          "r3g1": {},
+          "r4g0": {}
+        },
         "projected": {},
         "slots": [
           {
@@ -4466,30 +4490,30 @@
             "place": 4
           },
           {
-            "region": "1",
-            "place": 3
-          },
-          {
             "region": "2",
             "place": 2
           },
           {
             "region": "1",
-            "place": 2
-          },
-          {
-            "region": "2",
             "place": 3
-          },
-          {
-            "region": "1",
-            "place": 4
           },
           {
             "region": "2",
             "place": 1
           },
           {
+            "region": "1",
+            "place": 4
+          },
+          {
+            "region": "1",
+            "place": 2
+          },
+          {
+            "region": "2",
+            "place": 3
+          },
+          {
             "region": "3",
             "place": 1
           },
@@ -4498,28 +4522,28 @@
             "place": 4
           },
           {
-            "region": "3",
-            "place": 3
-          },
-          {
             "region": "4",
             "place": 2
           },
           {
             "region": "3",
-            "place": 2
+            "place": 3
           },
           {
             "region": "4",
-            "place": 3
+            "place": 1
           },
           {
             "region": "3",
             "place": 4
           },
           {
+            "region": "3",
+            "place": 2
+          },
+          {
             "region": "4",
-            "place": 1
+            "place": 3
           }
         ]
       }
