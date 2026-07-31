@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-07-31T01:54:31.435Z"
+    "updated": "2026-07-31T01:55:39.696Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -4022,27 +4022,11 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No games have been played, standings are loosely based on last year's results until the season starts.",
           "teams": [
             {
-              "id": "tm_000t",
-              "name": "Faith Academy",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000u",
-              "name": "Glenwood",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000v",
-              "name": "Houston Academy",
+              "id": "tm_000y",
+              "name": "St. Michael",
               "overall": "",
               "region": "",
               "rating": "",
@@ -4057,24 +4041,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_000x",
-              "name": "Montgomery Catholic",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000y",
-              "name": "St. Michael",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_000z",
               "name": "St. Paul's",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000x",
+              "name": "Montgomery Catholic",
               "overall": "",
               "region": "",
               "rating": "",
@@ -4087,40 +4063,40 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_000u",
+              "name": "Glenwood",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000t",
+              "name": "Faith Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000v",
+              "name": "Houston Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
         "2": {
           "name": "Region 2",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No games have been played, standings are loosely based on last year's results until the season starts.",
           "teams": [
-            {
-              "id": "tm_0011",
-              "name": "American Christian",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_0012",
               "name": "Briarwood",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0013",
-              "name": "John Carroll",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0014",
-              "name": "Lee-Scott",
               "overall": "",
               "region": "",
               "rating": "",
@@ -4135,6 +4111,30 @@
               "status": "medium"
             },
             {
+              "id": "tm_0011",
+              "name": "American Christian",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0014",
+              "name": "Lee-Scott",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0013",
+              "name": "John Carroll",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
               "id": "tm_0016",
               "name": "Randolph",
               "overall": "",
@@ -4143,16 +4143,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_0017",
-              "name": "St. John Paul II",
+              "id": "tm_0018",
+              "name": "Westminster Christian",
               "overall": "",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_0018",
-              "name": "Westminster Christian",
+              "id": "tm_0017",
+              "name": "St. John Paul II",
               "overall": "",
               "region": "",
               "rating": "",
