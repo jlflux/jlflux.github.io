@@ -13,7 +13,7 @@ Admin: **/admin.html** (intentionally not linked from the public site)
   |-------|-------|---------|------------------|-------|-------|
   | 6A | Public | 4 | 6 | 24 | Top 2 seeds per region bye straight into round 2 |
   | 5A–1A | Public | 8 | 4 | 32 each | Adjacent regions paired into pods |
-  | AA | Private | 2 | 4 | 8 | Two regions cross-seeded |
+  | AA | Private | 2 | 8 (all) | 16 | Whole field qualifies; two regions cross-seeded |
   | A | Private | 4 | 4 | 16 | Two pods of two regions |
 - **Seed labels** (e.g. `R4-2` = 2nd place in Region 4) travel with each team as
   it advances, so every slot shows who's there and where they came from.
