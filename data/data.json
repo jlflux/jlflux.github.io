@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-08-03T20:24:57.021Z"
+    "updated": "2026-08-03T20:26:47.725Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -715,16 +715,16 @@
           "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_0093",
-              "name": "Homewood",
+              "id": "tm_0094",
+              "name": "Mountain Brook",
               "overall": "",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_0094",
-              "name": "Mountain Brook",
+              "id": "tm_0093",
+              "name": "Homewood",
               "overall": "",
               "region": "",
               "rating": "",
@@ -1116,24 +1116,52 @@
           "r2g0": {},
           "r2g1": {},
           "r2g2": {},
-          "r2g3": {
-            "winner": "bottom"
-          },
+          "r2g3": {},
           "r2g4": {},
           "r2g5": {},
           "r2g6": {},
           "r2g7": {},
           "r3g0": {},
-          "r3g1": {
-            "winner": "bottom"
-          },
+          "r3g1": {},
           "r3g2": {},
           "r3g3": {},
           "r4g0": {},
           "r4g1": {},
           "r5g0": {}
         },
-        "projected": {},
+        "projected": {
+          "r1g0": "top",
+          "r1g1": "top",
+          "r1g2": "top",
+          "r1g3": "top",
+          "r1g4": "top",
+          "r1g5": "top",
+          "r1g6": "top",
+          "r1g7": "top",
+          "r1g8": "top",
+          "r1g9": "top",
+          "r1g10": "top",
+          "r1g11": "top",
+          "r1g12": "top",
+          "r1g13": "top",
+          "r1g14": "top",
+          "r1g15": "top",
+          "r2g7": "top",
+          "r2g6": "top",
+          "r2g5": "top",
+          "r2g4": "bottom",
+          "r2g3": "top",
+          "r2g2": "top",
+          "r2g1": "top",
+          "r2g0": "top",
+          "r3g0": "bottom",
+          "r3g1": "top",
+          "r4g0": "top",
+          "r3g3": "bottom",
+          "r3g2": "bottom",
+          "r4g1": "bottom",
+          "r5g0": "bottom"
+        },
         "slots": [
           {
             "region": "4",
