@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-08-03T19:28:39.420Z"
+    "updated": "2026-08-03T19:31:42.112Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -2659,38 +2659,6 @@
         "projected": {},
         "slots": [
           {
-            "region": "2",
-            "place": 1
-          },
-          {
-            "region": "3",
-            "place": 4
-          },
-          {
-            "region": "4",
-            "place": 2
-          },
-          {
-            "region": "1",
-            "place": 3
-          },
-          {
-            "region": "3",
-            "place": 1
-          },
-          {
-            "region": "2",
-            "place": 4
-          },
-          {
-            "region": "1",
-            "place": 2
-          },
-          {
-            "region": "4",
-            "place": 3
-          },
-          {
             "region": "4",
             "place": 1
           },
@@ -2723,19 +2691,67 @@
             "place": 3
           },
           {
-            "region": "6",
+            "region": "3",
             "place": 1
           },
           {
-            "region": "7",
+            "region": "2",
             "place": 4
           },
           {
-            "region": "8",
+            "region": "1",
             "place": 2
           },
           {
+            "region": "4",
+            "place": 3
+          },
+          {
+            "region": "2",
+            "place": 1
+          },
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          {
+            "region": "1",
+            "place": 3
+          },
+          {
+            "region": "8",
+            "place": 1
+          },
+          {
             "region": "5",
+            "place": 4
+          },
+          {
+            "region": "6",
+            "place": 2
+          },
+          {
+            "region": "7",
+            "place": 3
+          },
+          {
+            "region": "5",
+            "place": 1
+          },
+          {
+            "region": "8",
+            "place": 4
+          },
+          {
+            "region": "7",
+            "place": 2
+          },
+          {
+            "region": "6",
             "place": 3
           },
           {
@@ -2755,35 +2771,19 @@
             "place": 3
           },
           {
-            "region": "8",
+            "region": "6",
             "place": 1
           },
           {
-            "region": "5",
-            "place": 4
-          },
-          {
-            "region": "6",
-            "place": 2
-          },
-          {
             "region": "7",
-            "place": 3
-          },
-          {
-            "region": "5",
-            "place": 1
+            "place": 4
           },
           {
             "region": "8",
-            "place": 4
-          },
-          {
-            "region": "7",
             "place": 2
           },
           {
-            "region": "6",
+            "region": "5",
             "place": 3
           }
         ]
