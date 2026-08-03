@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-08-03T19:58:57.952Z"
+    "updated": "2026-08-03T20:01:00.642Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -10,19 +10,11 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No games have been played, standings are based on last year. Mary Montgomery is ineligible for the postseason, and games against them do not count.",
           "teams": [
             {
               "id": "tm_00a3",
               "name": "Baker",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00a8",
-              "name": "Mary Montgomery",
               "overall": "",
               "region": "",
               "rating": "",
@@ -75,6 +67,14 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_00a8",
+              "name": "Mary Montgomery*",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "out"
             }
           ]
         },
@@ -852,7 +852,7 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No games have been played, standings are based on last year. Pell City is ineligible for the postseason, and games against them do not count.",
           "teams": [
             {
               "id": "tm_009f",
@@ -865,14 +865,6 @@
             {
               "id": "tm_009g",
               "name": "Oxford",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009h",
-              "name": "Pell City",
               "overall": "",
               "region": "",
               "rating": "",
@@ -909,6 +901,14 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_009h",
+              "name": "Pell City*",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "out"
             }
           ]
         },
@@ -1066,7 +1066,6 @@
         ],
         "results": {
           "r1g0": {
-            "winner": "top",
             "home": "top"
           },
           "r1g1": {
@@ -1134,7 +1133,24 @@
           "r4g1": {},
           "r5g0": {}
         },
-        "projected": {},
+        "projected": {
+          "r1g0": "top",
+          "r1g1": "top",
+          "r1g2": "top",
+          "r1g3": "top",
+          "r1g4": "top",
+          "r1g5": "top",
+          "r1g6": "top",
+          "r1g7": "top",
+          "r1g8": "top",
+          "r1g9": "top",
+          "r1g10": "top",
+          "r1g11": "top",
+          "r1g12": "top",
+          "r1g13": "top",
+          "r1g14": "top",
+          "r1g15": "top"
+        },
         "slots": [
           {
             "region": "4",
