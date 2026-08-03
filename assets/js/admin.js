@@ -701,6 +701,28 @@
     return !isNaN(ts) && !isNaN(bs);
   }
 
+  // Does this game have a real, decided result? Mirrors the engine's rules:
+  // an explicit winner, or two different scores. A tie is NOT decided, so it
+  // must not lock the projection.
+  // -> 'top' | 'bottom' | null
+  function actualResult(res) {
+    if (!res) return null;
+    if (res.winner === 'top' || res.winner === 'bottom') return res.winner;
+    var ts = parseFloat(res.topScore), bs = parseFloat(res.bottomScore);
+    if (!isNaN(ts) && !isNaN(bs) && ts !== bs) return ts > bs ? 'top' : 'bottom';
+    return null;
+  }
+
+  // Why is a game locked, in words the admin can act on?
+  function lockReason(res) {
+    if (res.winner === 'top' || res.winner === 'bottom') {
+      return bothScores(res)
+        ? 'A final score and winner are set for this game.'
+        : 'A winner is set for this game (no score entered).';
+    }
+    return 'A final score is set for this game.';
+  }
+
   function renderProjected() {
     var host = document.getElementById('adminBody');
     var cl = state.data.classifications[state.classKey];
@@ -708,7 +730,7 @@
 
     var panel = el('div', 'panel');
     panel.appendChild(el('h3', null, 'Projected Bracket'));
-    panel.appendChild(el('p', 'hint', 'Click a team to project them as the winner of a game — they advance to the next round. Games that already have an actual score/result (in "Bracket & Results") are locked to that result. This is exactly what the public "Show projected results" toggle displays.'));
+    panel.appendChild(el('p', 'hint', 'Click a team to project them as the winner — they advance to the next round. This is exactly what the public "Show projected results" toggle displays. Games marked 🔒 have a real result set (a score or a chosen winner) so they cannot be projected; click one to edit or clear that result.'));
 
     var toolbar = el('div', 'toolbar');
     toolbar.style.marginBottom = '12px';
@@ -753,22 +775,51 @@
     var top = built.resolveSlot(g.top, true);
     var bot = built.resolveSlot(g.bottom, true);
     var res = (cl.bracket.results || {})[g.id] || {};
-    var actualDecided = !!res.winner || bothScores(res);
+    var actualDecided = actualResult(res) !== null;
     var winner = built.winnerOf(g.id, true);
+
+    if (actualDecided) {
+      card.classList.add('locked');
+      card.title = lockReason(res) + ' Click to edit or clear it.';
+      // Let the admin fix it right here instead of hunting for the game.
+      card.onclick = function () { openLockedGame(g.id, res); };
+      var lock = el('div', 'lock-tag', '🔒 result set');
+      wrap.appendChild(lock);
+    }
+
     card.appendChild(projSlot(built, g, 'top', top, winner, actualDecided, cl));
     card.appendChild(projSlot(built, g, 'bottom', bot, winner, actualDecided, cl));
     wrap.appendChild(card);
     return wrap;
   }
 
+  // A locked game blocks projections. Offer the two useful actions.
+  function openLockedGame(gameId, res) {
+    var onlyWinner = (res.winner === 'top' || res.winner === 'bottom') && !bothScores(res);
+    if (onlyWinner) {
+      var msg = 'This game is locked because a winner is set for it, with no score entered.\n\n' +
+        'OK — clear that winner so you can project this game freely.\n' +
+        'Cancel — open the game to edit the full result instead.';
+      if (confirm(msg)) {
+        delete res.winner;
+        save(false);
+        renderBody();
+        flash('Cleared the set winner. You can project this game now.');
+        return;
+      }
+    }
+    openAdminGameModal(gameId);
+  }
+
   function projSlot(built, g, side, part, winner, actualDecided, cl) {
     var slot = el('div', 'slot');
-    var ref = g[side].kind === 'leaf' ? g[side].ref : null;
+    var ref = part && part.ref ? part.ref : null; // seed travels with the team
     slot.appendChild(el('div', 'seed', ref ? A.seedLabel(ref) : ''));
     var team = el('div', 'team');
     var span = el('span');
     var hasTeam = part && part.team && part.team.name;
-    span.textContent = hasTeam ? part.team.name : (part && part.bye ? 'BYE' : (ref ? '—' : 'TBD'));
+    if (part && part.bye) slot.classList.add('blank');
+    else span.textContent = hasTeam ? part.team.name : (ref ? '—' : 'TBD');
     team.appendChild(span);
     slot.appendChild(team);
 
@@ -777,7 +828,6 @@
 
     if (actualDecided) {
       if (!isWin) slot.classList.add('loser');
-      slot.title = 'Result is final (set in Bracket & Results)';
     } else if (hasTeam) {
       slot.classList.add('pickable');
       slot.onclick = function () {
