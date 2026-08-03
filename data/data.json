@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-08-03T19:13:06.975Z"
+    "updated": "2026-08-03T19:16:41.636Z"
   },
   "newsNote": "test",
   "classifications": {
@@ -2518,11 +2518,91 @@
           "7",
           "8"
         ],
-        "results": {},
+        "results": {
+          "r1g0": {
+            "home": "top"
+          },
+          "r1g1": {
+            "home": "top"
+          },
+          "r1g2": {
+            "home": "top"
+          },
+          "r1g3": {
+            "home": "top"
+          },
+          "r1g4": {
+            "home": "top"
+          },
+          "r1g5": {
+            "home": "top"
+          },
+          "r1g6": {
+            "home": "top"
+          },
+          "r1g7": {
+            "home": "top"
+          },
+          "r1g8": {
+            "home": "top"
+          },
+          "r1g9": {
+            "home": "top"
+          },
+          "r1g10": {
+            "home": "top"
+          },
+          "r1g11": {
+            "home": "top"
+          },
+          "r1g12": {
+            "home": "top"
+          },
+          "r1g13": {
+            "home": "top"
+          },
+          "r1g14": {
+            "home": "top"
+          },
+          "r1g15": {
+            "home": "top"
+          },
+          "r2g0": {},
+          "r2g1": {},
+          "r2g2": {},
+          "r2g3": {},
+          "r2g4": {},
+          "r2g5": {},
+          "r2g6": {},
+          "r2g7": {},
+          "r3g0": {},
+          "r3g1": {},
+          "r3g2": {},
+          "r3g3": {},
+          "r4g0": {},
+          "r4g1": {},
+          "r5g0": {}
+        },
         "projected": {},
         "slots": [
           {
+            "region": "2",
+            "place": 1
+          },
+          {
+            "region": "3",
+            "place": 4
+          },
+          {
+            "region": "4",
+            "place": 2
+          },
+          {
             "region": "1",
+            "place": 3
+          },
+          {
+            "region": "3",
             "place": 1
           },
           {
@@ -2531,19 +2611,15 @@
           },
           {
             "region": "1",
-            "place": 3
-          },
-          {
-            "region": "2",
             "place": 2
           },
           {
-            "region": "1",
-            "place": 2
+            "region": "4",
+            "place": 3
           },
           {
-            "region": "2",
-            "place": 3
+            "region": "4",
+            "place": 1
           },
           {
             "region": "1",
@@ -2551,10 +2627,14 @@
           },
           {
             "region": "2",
-            "place": 1
+            "place": 2
           },
           {
             "region": "3",
+            "place": 3
+          },
+          {
+            "region": "1",
             "place": 1
           },
           {
@@ -2563,30 +2643,30 @@
           },
           {
             "region": "3",
-            "place": 3
-          },
-          {
-            "region": "4",
             "place": 2
           },
           {
-            "region": "3",
-            "place": 2
-          },
-          {
-            "region": "4",
+            "region": "2",
             "place": 3
           },
           {
-            "region": "3",
-            "place": 4
-          },
-          {
-            "region": "4",
+            "region": "6",
             "place": 1
           },
           {
+            "region": "7",
+            "place": 4
+          },
+          {
+            "region": "8",
+            "place": 2
+          },
+          {
             "region": "5",
+            "place": 3
+          },
+          {
+            "region": "7",
             "place": 1
           },
           {
@@ -2595,19 +2675,15 @@
           },
           {
             "region": "5",
-            "place": 3
-          },
-          {
-            "region": "6",
             "place": 2
           },
           {
-            "region": "5",
-            "place": 2
+            "region": "8",
+            "place": 3
           },
           {
-            "region": "6",
-            "place": 3
+            "region": "8",
+            "place": 1
           },
           {
             "region": "5",
@@ -2615,10 +2691,14 @@
           },
           {
             "region": "6",
-            "place": 1
+            "place": 2
           },
           {
             "region": "7",
+            "place": 3
+          },
+          {
+            "region": "5",
             "place": 1
           },
           {
@@ -2627,27 +2707,11 @@
           },
           {
             "region": "7",
-            "place": 3
-          },
-          {
-            "region": "8",
             "place": 2
           },
           {
-            "region": "7",
-            "place": 2
-          },
-          {
-            "region": "8",
+            "region": "6",
             "place": 3
-          },
-          {
-            "region": "7",
-            "place": 4
-          },
-          {
-            "region": "8",
-            "place": 1
           }
         ]
       }
