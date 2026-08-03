@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-08-03T20:02:36.726Z"
+    "updated": "2026-08-03T20:03:14.913Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -715,16 +715,16 @@
           "note": "No games have been played, standings are based on last year.",
           "teams": [
             {
-              "id": "tm_0094",
-              "name": "Mountain Brook",
+              "id": "tm_0093",
+              "name": "Homewood",
               "overall": "",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_0093",
-              "name": "Homewood",
+              "id": "tm_0094",
+              "name": "Mountain Brook",
               "overall": "",
               "region": "",
               "rating": "",
