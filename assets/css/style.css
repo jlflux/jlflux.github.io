@@ -386,6 +386,18 @@ a { color: var(--red); }
 .slot.pickable { cursor: pointer; }
 .slot.pickable:hover { background: var(--red-soft); }
 
+/* projected bracket: games locked by a real result */
+.game-card.locked { cursor: pointer; border-style: dashed; opacity: 0.9; }
+.game-card.locked:hover { border-color: var(--red); }
+.lock-tag {
+  font-size: 0.58rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
+
 /* admin bracket editor */
 .game-card.admin-game { cursor: pointer; }
 .game-card.admin-game:hover { border-color: var(--red); }
