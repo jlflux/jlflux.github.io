@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-08-03T19:56:54.759Z"
+    "updated": "2026-08-03T19:58:57.952Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -366,7 +366,29 @@
           "r5g0": {}
         },
         "projected": {
-          "r2g0": "top"
+          "r2g0": "top",
+          "r1g1": "top",
+          "r1g3": "top",
+          "r1g5": "bottom",
+          "r1g7": "top",
+          "r1g9": "bottom",
+          "r1g11": "top",
+          "r1g13": "top",
+          "r1g15": "bottom",
+          "r2g7": "top",
+          "r2g6": "top",
+          "r2g5": "bottom",
+          "r2g4": "top",
+          "r3g2": "top",
+          "r3g3": "bottom",
+          "r4g1": "top",
+          "r2g3": "bottom",
+          "r2g2": "top",
+          "r2g1": "top",
+          "r3g0": "bottom",
+          "r3g1": "top",
+          "r4g0": "bottom",
+          "r5g0": "top"
         },
         "slots": [
           {
