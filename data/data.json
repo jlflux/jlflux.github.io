@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-08-03T19:54:56.701Z"
+    "updated": "2026-08-03T19:56:54.759Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -3910,14 +3910,6 @@
           "note": "No games have been played, standings are alphabetical.",
           "teams": [
             {
-              "id": "tm_002d",
-              "name": "Alabama Aerospace and Aviation",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_002e",
               "name": "Fayetteville",
               "overall": "",
@@ -4466,14 +4458,30 @@
           "2"
         ],
         "results": {
-          "r1g0": {},
-          "r1g1": {},
-          "r1g2": {},
-          "r1g3": {},
-          "r1g4": {},
-          "r1g5": {},
-          "r1g6": {},
-          "r1g7": {},
+          "r1g0": {
+            "home": "top"
+          },
+          "r1g1": {
+            "home": "top"
+          },
+          "r1g2": {
+            "home": "top"
+          },
+          "r1g3": {
+            "home": "top"
+          },
+          "r1g4": {
+            "home": "top"
+          },
+          "r1g5": {
+            "home": "top"
+          },
+          "r1g6": {
+            "home": "top"
+          },
+          "r1g7": {
+            "home": "top"
+          },
           "r2g0": {},
           "r2g1": {},
           "r2g2": {},
@@ -4728,6 +4736,14 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_6cfkgh3",
+              "name": "Hope Christian Academy",
+              "overall": "",
+              "region": "",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
@@ -4802,14 +4818,30 @@
           "4"
         ],
         "results": {
-          "r1g0": {},
-          "r1g1": {},
-          "r1g2": {},
-          "r1g3": {},
-          "r1g4": {},
-          "r1g5": {},
-          "r1g6": {},
-          "r1g7": {},
+          "r1g0": {
+            "home": "top"
+          },
+          "r1g1": {
+            "home": "top"
+          },
+          "r1g2": {
+            "home": "top"
+          },
+          "r1g3": {
+            "home": "top"
+          },
+          "r1g4": {
+            "home": "top"
+          },
+          "r1g5": {
+            "home": "top"
+          },
+          "r1g6": {
+            "home": "top"
+          },
+          "r1g7": {
+            "home": "top"
+          },
           "r2g0": {},
           "r2g1": {},
           "r2g2": {},
