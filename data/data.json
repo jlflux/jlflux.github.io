@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-08-03T19:39:52.833Z"
+    "updated": "2026-08-03T19:54:56.701Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -4120,22 +4120,54 @@
           "8"
         ],
         "results": {
-          "r1g0": {},
-          "r1g1": {},
-          "r1g2": {},
-          "r1g3": {},
-          "r1g4": {},
-          "r1g5": {},
-          "r1g6": {},
-          "r1g7": {},
-          "r1g8": {},
-          "r1g9": {},
-          "r1g10": {},
-          "r1g11": {},
-          "r1g12": {},
-          "r1g13": {},
-          "r1g14": {},
-          "r1g15": {},
+          "r1g0": {
+            "home": "top"
+          },
+          "r1g1": {
+            "home": "top"
+          },
+          "r1g2": {
+            "home": "top"
+          },
+          "r1g3": {
+            "home": "top"
+          },
+          "r1g4": {
+            "home": "top"
+          },
+          "r1g5": {
+            "home": "top"
+          },
+          "r1g6": {
+            "home": "top"
+          },
+          "r1g7": {
+            "home": "top"
+          },
+          "r1g8": {
+            "home": "top"
+          },
+          "r1g9": {
+            "home": "top"
+          },
+          "r1g10": {
+            "home": "top"
+          },
+          "r1g11": {
+            "home": "top"
+          },
+          "r1g12": {
+            "home": "top"
+          },
+          "r1g13": {
+            "home": "top"
+          },
+          "r1g14": {
+            "home": "top"
+          },
+          "r1g15": {
+            "home": "top"
+          },
           "r2g0": {},
           "r2g1": {},
           "r2g2": {},
