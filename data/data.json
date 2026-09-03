@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-03T02:19:08.838Z"
+    "updated": "2026-09-03T02:20:20.921Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -4366,52 +4366,12 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No games have been played, standings are loosely based on last year's results until the season starts.",
+          "note": "No region games have been played yet.",
           "teams": [
-            {
-              "id": "tm_000y",
-              "name": "St. Michael",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000w",
-              "name": "McGill-Toolen",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000z",
-              "name": "St. Paul's",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000x",
-              "name": "Montgomery Catholic",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0010",
-              "name": "UMS-Wright",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_000u",
               "name": "Glenwood",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4419,7 +4379,39 @@
             {
               "id": "tm_000t",
               "name": "Faith Academy",
-              "overall": "",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000w",
+              "name": "McGill-Toolen",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000z",
+              "name": "St. Paul's",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000x",
+              "name": "Montgomery Catholic",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0010",
+              "name": "UMS-Wright",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4427,7 +4419,15 @@
             {
               "id": "tm_000v",
               "name": "Houston Academy",
-              "overall": "",
+              "overall": "0-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000y",
+              "name": "St. Michael",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4436,44 +4436,12 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "No games have been played, standings are loosely based on last year's results until the season starts.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
               "id": "tm_0012",
               "name": "Briarwood",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0015",
-              "name": "Madison Academy",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0011",
-              "name": "American Christian",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0014",
-              "name": "Lee-Scott",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0013",
-              "name": "John Carroll",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4481,7 +4449,39 @@
             {
               "id": "tm_0016",
               "name": "Randolph",
-              "overall": "",
+              "overall": "2-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0011",
+              "name": "American Christian",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0013",
+              "name": "John Carroll",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0015",
+              "name": "Madison Academy",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0014",
+              "name": "Lee-Scott",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4489,7 +4489,7 @@
             {
               "id": "tm_0018",
               "name": "Westminster Christian",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4497,7 +4497,7 @@
             {
               "id": "tm_0017",
               "name": "St. John Paul II",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
