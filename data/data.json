@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-03T02:39:03.919Z"
+    "updated": "2026-09-03T02:40:01.474Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! Region play starts this week, so check back after this weekend (officially Week 2) and things will be updated! Standings are updated only on non-region games for now. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -53,14 +53,6 @@
               "status": "medium"
             },
             {
-              "id": "tm_00a8",
-              "name": "Mary Montgomery*",
-              "overall": "0-2",
-              "region": "",
-              "rating": "",
-              "status": "out"
-            },
-            {
               "id": "tm_00a5",
               "name": "Davidson",
               "overall": "0-2",
@@ -75,6 +67,14 @@
               "region": "",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_00a8",
+              "name": "Mary Montgomery*",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "out"
             }
           ]
         },
@@ -193,16 +193,16 @@
               "status": "medium"
             },
             {
-              "id": "tm_00ak",
-              "name": "Oak Mountain",
+              "id": "tm_00ai",
+              "name": "Hewitt-Trussville",
               "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_00ai",
-              "name": "Hewitt-Trussville",
+              "id": "tm_00ak",
+              "name": "Oak Mountain",
               "overall": "1-1",
               "region": "",
               "rating": "",
