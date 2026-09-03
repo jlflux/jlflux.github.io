@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-03T02:14:25.826Z"
+    "updated": "2026-09-03T02:19:08.838Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -1298,20 +1298,12 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
-            {
-              "id": "tm_006j",
-              "name": "BC Rain",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_006k",
               "name": "Citronelle",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1319,7 +1311,7 @@
             {
               "id": "tm_006l",
               "name": "LeFlore",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1327,7 +1319,7 @@
             {
               "id": "tm_006m",
               "name": "Orange Beach",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1335,15 +1327,7 @@
             {
               "id": "tm_006n",
               "name": "Satsuma",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006p",
-              "name": "Williamson",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1351,7 +1335,23 @@
             {
               "id": "tm_006o",
               "name": "Vigor",
-              "overall": "",
+              "overall": "2-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006p",
+              "name": "Williamson",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006j",
+              "name": "BC Rain",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1360,20 +1360,12 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
-            {
-              "id": "tm_006q",
-              "name": "Andalusia",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_006r",
               "name": "Ashford",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1381,7 +1373,7 @@
             {
               "id": "tm_006s",
               "name": "Carroll",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1389,7 +1381,7 @@
             {
               "id": "tm_006t",
               "name": "Dale County",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1397,7 +1389,15 @@
             {
               "id": "tm_006u",
               "name": "Eufaula",
-              "overall": "",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006q",
+              "name": "Andalusia",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1405,7 +1405,7 @@
             {
               "id": "tm_006v",
               "name": "Headland",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1413,7 +1413,7 @@
             {
               "id": "tm_006w",
               "name": "New Brockton",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1421,7 +1421,7 @@
             {
               "id": "tm_006x",
               "name": "Straughn",
-              "overall": "",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1430,44 +1430,12 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
-            {
-              "id": "tm_006y",
-              "name": "Demopolis",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_006z",
-              "name": "Holt",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0070",
-              "name": "Jemison",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0071",
-              "name": "Montevallo",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_0072",
               "name": "Northside",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1475,15 +1443,7 @@
             {
               "id": "tm_0073",
               "name": "Selma",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0074",
-              "name": "Shelby County",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1491,7 +1451,47 @@
             {
               "id": "tm_0075",
               "name": "Sipsey Valley",
-              "overall": "",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006z",
+              "name": "Holt",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0070",
+              "name": "Jemison",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0071",
+              "name": "Montevallo",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_006y",
+              "name": "Demopolis",
+              "overall": "0-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0074",
+              "name": "Shelby County",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1500,12 +1500,12 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
-              "id": "tm_0076",
-              "name": "Beauregard",
-              "overall": "",
+              "id": "tm_007b",
+              "name": "Marbury",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1513,47 +1513,7 @@
             {
               "id": "tm_0077",
               "name": "Charles Henderson",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0078",
-              "name": "Elmore County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0079",
-              "name": "Greenville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007a",
-              "name": "Holtville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007b",
-              "name": "Marbury",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007c",
-              "name": "Tallassee",
-              "overall": "",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1561,7 +1521,47 @@
             {
               "id": "tm_007d",
               "name": "Valley",
-              "overall": "",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0078",
+              "name": "Elmore County",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0079",
+              "name": "Greenville",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007a",
+              "name": "Holtville",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007c",
+              "name": "Tallassee",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0076",
+              "name": "Beauregard",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1570,20 +1570,12 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
               "id": "tm_007e",
               "name": "Center Point",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007f",
-              "name": "Dora",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1591,15 +1583,7 @@
             {
               "id": "tm_007g",
               "name": "Fairfield",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007h",
-              "name": "Carver-Birmingham",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1607,7 +1591,7 @@
             {
               "id": "tm_007i",
               "name": "Oak Grove",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1615,7 +1599,15 @@
             {
               "id": "tm_007j",
               "name": "Shades Valley",
-              "overall": "",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007h",
+              "name": "Carver-Birmingham",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1623,7 +1615,15 @@
             {
               "id": "tm_007k",
               "name": "Wenonah",
-              "overall": "",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007f",
+              "name": "Dora",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1631,7 +1631,7 @@
             {
               "id": "tm_007l",
               "name": "Woodlawn",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1640,44 +1640,20 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
+            {
+              "id": "tm_007t",
+              "name": "Sylacauga",
+              "overall": "2-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
             {
               "id": "tm_007m",
               "name": "Alexandria",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007n",
-              "name": "Anniston",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007o",
-              "name": "Central-Clay County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007p",
-              "name": "Jacksonville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007q",
-              "name": "Leeds",
-              "overall": "",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1685,7 +1661,31 @@
             {
               "id": "tm_007r",
               "name": "Lincoln",
-              "overall": "",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007o",
+              "name": "Central-Clay County",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007p",
+              "name": "Jacksonville",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007q",
+              "name": "Leeds",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1693,23 +1693,15 @@
             {
               "id": "tm_007s",
               "name": "Moody",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_007t",
-              "name": "Sylacauga",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007u",
-              "name": "Ardmore",
-              "overall": "",
+              "id": "tm_007n",
+              "name": "Anniston",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1718,20 +1710,12 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
-              "id": "tm_007v",
-              "name": "Brooks",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007w",
-              "name": "Deshler",
-              "overall": "",
+              "id": "tm_007z",
+              "name": "Priceville",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1739,7 +1723,31 @@
             {
               "id": "tm_007x",
               "name": "Hamilton",
-              "overall": "",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_7rvy99s",
+              "name": "Ardmore",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007v",
+              "name": "Brooks",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007w",
+              "name": "Deshler",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1747,15 +1755,7 @@
             {
               "id": "tm_007y",
               "name": "Lawrence County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007z",
-              "name": "Priceville",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1763,7 +1763,7 @@
             {
               "id": "tm_0080",
               "name": "West Morgan",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1771,7 +1771,7 @@
             {
               "id": "tm_0081",
               "name": "West Point",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1780,68 +1780,12 @@
         },
         "8": {
           "name": "Region 8",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
-            {
-              "id": "tm_0082",
-              "name": "Brewer",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0083",
-              "name": "Cherokee County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0084",
-              "name": "Crossville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_0085",
               "name": "Fairview",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0086",
-              "name": "Good Hope",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0087",
-              "name": "Guntersville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0088",
-              "name": "Hayden",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0089",
-              "name": "Sardis",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -1849,7 +1793,63 @@
             {
               "id": "tm_008a",
               "name": "Scottsboro",
-              "overall": "",
+              "overall": "2-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0084",
+              "name": "Crossville",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0086",
+              "name": "Good Hope",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0087",
+              "name": "Guntersville",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0083",
+              "name": "Cherokee County",
+              "overall": "0-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0088",
+              "name": "Hayden",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0082",
+              "name": "Brewer",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0089",
+              "name": "Sardis",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
