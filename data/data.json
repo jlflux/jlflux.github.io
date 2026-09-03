@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-03T02:27:33.782Z"
+    "updated": "2026-09-03T02:31:11.642Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -2846,28 +2846,12 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
-            {
-              "id": "tm_0030",
-              "name": "Chickasaw",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_0031",
               "name": "Clarke County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0032",
-              "name": "Hillcrest-Evergreen",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2875,7 +2859,7 @@
             {
               "id": "tm_0033",
               "name": "JU Blacksher",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2883,15 +2867,7 @@
             {
               "id": "tm_0034",
               "name": "Luverne",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0035",
-              "name": "Monroe County",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2899,7 +2875,31 @@
             {
               "id": "tm_0036",
               "name": "Thomasville",
-              "overall": "",
+              "overall": "2-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0030",
+              "name": "Chickasaw",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0035",
+              "name": "Monroe County",
+              "overall": "0-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0032",
+              "name": "Hillcrest-Evergreen",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2908,36 +2908,20 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
-            {
-              "id": "tm_0037",
-              "name": "Ariton",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_0038",
               "name": "Cottonwood",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_0039",
-              "name": "Geneva County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003a",
-              "name": "Goshen",
-              "overall": "",
+              "id": "tm_0037",
+              "name": "Ariton",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2945,7 +2929,7 @@
             {
               "id": "tm_003b",
               "name": "GW Long",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2953,7 +2937,23 @@
             {
               "id": "tm_003c",
               "name": "Highland Home",
-              "overall": "",
+              "overall": "0-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0039",
+              "name": "Geneva County",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003a",
+              "name": "Goshen",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2961,7 +2961,7 @@
             {
               "id": "tm_003d",
               "name": "Houston County",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2969,7 +2969,7 @@
             {
               "id": "tm_003e",
               "name": "Zion Chapel",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2978,12 +2978,12 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
               "id": "tm_003f",
               "name": "Aliceville",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -2991,47 +2991,7 @@
             {
               "id": "tm_003g",
               "name": "Dallas County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003h",
-              "name": "Greene County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003i",
-              "name": "Greensboro",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003j",
-              "name": "Isabella",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003k",
-              "name": "Southside-Selma",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003l",
-              "name": "Sumter Central",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3039,7 +2999,47 @@
             {
               "id": "tm_003m",
               "name": "Thorsby",
-              "overall": "",
+              "overall": "2-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003h",
+              "name": "Greene County",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003j",
+              "name": "Isabella",
+              "overall": "0-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003k",
+              "name": "Southside-Selma",
+              "overall": "0-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003i",
+              "name": "Greensboro",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003l",
+              "name": "Sumter Central",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3048,44 +3048,12 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
-              "id": "tm_003n",
-              "name": "BB Comer",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003o",
-              "name": "Central-Coosa",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003p",
-              "name": "Dadeville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003q",
-              "name": "Horseshoe Bend",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_003r",
-              "name": "Lanett",
-              "overall": "",
+              "id": "tm_003u",
+              "name": "Reeltown",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3093,7 +3061,23 @@
             {
               "id": "tm_003s",
               "name": "Ranburne",
-              "overall": "",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003o",
+              "name": "Central-Coosa",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003p",
+              "name": "Dadeville",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3101,15 +3085,31 @@
             {
               "id": "tm_003t",
               "name": "Randolph County",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_003u",
-              "name": "Reeltown",
-              "overall": "",
+              "id": "tm_003q",
+              "name": "Horseshoe Bend",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003n",
+              "name": "BB Comer",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_003r",
+              "name": "Lanett",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3118,20 +3118,20 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
-              "id": "tm_003v",
-              "name": "Carbon Hill",
-              "overall": "",
+              "id": "tm_003w",
+              "name": "Cleveland",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_003w",
-              "name": "Cleveland",
-              "overall": "",
+              "id": "tm_003v",
+              "name": "Carbon Hill",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3139,7 +3139,7 @@
             {
               "id": "tm_003x",
               "name": "Cold Springs",
-              "overall": "",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3147,7 +3147,7 @@
             {
               "id": "tm_003y",
               "name": "Gordo",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3155,7 +3155,7 @@
             {
               "id": "tm_003z",
               "name": "Lamar County",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3163,7 +3163,7 @@
             {
               "id": "tm_0040",
               "name": "Locust Fork",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3171,7 +3171,7 @@
             {
               "id": "tm_0041",
               "name": "Midfield",
-              "overall": "",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3179,7 +3179,7 @@
             {
               "id": "tm_0042",
               "name": "Southeastern",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3188,28 +3188,12 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
               "id": "tm_0043",
               "name": "Gaston",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0044",
-              "name": "Ohatchee",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0045",
-              "name": "Piedmont",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3217,23 +3201,7 @@
             {
               "id": "tm_0046",
               "name": "Pleasant Valley",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0047",
-              "name": "Saks",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0048",
-              "name": "Vincent",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3241,7 +3209,39 @@
             {
               "id": "tm_0049",
               "name": "Walter Wellborn",
-              "overall": "",
+              "overall": "2-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0044",
+              "name": "Ohatchee",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0045",
+              "name": "Piedmont",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0048",
+              "name": "Vincent",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0047",
+              "name": "Saks",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3249,7 +3249,7 @@
             {
               "id": "tm_004a",
               "name": "West End",
-              "overall": "",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3258,52 +3258,12 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
-            {
-              "id": "tm_004b",
-              "name": "Colbert County",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_004c",
-              "name": "Falkville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_004d",
-              "name": "JB Pennington",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_004e",
               "name": "Lexington",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_004f",
-              "name": "Phil Campbell",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_004g",
-              "name": "Sheffield",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3311,7 +3271,47 @@
             {
               "id": "tm_004h",
               "name": "Tanner",
-              "overall": "",
+              "overall": "2-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004b",
+              "name": "Colbert County",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004c",
+              "name": "Falkville",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004d",
+              "name": "JB Pennington",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004f",
+              "name": "Phil Campbell",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004g",
+              "name": "Sheffield",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3319,7 +3319,7 @@
             {
               "id": "tm_004i",
               "name": "Winston County",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3328,28 +3328,12 @@
         },
         "8": {
           "name": "Region 8",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
-            {
-              "id": "tm_004j",
-              "name": "Brindlee Mountain",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_004k",
-              "name": "Collinsville",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_004l",
               "name": "Fyffe",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3357,23 +3341,15 @@
             {
               "id": "tm_004m",
               "name": "Ider",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_004n",
-              "name": "North Sand Mountain",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_004o",
-              "name": "Pisgah",
-              "overall": "",
+              "id": "tm_004k",
+              "name": "Collinsville",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3381,7 +3357,7 @@
             {
               "id": "tm_004p",
               "name": "Sand Rock",
-              "overall": "",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -3389,7 +3365,31 @@
             {
               "id": "tm_004q",
               "name": "Section",
-              "overall": "",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004j",
+              "name": "Brindlee Mountain",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004n",
+              "name": "North Sand Mountain",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004o",
+              "name": "Pisgah",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
