@@ -31,6 +31,59 @@ function gh(token) {
   };
 }
 
+// Turn a GitHub HTTP status into something the admin can actually act on.
+function describeFailure(status, bodyText, repo, branch) {
+  let ghMessage = '';
+  try { ghMessage = (JSON.parse(bodyText) || {}).message || ''; } catch (e) { /* not JSON */ }
+  const where = repo + ' (branch ' + branch + ')';
+
+  if (status === 401) {
+    return {
+      error: 'GitHub rejected the token (401 ' + (ghMessage || 'Bad credentials') + '). ' +
+        'The GITHUB_TOKEN in Vercel is invalid, expired, or was revoked.',
+      hint: 'Generate a new GitHub fine-grained token with Contents: Read and write on ' + repo +
+        ', update GITHUB_TOKEN in Vercel, then redeploy. Fine-grained tokens expire, so this is the usual cause.',
+    };
+  }
+  if (status === 403) {
+    return {
+      error: 'GitHub refused the request (403 ' + (ghMessage || 'Forbidden') + '). ' +
+        'The token is recognised but not allowed to do this.',
+      hint: 'Check the token grants Contents: Read and write, that ' + repo + ' is in its repository access list, ' +
+        'and that it has not hit a rate limit.',
+    };
+  }
+  if (status === 404) {
+    return {
+      error: 'GitHub could not find ' + where + ' (404).',
+      hint: 'Either the token cannot see that repository, or GITHUB_REPO / GITHUB_BRANCH is wrong. ' +
+        'A fine-grained token returns 404 (not 403) for repositories it has no access to.',
+    };
+  }
+  if (status === 409) {
+    return {
+      error: 'The data file changed on GitHub since this browser loaded it (409).',
+      hint: 'Reload the admin so it picks up the newer data, then publish again.',
+    };
+  }
+  if (status === 422) {
+    return {
+      error: 'GitHub rejected the commit as invalid (422 ' + (ghMessage || '') + ').',
+      hint: 'This usually means the file SHA was stale. Reload the admin and publish again.',
+    };
+  }
+  if (status >= 500) {
+    return {
+      error: 'GitHub is having trouble right now (' + status + ').',
+      hint: 'Wait a moment and publish again. Your edits are still saved in this browser.',
+    };
+  }
+  return {
+    error: 'GitHub request failed (' + status + (ghMessage ? ' ' + ghMessage : '') + ').',
+    hint: 'Target was ' + where + '.',
+  };
+}
+
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') return auth.send(res, 405, { error: 'Use POST.' });
 
@@ -85,8 +138,17 @@ module.exports = async function handler(req, res) {
     if (cur.status === 200) {
       sha = (await cur.json()).sha;
     } else if (cur.status !== 404) {
+      // 404 is fine here — it just means the file does not exist yet.
       const detail = await cur.text();
-      return auth.send(res, 502, { error: 'Could not read the current data.json from GitHub.', detail: detail.slice(0, 400) });
+      const d = describeFailure(cur.status, detail, repo, branch);
+      return auth.send(res, 502, {
+        error: 'Could not read the current data.json from GitHub. ' + d.error,
+        hint: d.hint,
+        status: cur.status,
+        repo: repo,
+        branch: branch,
+        detail: detail.slice(0, 300),
+      });
     }
 
     const pretty = JSON.stringify(data, null, 2) + '\n';
@@ -105,10 +167,15 @@ module.exports = async function handler(req, res) {
 
     if (!put.ok) {
       const detail = await put.text();
-      const hint = put.status === 409
-        ? 'The file changed since this browser last loaded it. Reload the admin and publish again.'
-        : undefined;
-      return auth.send(res, 502, { error: 'GitHub rejected the commit.', hint: hint, detail: detail.slice(0, 400) });
+      const d = describeFailure(put.status, detail, repo, branch);
+      return auth.send(res, 502, {
+        error: 'GitHub rejected the commit. ' + d.error,
+        hint: d.hint,
+        status: put.status,
+        repo: repo,
+        branch: branch,
+        detail: detail.slice(0, 300),
+      });
     }
 
     const out = await put.json();

@@ -245,17 +245,62 @@
           showLogin((out.body && out.body.error) || 'Please sign in again.');
           return;
         }
-        var msg = (out.body && out.body.error) || ('Publish failed (HTTP ' + out.status + ').');
-        if (out.body && out.body.hint) msg += ' ' + out.body.hint;
-        flash(msg, 'error', true);
+        publishFailed(out.body, 'Publish failed (HTTP ' + out.status + ').');
       })
       .catch(function (e) {
-        flash('Could not reach the publish endpoint: ' + e.message + '. Your edits are still saved in this browser.', 'error', true);
+        publishFailed(null, 'Could not reach the publish endpoint: ' + e.message + '.');
       })
       .then(function () {
         btn.disabled = false;
         btn.textContent = label;
       });
+  }
+
+  // Publishing failed: say why, reassure that nothing was lost, and offer a
+  // one-click backup so a long editing session is never at risk.
+  function publishFailed(body, fallback) {
+    var host = document.getElementById('noticeArea');
+    if (!host) { flash((body && body.error) || fallback, 'error', true); return; }
+    host.innerHTML = '';
+
+    var box = el('div', 'notice warn');
+    var main = el('div');
+    main.appendChild(el('strong', null, 'Nothing was published — but your edits are safe in this browser.'));
+    main.appendChild(el('div', null, (body && body.error) || fallback));
+    if (body && body.hint) {
+      var h = el('div', null, body.hint);
+      h.style.marginTop = '6px';
+      main.appendChild(h);
+    }
+    if (body && (body.repo || body.status)) {
+      var meta = el('div', 'hint', 'Target: ' + (body.repo || '?') + (body.branch ? ' · branch ' + body.branch : '') +
+        (body.status ? ' · HTTP ' + body.status : ''));
+      meta.style.marginTop = '6px';
+      main.appendChild(meta);
+    }
+    if (body && body.detail) {
+      var det = document.createElement('details');
+      det.style.marginTop = '6px';
+      var sum = document.createElement('summary');
+      sum.textContent = 'GitHub response';
+      sum.style.cursor = 'pointer';
+      sum.style.fontSize = '0.78rem';
+      det.appendChild(sum);
+      var pre = document.createElement('pre');
+      pre.textContent = body.detail;
+      pre.style.cssText = 'white-space:pre-wrap;font-size:0.72rem;margin:6px 0 0;overflow-x:auto;';
+      det.appendChild(pre);
+      main.appendChild(det);
+    }
+    box.appendChild(main);
+
+    var backup = el('button', 'btn btn-sm', '⬇ Back up now');
+    backup.title = 'Download a copy of your current edits';
+    backup.onclick = exportJSON;
+    box.appendChild(backup);
+    host.appendChild(box);
+
+    flash((body && body.error) || fallback, 'error');
   }
 
   /* ---------- Export / Import ---------- */
