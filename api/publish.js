@@ -87,7 +87,9 @@ function describeFailure(status, bodyText, repo, branch) {
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') return auth.send(res, 405, { error: 'Use POST.' });
 
-  const token = process.env.GITHUB_TOKEN;
+  // Trim: a stray space or newline pasted into the env var reads to GitHub as
+  // a malformed token and comes back as an unhelpful "Bad credentials".
+  const token = (process.env.GITHUB_TOKEN || '').trim();
   if (!token) {
     return auth.send(res, 500, {
       error: 'Publishing is not configured. Set GITHUB_TOKEN in the Vercel project environment variables.',
@@ -127,8 +129,8 @@ module.exports = async function handler(req, res) {
     return auth.send(res, 400, { error: 'Payload did not look like bracket data.' });
   }
 
-  const repo = process.env.GITHUB_REPO || DEFAULT_REPO;
-  const branch = process.env.GITHUB_BRANCH || DEFAULT_BRANCH;
+  const repo = (process.env.GITHUB_REPO || '').trim() || DEFAULT_REPO;
+  const branch = (process.env.GITHUB_BRANCH || '').trim() || DEFAULT_BRANCH;
   const apiUrl = 'https://api.github.com/repos/' + repo + '/contents/' + FILE_PATH;
 
   try {
