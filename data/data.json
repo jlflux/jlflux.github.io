@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-08-03T20:26:47.725Z"
+    "updated": "2026-09-03T02:08:16.862Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -10,12 +10,12 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No games have been played, standings are based on last year. Mary Montgomery is ineligible for the postseason, and games against them do not count.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
               "id": "tm_00a3",
               "name": "Baker",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -23,7 +23,7 @@
             {
               "id": "tm_00a6",
               "name": "Fairhope",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -31,15 +31,7 @@
             {
               "id": "tm_00a4",
               "name": "Daphne",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00a5",
-              "name": "Davidson",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -47,15 +39,7 @@
             {
               "id": "tm_00a7",
               "name": "Foley",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00a9",
-              "name": "Robertsdale",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -63,7 +47,7 @@
             {
               "id": "tm_00a2",
               "name": "Alma Bryant",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -71,53 +55,37 @@
             {
               "id": "tm_00a8",
               "name": "Mary Montgomery*",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "out"
+            },
+            {
+              "id": "tm_00a5",
+              "name": "Davidson",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a9",
+              "name": "Robertsdale",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
         "2": {
           "name": "Region 2",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
               "id": "tm_00ac",
               "name": "Central-Phenix City",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00aa",
-              "name": "Auburn",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00ag",
-              "name": "Opelika",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00ab",
-              "name": "Carver-Montgomery",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00ad",
-              "name": "Dothan",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -125,15 +93,39 @@
             {
               "id": "tm_00ae",
               "name": "Enterprise",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_00ah",
-              "name": "Smiths Station",
-              "overall": "",
+              "id": "tm_00aa",
+              "name": "Auburn",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ab",
+              "name": "Carver-Montgomery",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ad",
+              "name": "Dothan",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ag",
+              "name": "Opelika",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -141,7 +133,15 @@
             {
               "id": "tm_00af",
               "name": "JAG",
-              "overall": "",
+              "overall": "0-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ah",
+              "name": "Smiths Station",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -150,20 +150,12 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
               "id": "tm_00an",
               "name": "Thompson",
-              "overall": "9-1",
-              "region": "6-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00ai",
-              "name": "Hewitt-Trussville",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -171,7 +163,7 @@
             {
               "id": "tm_00ap",
               "name": "Vestavia Hills",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -179,7 +171,7 @@
             {
               "id": "tm_00aj",
               "name": "Hoover",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -187,7 +179,7 @@
             {
               "id": "tm_00al",
               "name": "Prattville",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -195,7 +187,7 @@
             {
               "id": "tm_00am",
               "name": "Spain Park",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -203,7 +195,15 @@
             {
               "id": "tm_00ak",
               "name": "Oak Mountain",
-              "overall": "",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ai",
+              "name": "Hewitt-Trussville",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -211,7 +211,7 @@
             {
               "id": "tm_00ao",
               "name": "Tuscaloosa County",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -220,12 +220,12 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "No games have been played, standings are based on last year.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
               "id": "tm_00ax",
               "name": "Sparkman",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -233,7 +233,7 @@
             {
               "id": "tm_00aw",
               "name": "James Clemens",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -241,7 +241,7 @@
             {
               "id": "tm_00as",
               "name": "Gadsden City",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -249,7 +249,7 @@
             {
               "id": "tm_00ar",
               "name": "Buckhorn",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -257,7 +257,7 @@
             {
               "id": "tm_00aq",
               "name": "Bob Jones",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -265,7 +265,7 @@
             {
               "id": "tm_00av",
               "name": "Huntsville",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -273,7 +273,7 @@
             {
               "id": "tm_00at",
               "name": "Grissom",
-              "overall": "",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -281,7 +281,7 @@
             {
               "id": "tm_00au",
               "name": "Hazel Green",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
