@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-03T02:20:20.921Z"
+    "updated": "2026-09-03T02:23:05.521Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -4616,12 +4616,12 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
               "id": "tm_0001",
               "name": "Bayshore Christian",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4629,7 +4629,7 @@
             {
               "id": "tm_0002",
               "name": "Bayside Academy",
-              "overall": "",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4637,7 +4637,7 @@
             {
               "id": "tm_0003",
               "name": "Cottage Hill Christian",
-              "overall": "",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4645,7 +4645,7 @@
             {
               "id": "tm_0004",
               "name": "Mobile Christian",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4653,7 +4653,7 @@
             {
               "id": "tm_0005",
               "name": "Northside Methodist",
-              "overall": "",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4661,7 +4661,7 @@
             {
               "id": "tm_0006",
               "name": "Providence Christian",
-              "overall": "",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4669,7 +4669,7 @@
             {
               "id": "tm_0007",
               "name": "St. Luke's",
-              "overall": "",
+              "overall": "0-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4678,28 +4678,12 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
-              "id": "tm_0008",
-              "name": "Alabama Christian",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0009",
-              "name": "Fort Dale",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000a",
-              "name": "Pike Liberal Arts",
-              "overall": "",
+              "id": "tm_000d",
+              "name": "Montgomery Academy",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4707,23 +4691,23 @@
             {
               "id": "tm_000b",
               "name": "Prattville Christian",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_000c",
-              "name": "St. James",
-              "overall": "",
+              "id": "tm_0008",
+              "name": "Alabama Christian",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_000d",
-              "name": "Montgomery Academy",
-              "overall": "",
+              "id": "tm_0009",
+              "name": "Fort Dale",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4731,7 +4715,23 @@
             {
               "id": "tm_000e",
               "name": "Trinity",
-              "overall": "",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000a",
+              "name": "Pike Liberal Arts",
+              "overall": "0-2",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000c",
+              "name": "St. James",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4740,20 +4740,20 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "Only one region game has been played - Hope Christian defeated Donoho in the odd Week 0 region game.",
           "teams": [
             {
-              "id": "tm_000g",
-              "name": "Ellwood Christian",
-              "overall": "",
-              "region": "",
+              "id": "tm_6cfkgh3",
+              "name": "Hope Christian Academy",
+              "overall": "1-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_000h",
-              "name": "Holy Spirit",
-              "overall": "",
+              "id": "tm_000k",
+              "name": "Tuscaloosa Academy",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4761,23 +4761,7 @@
             {
               "id": "tm_000i",
               "name": "Pickens Academy",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000j",
-              "name": "Donoho",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000k",
-              "name": "Tuscaloosa Academy",
-              "overall": "",
+              "overall": "2-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4785,15 +4769,31 @@
             {
               "id": "tm_000l",
               "name": "Victory Christian",
-              "overall": "",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_6cfkgh3",
-              "name": "Hope Christian Academy",
-              "overall": "",
+              "id": "tm_000h",
+              "name": "Holy Spirit",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000j",
+              "name": "Donoho",
+              "overall": "1-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000g",
+              "name": "Ellwood Christian",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4802,20 +4802,12 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "No games have been played, standings are alphabetical.",
+          "note": "No region games have been played yet.",
           "teams": [
             {
-              "id": "tm_000m",
-              "name": "Coosa Christian",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000n",
-              "name": "Decatur Heritage",
-              "overall": "",
+              "id": "tm_000r",
+              "name": "Westbrook Christian",
+              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4823,7 +4815,7 @@
             {
               "id": "tm_000o",
               "name": "Lindsay Lane",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4831,7 +4823,7 @@
             {
               "id": "tm_000p",
               "name": "Mars Hill",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4839,15 +4831,7 @@
             {
               "id": "tm_000q",
               "name": "Shoals Christian",
-              "overall": "",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000r",
-              "name": "Westbrook Christian",
-              "overall": "",
+              "overall": "1-1",
               "region": "",
               "rating": "",
               "status": "medium"
@@ -4855,7 +4839,23 @@
             {
               "id": "tm_000s",
               "name": "Whitesburg Christian",
-              "overall": "",
+              "overall": "1-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000n",
+              "name": "Decatur Heritage",
+              "overall": "0-1",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000m",
+              "name": "Coosa Christian",
+              "overall": "0-2",
               "region": "",
               "rating": "",
               "status": "medium"
