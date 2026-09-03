@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-03T02:35:40.900Z"
+    "updated": "2026-09-03T02:37:13.883Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! No games have been played yet, so nothing below is based on anything. Check back after the first few weeks of the season and things will be updated! Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -715,6 +715,30 @@
           "note": "No region games have been played yet.",
           "teams": [
             {
+              "id": "tm_0095",
+              "name": "Pelham",
+              "overall": "2-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0092",
+              "name": "Helena",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008z",
+              "name": "Calera",
+              "overall": "1-0",
+              "region": "",
+              "rating": "",
+              "status": "medium"
+            },
+            {
               "id": "tm_0094",
               "name": "Mountain Brook",
               "overall": "1-1",
@@ -731,22 +755,6 @@
               "status": "medium"
             },
             {
-              "id": "tm_0092",
-              "name": "Helena",
-              "overall": "1-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0095",
-              "name": "Pelham",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_0096",
               "name": "Ramsay",
               "overall": "1-1",
@@ -758,14 +766,6 @@
               "id": "tm_0090",
               "name": "Chelsea",
               "overall": "0-2",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008z",
-              "name": "Calera",
-              "overall": "1-0",
               "region": "",
               "rating": "",
               "status": "medium"
