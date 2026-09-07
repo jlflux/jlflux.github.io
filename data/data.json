@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-07T05:17:54.581Z"
+    "updated": "2026-09-07T05:24:27.403Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! Region play starts this week, so check back after this weekend (officially Week 2) and things will be updated! Standings are updated only on non-region games for now. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -502,69 +502,69 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_008d",
               "name": "Gulf Shores",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008g",
-              "name": "Saraland",
-              "overall": "1-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008i",
               "name": "Theodore",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008h",
               "name": "Spanish Fort",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008b",
-              "name": "Baldwin County",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008e",
               "name": "Blount",
+              "overall": "2-1",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008g",
+              "name": "Saraland",
               "overall": "1-1",
-              "region": "",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008b",
+              "name": "Baldwin County",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008f",
               "name": "Murphy",
-              "overall": "0-1",
-              "region": "",
+              "overall": "0-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008c",
               "name": "Elberta",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -572,69 +572,69 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
-            {
-              "id": "tm_008k",
-              "name": "Park Crossing",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_008o",
               "name": "Russell County",
-              "overall": "2-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008q",
               "name": "Wetumpka",
-              "overall": "2-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008m",
               "name": "Pike Road",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008l",
-              "name": "Percy Julian",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008j",
               "name": "Benjamin Russell",
-              "overall": "0-1",
-              "region": "",
+              "overall": "1-1",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008k",
+              "name": "Park Crossing",
+              "overall": "2-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008l",
+              "name": "Percy Julian",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008p",
               "name": "Stanhope Elmore",
-              "overall": "0-1",
-              "region": "",
+              "overall": "0-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008n",
               "name": "Rehobeth",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -642,69 +642,69 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_008u",
               "name": "Hillcrest-Tuscaloosa",
-              "overall": "2-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008w",
               "name": "McAdory",
-              "overall": "2-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008t",
               "name": "Central-Tuscaloosa",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008s",
-              "name": "Brookwood",
-              "overall": "1-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008r",
               "name": "Bessemer City",
+              "overall": "2-1",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008s",
+              "name": "Brookwood",
               "overall": "1-1",
-              "region": "",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008x",
               "name": "Northridge",
-              "overall": "1-1",
-              "region": "",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008y",
               "name": "Paul Bryant",
-              "overall": "1-1",
-              "region": "",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008v",
               "name": "Hueytown",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -712,69 +712,69 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
-            {
-              "id": "tm_0095",
-              "name": "Pelham",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_0092",
               "name": "Helena",
-              "overall": "1-0",
-              "region": "",
+              "overall": "2-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008z",
               "name": "Calera",
-              "overall": "1-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0094",
-              "name": "Mountain Brook",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0093",
               "name": "Homewood",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0096",
               "name": "Ramsay",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0095",
+              "name": "Pelham",
+              "overall": "2-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0094",
+              "name": "Mountain Brook",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0090",
               "name": "Chelsea",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0091",
               "name": "Chilton County",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -782,69 +782,69 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
-            {
-              "id": "tm_009d",
-              "name": "Mortimer Jordan",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009c",
-              "name": "Minor",
-              "overall": "1-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009a",
-              "name": "Huffman",
-              "overall": "1-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_0097",
               "name": "Parker",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009b",
               "name": "Jasper",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0098",
               "name": "Cullman",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009e",
-              "name": "Jackson-Olin",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0099",
               "name": "Gardendale",
+              "overall": "2-1",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009d",
+              "name": "Mortimer Jordan",
+              "overall": "2-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009c",
+              "name": "Minor",
               "overall": "1-1",
-              "region": "",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009a",
+              "name": "Huffman",
+              "overall": "1-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009e",
+              "name": "Jackson-Olin",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -852,21 +852,29 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_009g",
               "name": "Oxford",
-              "overall": "2-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_009l",
-              "name": "St. Clair County",
-              "overall": "2-0",
-              "region": "",
+              "id": "tm_009f",
+              "name": "Clay-Chalkville",
+              "overall": "2-1",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009h",
+              "name": "Pell City",
+              "overall": "1-2",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
@@ -879,34 +887,26 @@
               "status": "medium"
             },
             {
-              "id": "tm_009f",
-              "name": "Clay-Chalkville",
-              "overall": "1-1",
-              "region": "",
+              "id": "tm_009l",
+              "name": "St. Clair County",
+              "overall": "2-1",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009i",
               "name": "Pinson Valley",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009k",
               "name": "Springville",
-              "overall": "0-2",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009h",
-              "name": "Pell City",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -914,69 +914,69 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_009q",
               "name": "Florence",
-              "overall": "2-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009t",
               "name": "Russellville",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009r",
-              "name": "Hartselle",
-              "overall": "1-1",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009m",
               "name": "Athens",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009o",
-              "name": "Decatur",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009s",
-              "name": "Muscle Shoals",
-              "overall": "0-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009n",
               "name": "Austin",
+              "overall": "1-2",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009r",
+              "name": "Hartselle",
+              "overall": "1-2",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009o",
+              "name": "Decatur",
+              "overall": "1-2",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009s",
+              "name": "Muscle Shoals",
               "overall": "0-2",
-              "region": "",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009p",
               "name": "East Limestone",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -984,69 +984,69 @@
         },
         "8": {
           "name": "Region 8",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_009v",
               "name": "Arab",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009u",
-              "name": "Albertville",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009x",
-              "name": "Columbia",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009y",
-              "name": "Douglas",
-              "overall": "1-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009w",
               "name": "Boaz",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00a0",
-              "name": "Lee-Huntsville",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00a1",
               "name": "Mae Jemison",
-              "overall": "0-1",
-              "region": "",
+              "overall": "1-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009z",
               "name": "Fort Payne",
-              "overall": "0-2",
-              "region": "",
+              "overall": "1-2",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009u",
+              "name": "Albertville",
+              "overall": "2-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009x",
+              "name": "Columbia",
+              "overall": "2-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009y",
+              "name": "Douglas",
+              "overall": "1-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a0",
+              "name": "Lee-Huntsville",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
