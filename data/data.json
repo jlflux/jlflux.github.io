@@ -2,9 +2,9 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-07T20:43:04.363Z"
+    "updated": "2026-09-07T22:02:31.873Z"
   },
-  "newsNote": "All classifications are updated after Week 2. Follow us on X @ALPreps for more info!",
+  "newsNote": "All classifications are updated after Week 2. We aren't projecting anything yet, so some teams may be higher or lower than expected based on limited results. Follow us on X @ALPreps for more info!",
   "classifications": {
     "6A": {
       "regions": {
@@ -4985,5 +4985,6 @@
   "aboutBanner": {
     "enabled": true,
     "text": "New to bracketology? Learn how these brackets, seeds and projections work."
-  }
+  },
+  "showProjections": false
 }
