@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-07T17:02:16.212Z"
+    "updated": "2026-09-07T17:07:44.200Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! 5A/6A are updated after Week 2. The rest will follow soon. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -3613,22 +3613,6 @@
           "note": "Too early to tell.",
           "teams": [
             {
-              "id": "tm_0019",
-              "name": "Choctaw County",
-              "overall": "1-2",
-              "region": "0-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001c",
-              "name": "Marengo",
-              "overall": "1-2",
-              "region": "0-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_001a",
               "name": "Fruitdale",
               "overall": "1-1",
@@ -3661,9 +3645,17 @@
               "status": "medium"
             },
             {
-              "id": "tm_001e",
-              "name": "Millry",
-              "overall": "0-3",
+              "id": "tm_0019",
+              "name": "Choctaw County",
+              "overall": "1-2",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001c",
+              "name": "Marengo",
+              "overall": "1-2",
               "region": "0-1",
               "rating": "",
               "status": "medium"
@@ -3675,6 +3667,14 @@
               "region": "0-1",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_001e",
+              "name": "Millry",
+              "overall": "0-3",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
@@ -3682,38 +3682,6 @@
           "name": "Region 2",
           "note": "Too early to tell.",
           "teams": [
-            {
-              "id": "tm_001l",
-              "name": "Florala",
-              "overall": "2-1",
-              "region": "0-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001m",
-              "name": "Kinston",
-              "overall": "2-1",
-              "region": "0-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001n",
-              "name": "Pleasant Home",
-              "overall": "1-1",
-              "region": "0-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001i",
-              "name": "Barbour County",
-              "overall": "1-1",
-              "region": "0-1",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_001o",
               "name": "Samson",
@@ -3745,6 +3713,38 @@
               "region": "1-0",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_001l",
+              "name": "Florala",
+              "overall": "2-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001m",
+              "name": "Kinston",
+              "overall": "2-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001n",
+              "name": "Pleasant Home",
+              "overall": "1-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001i",
+              "name": "Barbour County",
+              "overall": "1-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
             }
           ]
         },
@@ -3755,64 +3755,64 @@
             {
               "id": "tm_001t",
               "name": "Linden",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001q",
-              "name": "Francis Marion",
-              "overall": "1-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001r",
               "name": "JF Shields",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001s",
-              "name": "Keith",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001w",
               "name": "University Charter",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001u",
               "name": "RC Hatch",
-              "overall": "0-2",
-              "region": "",
+              "overall": "1-2",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001q",
+              "name": "Francis Marion",
+              "overall": "1-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001s",
+              "name": "Keith",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001p",
               "name": "Breakthrough Charter",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001v",
               "name": "Sweet Water",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -3823,66 +3823,66 @@
           "note": "Too early to tell.",
           "teams": [
             {
-              "id": "tm_001z",
-              "name": "Central-Hayneville",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_0021",
               "name": "Maplesville",
-              "overall": "1-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0022",
-              "name": "McKenzie",
-              "overall": "1-0",
-              "region": "",
+              "overall": "2-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0024",
               "name": "Verbena",
-              "overall": "1-0",
-              "region": "",
+              "overall": "2-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001x",
               "name": "Billingsley",
-              "overall": "0-1",
-              "region": "",
+              "overall": "1-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0023",
               "name": "Red Level",
-              "overall": "0-1",
-              "region": "",
+              "overall": "1-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_001y",
-              "name": "Calhoun",
-              "overall": "0-2",
-              "region": "",
+              "id": "tm_001z",
+              "name": "Central-Hayneville",
+              "overall": "2-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0022",
+              "name": "McKenzie",
+              "overall": "1-1",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0020",
               "name": "Georgiana",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001y",
+              "name": "Calhoun",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -3893,66 +3893,66 @@
           "note": "Too early to tell.",
           "teams": [
             {
-              "id": "tm_0026",
-              "name": "Brilliant",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_0027",
               "name": "Hubbertville",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0028",
-              "name": "Lynn",
-              "overall": "0-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0025",
               "name": "Berry",
-              "overall": "0-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002b",
-              "name": "South Lamar",
-              "overall": "0-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0029",
-              "name": "Marion County",
-              "overall": "0-2",
-              "region": "",
+              "overall": "1-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002a",
               "name": "Pickens County",
-              "overall": "0-2",
-              "region": "",
+              "overall": "1-2",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002c",
               "name": "Sulligent",
+              "overall": "1-2",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0026",
+              "name": "Brilliant",
+              "overall": "1-2",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0028",
+              "name": "Lynn",
               "overall": "0-2",
-              "region": "",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002b",
+              "name": "South Lamar",
+              "overall": "0-2",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0029",
+              "name": "Marion County",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -3963,50 +3963,26 @@
           "note": "Too early to tell.",
           "teams": [
             {
-              "id": "tm_002g",
-              "name": "Loachapoka",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_002j",
               "name": "Winterboro",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002f",
-              "name": "LaFayette",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002h",
-              "name": "Notasulga",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002i",
-              "name": "Wadley",
-              "overall": "1-1",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002k",
               "name": "Woodland",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002i",
+              "name": "Wadley",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
@@ -4014,7 +3990,31 @@
               "id": "tm_002e",
               "name": "Fayetteville",
               "overall": "0-2",
-              "region": "",
+              "region": "0-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002g",
+              "name": "Loachapoka",
+              "overall": "2-1",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002f",
+              "name": "LaFayette",
+              "overall": "1-2",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002h",
+              "name": "Notasulga",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -4027,64 +4027,64 @@
             {
               "id": "tm_002l",
               "name": "Addison",
-              "overall": "2-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002r",
               "name": "Red Bay",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002n",
-              "name": "Cherokee",
-              "overall": "1-0",
-              "region": "",
+              "overall": "3-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002o",
               "name": "Hackleburg",
-              "overall": "1-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002p",
-              "name": "Meek",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002m",
               "name": "Belgreen",
+              "overall": "2-1",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002n",
+              "name": "Cherokee",
               "overall": "1-1",
-              "region": "",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002p",
+              "name": "Meek",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002q",
               "name": "Phillips",
-              "overall": "1-1",
-              "region": "",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002s",
               "name": "Waterloo",
-              "overall": "0-1",
-              "region": "",
+              "overall": "0-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -4095,58 +4095,58 @@
           "note": "Too early to tell.",
           "teams": [
             {
-              "id": "tm_002z",
-              "name": "Woodville",
-              "overall": "2-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_002v",
               "name": "Gaylesville",
-              "overall": "1-0",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002t",
-              "name": "Appalachian",
-              "overall": "1-1",
-              "region": "",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002u",
-              "name": "Cedar Bluff",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002w",
               "name": "Ragland",
-              "overall": "0-2",
-              "region": "",
+              "overall": "1-2",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002x",
               "name": "Spring Garden",
-              "overall": "0-2",
-              "region": "",
+              "overall": "1-2",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002z",
+              "name": "Woodville",
+              "overall": "2-0",
+              "region": "0-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002t",
+              "name": "Appalachian",
+              "overall": "1-2",
+              "region": "0-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002u",
+              "name": "Cedar Bluff",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002y",
               "name": "Valley Head",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
