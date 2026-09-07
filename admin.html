@@ -77,6 +77,47 @@
       </div>
     </div>
 
+    <div class="panel" style="margin-bottom:18px">
+      <h3>About Page</h3>
+      <p class="hint" style="margin-top:0">
+        Just type — press <strong>Enter</strong> for a new line, no tags needed. Select text and use the buttons
+        below to make it <b>bold</b>, <i>italic</i> or colored. You can also write HTML directly if you prefer.
+        <a href="about.html" target="_blank" rel="noopener">View the page →</a>
+      </p>
+
+      <div class="field">
+        <label>Banner on the public site</label>
+        <div class="toolbar" style="margin-bottom:8px">
+          <label class="ag-home" style="margin:0">
+            <input type="checkbox" id="bannerEnabled" /> Show the banner
+          </label>
+          <input type="text" id="bannerText" class="grow" placeholder="New to bracketology? Learn how it all works." />
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="aboutInput">Page content</label>
+        <div class="rt-toolbar" id="aboutToolbar">
+          <button class="btn btn-sm" type="button" data-wrap="b" title="Bold"><b>B</b></button>
+          <button class="btn btn-sm" type="button" data-wrap="i" title="Italic"><i>I</i></button>
+          <button class="btn btn-sm" type="button" data-wrap="u" title="Underline"><u>U</u></button>
+          <button class="btn btn-sm" type="button" data-wrap="h2" title="Heading">H2</button>
+          <button class="btn btn-sm" type="button" data-wrap="h3" title="Sub-heading">H3</button>
+          <button class="btn btn-sm" type="button" data-color="#e01b1b" title="Red text">■ Red</button>
+          <button class="btn btn-sm" type="button" data-color="#1d4ed8" title="Blue text">■ Blue</button>
+          <button class="btn btn-sm" type="button" data-color="#1f9d4d" title="Green text">■ Green</button>
+          <button class="btn btn-sm" type="button" data-link="1" title="Link">🔗 Link</button>
+          <button class="btn btn-sm btn-danger" type="button" id="aboutResetBtn" title="Restore the default text">Restore default</button>
+        </div>
+        <textarea id="aboutInput" class="rt-input" placeholder="Explain how bracketology works…"></textarea>
+      </div>
+
+      <div class="field" style="margin-bottom:0">
+        <label>Live preview</label>
+        <div class="rt-preview about-body" id="aboutPreview"></div>
+      </div>
+    </div>
+
     <div class="admin-class-tabs" id="adminClassTabs"></div>
 
     <div class="tabs" style="padding:0;margin-bottom:14px;border-bottom:1px solid var(--border)">

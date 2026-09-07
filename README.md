@@ -49,6 +49,12 @@ Sign in with your email and the password stored server-side as `ADMIN_PASSWORD`
   advance to the next round. This is what the public "Show projected results"
   toggle displays. Games with an actual result are locked to that result.
 - **Site Settings** — season label and the top notes/tiebreakers box.
+- **About Page** — edit the explainer shown at `/about.html`. Press Enter for a
+  line break (no `<br>` needed); select text and use the toolbar for bold,
+  italic, underline, headings, colors and links, or write HTML directly. A live
+  preview sits under the editor. You can also edit the text of the red banner
+  that links to the page from the public site, or hide the banner entirely.
+  Content is sanitised on render, so scripts and event handlers are stripped.
 
 ### Publishing changes
 
@@ -119,6 +125,7 @@ unpublished draft on the public page, append `?preview=1` to the URL.
 
 ```
 index.html            Public site (Brackets + Region Standings tabs)
+about.html            Public "About bracketology" explainer
 admin.html            Admin suite (not linked from the public site)
 api/_auth.js          Shared server-side auth (session signing/verification)
 api/login.js          Serverless function: verifies the admin password
@@ -126,6 +133,7 @@ api/publish.js        Serverless function: commits data.json to publish
 assets/css/style.css  Styles, theming, responsive layout
 assets/js/data.js     Data model, bracket templates, tree builder, resolution
 assets/js/public.js   Public rendering
+assets/js/about.js    About page rendering
 assets/js/admin.js    Admin editor
 data/data.json        Published data (edit via admin -> Export -> commit here)
 ```

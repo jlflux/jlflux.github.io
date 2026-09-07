@@ -42,6 +42,20 @@
   function teamName(t) { return t && t.name ? t.name : ''; }
 
   /* ---------- Render: top-level chrome ---------- */
+  function renderAboutBanner() {
+    var banner = document.getElementById('aboutBanner');
+    if (!banner) return;
+    var cfg = state.data.aboutBanner || {};
+    if (cfg.enabled === false) { banner.hidden = true; return; }
+    banner.hidden = false;
+    banner.innerHTML = '';
+    var left = el('div', 'ab-text');
+    left.appendChild(el('strong', null, cfg.text || 'New to bracketology?'));
+    left.appendChild(el('span', 'ab-sub', 'Click here to understand how it all works.'));
+    banner.appendChild(left);
+    banner.appendChild(el('span', 'ab-cta', 'Learn more →'));
+  }
+
   function renderNews() {
     var box = document.getElementById('newsBox');
     var note = (state.data.newsNote || '').trim();
@@ -372,6 +386,7 @@
     document.querySelectorAll('.tab').forEach(function (t) {
       t.classList.toggle('active', t.dataset.view === state.view);
     });
+    renderAboutBanner();
     renderNews();
     renderClassNav();
     if (state.view === 'brackets') renderBracket();
