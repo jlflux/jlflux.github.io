@@ -381,6 +381,67 @@
     season.oninput = function () { state.data.meta = state.data.meta || {}; state.data.meta.season = season.value; save(false); };
   }
 
+  /* ---------- Render: About page editor ---------- */
+  function renderAbout() {
+    var ta = document.getElementById('aboutInput');
+    var preview = document.getElementById('aboutPreview');
+    if (!ta) return;
+
+    state.data.aboutBanner = state.data.aboutBanner || { enabled: true, text: '' };
+
+    ta.value = state.data.aboutHtml || '';
+    var refresh = function () { preview.innerHTML = A.richTextToHtml(ta.value); };
+    refresh();
+    ta.oninput = function () {
+      state.data.aboutHtml = ta.value;
+      refresh();
+      save(false);
+    };
+
+    var enabled = document.getElementById('bannerEnabled');
+    enabled.checked = state.data.aboutBanner.enabled !== false;
+    enabled.onchange = function () { state.data.aboutBanner.enabled = enabled.checked; save(false); };
+
+    var text = document.getElementById('bannerText');
+    text.value = state.data.aboutBanner.text || '';
+    text.oninput = function () { state.data.aboutBanner.text = text.value; save(false); };
+
+    // Toolbar: wrap the selection (or insert at the cursor).
+    var toolbar = document.getElementById('aboutToolbar');
+    toolbar.querySelectorAll('button[data-wrap], button[data-color], button[data-link]').forEach(function (btn) {
+      btn.onclick = function () {
+        if (btn.dataset.wrap) wrapSelection(ta, '<' + btn.dataset.wrap + '>', '</' + btn.dataset.wrap + '>');
+        else if (btn.dataset.color) wrapSelection(ta, '<span style="color:' + btn.dataset.color + '">', '</span>');
+        else if (btn.dataset.link) {
+          var url = window.prompt('Link address', 'https://');
+          if (!url) return;
+          wrapSelection(ta, '<a href="' + url.replace(/"/g, '&quot;') + '">', '</a>');
+        }
+        state.data.aboutHtml = ta.value;
+        refresh();
+        save(false);
+      };
+    });
+
+    document.getElementById('aboutResetBtn').onclick = function () {
+      if (!confirm('Replace the About page text with the default write-up?')) return;
+      ta.value = A.DEFAULT_ABOUT;
+      state.data.aboutHtml = ta.value;
+      refresh();
+      save(false);
+      flash('Restored the default About text.');
+    };
+  }
+
+  function wrapSelection(ta, open, close) {
+    var start = ta.selectionStart, end = ta.selectionEnd;
+    var selected = ta.value.slice(start, end);
+    ta.value = ta.value.slice(0, start) + open + selected + close + ta.value.slice(end);
+    // Keep the same text selected, now inside the tags.
+    ta.focus();
+    ta.setSelectionRange(start + open.length, start + open.length + selected.length);
+  }
+
   /* ---------- Render: Standings editor ---------- */
   function renderStandings() {
     var host = document.getElementById('adminBody');
@@ -896,6 +957,7 @@
   }
   function renderAll() {
     renderNews();
+    renderAbout();
     renderBody();
   }
 

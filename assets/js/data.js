@@ -151,6 +151,159 @@
     return 'Round ' + round;
   }
 
+  /* ---------- About page content -------------------------------------- */
+  const DEFAULT_BANNER_TEXT = 'New to bracketology? Learn how these brackets, seeds and projections work.';
+
+  const DEFAULT_ABOUT = [
+    '<h2>What is bracketology?</h2>',
+    'Bracketology is the practice of projecting a postseason field before it is actually set. Instead of waiting for the AHSAA to release the official brackets, we take what we know right now — region standings, results so far, and who still has to play whom — and build the bracket that <i>would</i> happen if the season ended today.',
+    '',
+    'It is part math, part judgment, and it changes every week. That is the fun of it.',
+    '',
+    '<h2>How the AHSAA playoff field works</h2>',
+    'Alabama does not use one big statewide seeding. Every classification is split into regions, and teams qualify out of their own region. Where you finish in your region is the only thing that matters — a 7-3 team can make the playoffs while an 8-2 team in a tougher region misses.',
+    '',
+    'The field is different in each classification:',
+    '',
+    '<b>Class 6A</b> — 4 regions, top 6 from each region qualify (24 teams). The top 2 seeds in each region get a first-round bye straight into the second round.',
+    '<b>Classes 1A–5A</b> — 8 regions each, top 4 from each region qualify (32 teams).',
+    '<b>Class AA (private)</b> — 2 regions, and as of this season the whole field qualifies (16 teams).',
+    '<b>Class A (private)</b> — 4 regions, top 4 from each region qualify (16 teams).',
+    '',
+    '<h2>How to read the bracket</h2>',
+    'Every team on the bracket carries a seed tag on the left, written like <b>R4-2</b>. That means <i>the second-place team out of Region 4</i>. The tag travels with the team as it advances, so you can always see where somebody came from.',
+    '',
+    'A few other things worth knowing:',
+    '',
+    'The team name sits on the left of each slot and the score on the right.',
+    'An <b>H</b> next to a team means they are the home team for that game.',
+    'A blank slot next to a team means they have a <b>bye</b> — nobody to play that round, and they advance automatically.',
+    '<b>Click any game</b> to see the date, time, location, and both teams’ records.',
+    '',
+    '<h2>Region standings and status colors</h2>',
+    'The Region Standings tab shows every team in playoff order, with their overall record and their region record. Region record is what actually decides seeding.',
+    '',
+    'Each team also carries a status showing how safe their playoff position is:',
+    '',
+    '<b>Clinched</b> — mathematically in, regardless of what happens next.',
+    '<b>High</b> — in good shape, would need real help to miss.',
+    '<b>Medium</b> — genuinely in the balance.',
+    '<b>Low</b> — needs results to go their way.',
+    '<b>Out</b> — eliminated from playoff contention.',
+    '',
+    '<h2>About the projections</h2>',
+    'Flip on <b>Show projected results</b> on any bracket to see it filled out the rest of the way — who advances, and who ends up playing for a state title.',
+    '',
+    'These projections are hand-made, not spit out by a formula. They lean on records, head-to-head results, region strength, injuries, and plain old judgment. Games that have actually been played are locked to their real result; everything after that is a projection.',
+    '',
+    'They will be wrong sometimes. That is the nature of it — and half the reason it is worth arguing about.',
+    '',
+    '<h2>A note on accuracy</h2>',
+    'This is an independent project and is not affiliated with the AHSAA. Brackets here are projections until the AHSAA releases the official pairings. Standings and results are updated by hand, so if you spot something wrong, let us know.',
+  ].join('\n');
+
+  /* ---------- Rich text: simple HTML + Enter for line breaks ---------- */
+  // Inline/basic tags the admin may use. Anything else is unwrapped (its text
+  // is kept) or, if dangerous, removed outright.
+  const ALLOWED_TAGS = {
+    B: 1, STRONG: 1, I: 1, EM: 1, U: 1, S: 1, SPAN: 1, A: 1, BR: 1, P: 1,
+    H1: 1, H2: 1, H3: 1, H4: 1, H5: 1, H6: 1, UL: 1, OL: 1, LI: 1,
+    BLOCKQUOTE: 1, CODE: 1, PRE: 1, HR: 1, SMALL: 1, SUP: 1, SUB: 1, DIV: 1, MARK: 1,
+  };
+  const DROP_ENTIRELY = {
+    SCRIPT: 1, STYLE: 1, IFRAME: 1, OBJECT: 1, EMBED: 1, LINK: 1, META: 1,
+    FORM: 1, INPUT: 1, BUTTON: 1, TEXTAREA: 1, SELECT: 1, BASE: 1, SVG: 1,
+  };
+  const ALLOWED_STYLE_PROPS = {
+    'color': 1, 'background-color': 1, 'font-size': 1, 'font-weight': 1,
+    'font-style': 1, 'text-align': 1, 'text-decoration': 1, 'font-family': 1,
+  };
+
+  function safeStyle(value) {
+    return String(value || '')
+      .split(';')
+      .map((decl) => decl.trim())
+      .filter((decl) => {
+        if (!decl) return false;
+        const prop = decl.split(':')[0].trim().toLowerCase();
+        if (!ALLOWED_STYLE_PROPS[prop]) return false;
+        return !/url\s*\(|expression|javascript:/i.test(decl);
+      })
+      .join('; ');
+  }
+
+  function safeHref(value) {
+    const v = String(value || '').trim();
+    if (/^(https?:|mailto:)/i.test(v)) return v;
+    if (/^[/#]/.test(v)) return v;
+    return null; // block javascript:, data:, everything else
+  }
+
+  // Strip anything that isn't plain formatting. Runs in the browser.
+  function sanitizeHtml(html) {
+    if (typeof DOMParser === 'undefined') return String(html || '');
+    const doc = new DOMParser().parseFromString('<div id="__r">' + html + '</div>', 'text/html');
+    const root = doc.getElementById('__r');
+
+    (function walk(node) {
+      const children = Array.prototype.slice.call(node.childNodes);
+      children.forEach((child) => {
+        if (child.nodeType === 3) return;               // text: keep
+        if (child.nodeType !== 1) { child.remove(); return; } // comments etc.
+
+        const tag = child.tagName.toUpperCase();
+        if (DROP_ENTIRELY[tag]) { child.remove(); return; }
+
+        walk(child);
+
+        if (!ALLOWED_TAGS[tag]) {
+          // Unknown but harmless: keep the text, drop the wrapper.
+          while (child.firstChild) node.insertBefore(child.firstChild, child);
+          child.remove();
+          return;
+        }
+
+        Array.prototype.slice.call(child.attributes).forEach((attr) => {
+          const name = attr.name.toLowerCase();
+          if (name === 'style') {
+            const cleaned = safeStyle(attr.value);
+            if (cleaned) child.setAttribute('style', cleaned);
+            else child.removeAttribute('style');
+            return;
+          }
+          if (tag === 'A' && name === 'href') {
+            const href = safeHref(attr.value);
+            if (href) {
+              child.setAttribute('href', href);
+              if (/^https?:/i.test(href)) {
+                child.setAttribute('target', '_blank');
+                child.setAttribute('rel', 'noopener noreferrer');
+              }
+            } else {
+              child.removeAttribute('href');
+            }
+            return;
+          }
+          if (name === 'target' || name === 'rel') return; // set above
+          child.removeAttribute(attr.name);                // incl. all on* handlers
+        });
+      });
+    })(root);
+
+    return root.innerHTML;
+  }
+
+  // Turn what the admin typed into display HTML: their formatting tags are
+  // kept, and a plain Enter becomes a line break (no need to type <br>).
+  function richTextToHtml(src) {
+    let s = String(src == null ? '' : src).replace(/\r\n?/g, '\n');
+    s = s.replace(/\n/g, '<br>');
+    // A break straight after a block element would double the gap.
+    s = s.replace(/(<\/(?:p|h[1-6]|ul|ol|li|div|blockquote|pre)>)\s*<br\s*\/?>/gi, '$1');
+    s = s.replace(/(<(?:ul|ol|hr)\s*[^>]*>)\s*<br\s*\/?>/gi, '$1');
+    return sanitizeHtml(s);
+  }
+
   /* ---------- Default data -------------------------------------------- */
   function makeRegion(name, teamCount) {
     const teams = [];
@@ -197,6 +350,8 @@
         updated: new Date().toISOString(),
       },
       newsNote: '',
+      aboutHtml: DEFAULT_ABOUT,
+      aboutBanner: { enabled: true, text: DEFAULT_BANNER_TEXT },
       classifications: classifications,
     };
   }
@@ -210,6 +365,15 @@
     data.schema = SCHEMA_VERSION;
     data.meta = data.meta || base.meta;
     if (typeof data.newsNote !== 'string') data.newsNote = '';
+    if (typeof data.aboutHtml !== 'string') data.aboutHtml = DEFAULT_ABOUT;
+    if (!data.aboutBanner || typeof data.aboutBanner !== 'object') {
+      data.aboutBanner = { enabled: true, text: DEFAULT_BANNER_TEXT };
+    } else {
+      if (typeof data.aboutBanner.text !== 'string' || !data.aboutBanner.text.trim()) {
+        data.aboutBanner.text = DEFAULT_BANNER_TEXT;
+      }
+      data.aboutBanner.enabled = data.aboutBanner.enabled !== false;
+    }
     CLASS_ORDER.forEach((key) => {
       const cfg = CLASS_CONFIG[key];
       if (!data.classifications[key]) {
@@ -499,6 +663,10 @@
     buildBracket: buildBracket,
     buildClassification: buildClassification,
     roundName: roundName,
+    richTextToHtml: richTextToHtml,
+    sanitizeHtml: sanitizeHtml,
+    DEFAULT_ABOUT: DEFAULT_ABOUT,
+    DEFAULT_BANNER_TEXT: DEFAULT_BANNER_TEXT,
     teamForSeed: teamForSeed,
     seedLabel: seedLabel,
     getClassConfig: getClassConfig,

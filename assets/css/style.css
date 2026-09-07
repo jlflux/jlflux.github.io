@@ -154,6 +154,96 @@ a { color: var(--red); }
   padding: 18px 16px 60px;
 }
 
+/* ---------- About banner (public site) -------------------------------- */
+.about-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  text-decoration: none;
+  background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 100%);
+  color: #fff;
+  border-radius: 12px;
+  padding: 14px 20px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 10px rgba(224, 27, 27, 0.28);
+  transition: transform .12s, box-shadow .12s;
+}
+.about-banner:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(224, 27, 27, 0.38);
+}
+.about-banner .ab-text { flex: 1; min-width: 220px; display: flex; flex-direction: column; gap: 2px; }
+.about-banner .ab-text strong { font-size: 1.02rem; font-weight: 800; letter-spacing: -0.01em; }
+.about-banner .ab-sub { font-size: 0.84rem; opacity: 0.92; }
+.about-banner .ab-cta {
+  flex: none;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 999px;
+  padding: 7px 16px;
+  font-weight: 800;
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
+/* ---------- About page ------------------------------------------------ */
+.about-title { font-size: clamp(1.5rem, 4vw, 2rem); margin: 4px 0 18px; letter-spacing: -0.02em; }
+.about-body {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 22px 26px;
+  max-width: 820px;
+  font-size: 0.97rem;
+  line-height: 1.65;
+}
+.about-body h2 {
+  font-size: 1.15rem;
+  margin: 28px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--red);
+  /* block so following text starts on its own line, but the rule only spans
+     the width of the heading text */
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+}
+.about-body h3 { font-size: 1rem; margin: 20px 0 6px; }
+.about-body > h2:first-child, .about-body > h3:first-child { margin-top: 0; }
+.about-body a { font-weight: 600; }
+.about-body ul, .about-body ol { padding-left: 22px; }
+.about-body code {
+  background: var(--surface-2);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+.about-body blockquote {
+  margin: 12px 0;
+  padding: 8px 14px;
+  border-left: 3px solid var(--red);
+  background: var(--surface-2);
+  border-radius: 0 6px 6px 0;
+}
+.about-footer-cta { margin: 22px 0 10px; }
+
+/* ---------- Rich text editor (admin) ---------------------------------- */
+.rt-toolbar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.rt-toolbar .btn { padding: 4px 10px; }
+textarea.rt-input {
+  min-height: 320px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+.rt-preview {
+  max-height: 420px;
+  overflow-y: auto;
+  max-width: none;
+}
+
 .news-box {
   background: var(--surface);
   border: 1px solid var(--border);
