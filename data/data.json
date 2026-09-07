@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-07T16:51:20.532Z"
+    "updated": "2026-09-07T17:02:16.212Z"
   },
   "newsNote": "Welcome to 2026 Bracketology! 5A/6A are updated after Week 2. The rest will follow soon. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -3610,69 +3610,69 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_0019",
               "name": "Choctaw County",
-              "overall": "1-1",
-              "region": "",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001c",
               "name": "Marengo",
-              "overall": "1-1",
-              "region": "",
+              "overall": "1-2",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001a",
               "name": "Fruitdale",
-              "overall": "0-1",
-              "region": "",
+              "overall": "1-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001f",
               "name": "Southern Choctaw",
-              "overall": "0-1",
-              "region": "",
+              "overall": "1-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001b",
               "name": "Leroy",
-              "overall": "0-2",
-              "region": "",
+              "overall": "1-2",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001d",
               "name": "McIntosh",
-              "overall": "0-2",
-              "region": "",
+              "overall": "1-2",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001e",
               "name": "Millry",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001g",
               "name": "Washington County",
-              "overall": "0-2",
-              "region": "",
+              "overall": "0-3",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             }
@@ -3680,69 +3680,69 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_001l",
               "name": "Florala",
-              "overall": "2-0",
-              "region": "",
+              "overall": "2-1",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001m",
               "name": "Kinston",
-              "overall": "2-0",
-              "region": "",
+              "overall": "2-1",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001n",
               "name": "Pleasant Home",
-              "overall": "1-0",
-              "region": "",
+              "overall": "1-1",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001i",
               "name": "Barbour County",
-              "overall": "1-0",
-              "region": "",
+              "overall": "1-1",
+              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001o",
               "name": "Samson",
-              "overall": "1-0",
-              "region": "",
+              "overall": "2-0",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001k",
               "name": "Elba",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001j",
               "name": "Brantley",
-              "overall": "1-1",
-              "region": "",
+              "overall": "2-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001h",
               "name": "Abbeville",
-              "overall": "0-2",
-              "region": "",
+              "overall": "1-2",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             }
@@ -3750,7 +3750,7 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_001t",
@@ -3820,7 +3820,7 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_001z",
@@ -3890,7 +3890,7 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_0026",
@@ -3960,7 +3960,7 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_002g",
@@ -4022,7 +4022,7 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_002l",
@@ -4092,7 +4092,7 @@
         },
         "8": {
           "name": "Region 8",
-          "note": "No region games have been played yet.",
+          "note": "Too early to tell.",
           "teams": [
             {
               "id": "tm_002z",
