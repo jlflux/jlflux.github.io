@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-07T18:43:03.643Z"
+    "updated": "2026-09-07T20:42:19.265Z"
   },
   "newsNote": "All classifications are updated after Week 2. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -300,10 +300,10 @@
           "r1g0": {},
           "r1g1": {
             "home": "top",
-            "date": "Fri, Nov 7",
-            "time": "7:00 pm",
-            "location": "Davidson Stadium",
-            "note": "Eastern time"
+            "date": "",
+            "time": "",
+            "location": "",
+            "note": ""
           },
           "r1g2": {},
           "r1g3": {
