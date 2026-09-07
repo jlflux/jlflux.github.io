@@ -194,8 +194,7 @@ a { color: var(--red); }
   border: 1px solid var(--border);
   border-radius: 12px;
   box-shadow: var(--shadow);
-  padding: 22px 26px;
-  max-width: 820px;
+  padding: 24px 28px;
   font-size: 0.97rem;
   line-height: 1.65;
 }
@@ -241,7 +240,6 @@ textarea.rt-input {
 .rt-preview {
   max-height: 420px;
   overflow-y: auto;
-  max-width: none;
 }
 
 .news-box {
