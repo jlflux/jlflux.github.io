@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-07T20:42:19.265Z"
+    "updated": "2026-09-07T20:43:04.363Z"
   },
   "newsNote": "All classifications are updated after Week 2. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -1158,8 +1158,8 @@
           "r3g1": "top",
           "r4g0": "top",
           "r3g3": "bottom",
-          "r3g2": "bottom",
-          "r4g1": "bottom",
+          "r3g2": "top",
+          "r4g1": "top",
           "r5g0": "bottom"
         },
         "slots": [
