@@ -118,22 +118,28 @@
     host.innerHTML = '';
     state.fit = null;
 
-    // header w/ projection toggle
+    // header w/ projection toggle (only when projections are published)
     var head = el('div', 'section-head');
     var cfg = A.CLASS_CONFIG[state.classKey];
     head.appendChild(el('h2', null, cfg.name + ' Playoff Bracket'));
-    var lbl = el('label', 'toggle');
-    var inp = document.createElement('input');
-    inp.type = 'checkbox';
-    inp.checked = !!state.projected[state.classKey];
-    inp.onchange = function () { state.projected[state.classKey] = inp.checked; renderBracket(); };
-    lbl.appendChild(inp);
-    lbl.appendChild(el('span', 'track'));
-    lbl.appendChild(el('span', null, 'Show projected results'));
-    head.appendChild(lbl);
+
+    var projectionsPublic = state.data.showProjections === true;
+    if (projectionsPublic) {
+      var lbl = el('label', 'toggle');
+      var inp = document.createElement('input');
+      inp.type = 'checkbox';
+      inp.checked = !!state.projected[state.classKey];
+      inp.onchange = function () { state.projected[state.classKey] = inp.checked; renderBracket(); };
+      lbl.appendChild(inp);
+      lbl.appendChild(el('span', 'track'));
+      lbl.appendChild(el('span', null, 'Show projected results'));
+      head.appendChild(lbl);
+    }
     host.appendChild(head);
 
-    var projected = !!state.projected[state.classKey];
+    // Never render projections while they are unpublished, even if this
+    // browser had the toggle switched on before it was hidden.
+    var projected = projectionsPublic && !!state.projected[state.classKey];
     var built = A.buildClassification(state.data, state.classKey);
 
     var outer = el('div', 'bracket-fit');
@@ -252,7 +258,8 @@
   function legend() {
     var l = el('div', 'hint');
     l.style.marginTop = '12px';
-    l.textContent = 'Seeds are shown on the left of each first-round slot (e.g. R4-2 = 2nd place in Region 4). Click any game for date, location and team records. Toggle "Show projected results" to see the projected bracket.';
+    l.textContent = 'Seeds are shown on the left of each first-round slot (e.g. R4-2 = 2nd place in Region 4). Click any game for date, location and team records.' +
+      (state.data.showProjections === true ? ' Toggle "Show projected results" to see the projected bracket.' : '');
     return l;
   }
 

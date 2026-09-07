@@ -25,7 +25,8 @@ Admin: **/admin.html** (intentionally not linked from the public site)
 - Faint **connector lines** show advancement; round titles sit across the top and
   the whole bracket **scales to fit the screen** (no horizontal scrollbar).
 - **Projected results** toggle on every bracket — shows the projected bracket you
-  set by hand in the admin (see below).
+  set by hand in the admin (see below). Hidden from visitors unless you switch
+  projections on under Site Settings, so early-season work stays private.
 - **Region standings** tab: teams in seeded order with overall record, region
   record, and a colored **Status** pill (Clinched / High / Medium / Low / Out).
   Per-region notes appear under each table.
@@ -48,7 +49,10 @@ Sign in with your email and the password stored server-side as `ADMIN_PASSWORD`
 - **Projected Bracket** — click a team to project them as a game's winner; they
   advance to the next round. This is what the public "Show projected results"
   toggle displays. Games with an actual result are locked to that result.
-- **Site Settings** — season label and the top notes/tiebreakers box.
+- **Site Settings** — season label, the top notes/tiebreakers box, and a
+  **Projections** switch controlling whether the public "Show projected results"
+  toggle appears at all. It is **off by default**, so projections can be built
+  privately and only become visible once you turn it on and publish.
 - **About Page** — edit the explainer shown at `/about.html`. Press Enter for a
   line break (no `<br>` needed); select text and use the toolbar for bold,
   italic, underline, headings, colors and links, or write HTML directly. A live

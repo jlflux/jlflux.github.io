@@ -350,6 +350,9 @@
         updated: new Date().toISOString(),
       },
       newsNote: '',
+      // When false the public bracket hides the "Show projected results"
+      // toggle entirely, so projections can be built privately in the admin.
+      showProjections: false,
       aboutHtml: DEFAULT_ABOUT,
       aboutBanner: { enabled: true, text: DEFAULT_BANNER_TEXT },
       classifications: classifications,
@@ -365,6 +368,8 @@
     data.schema = SCHEMA_VERSION;
     data.meta = data.meta || base.meta;
     if (typeof data.newsNote !== 'string') data.newsNote = '';
+    // Opt-in: projections stay private unless explicitly published.
+    data.showProjections = data.showProjections === true;
     if (typeof data.aboutHtml !== 'string') data.aboutHtml = DEFAULT_ABOUT;
     if (!data.aboutBanner || typeof data.aboutBanner !== 'object') {
       data.aboutBanner = { enabled: true, text: DEFAULT_BANNER_TEXT };

@@ -379,6 +379,14 @@
     var season = document.getElementById('seasonInput');
     season.value = (state.data.meta && state.data.meta.season) || '';
     season.oninput = function () { state.data.meta = state.data.meta || {}; state.data.meta.season = season.value; save(false); };
+
+    var sp = document.getElementById('showProjections');
+    sp.checked = state.data.showProjections === true;
+    sp.onchange = function () {
+      state.data.showProjections = sp.checked;
+      save(false);
+      renderBody(); // refresh the Projected Bracket tab's public/private notice
+    };
   }
 
   /* ---------- Render: About page editor ---------- */
@@ -835,8 +843,16 @@
     cl.bracket.projected = cl.bracket.projected || {};
 
     var panel = el('div', 'panel');
-    panel.appendChild(el('h3', null, 'Projected Bracket'));
-    panel.appendChild(el('p', 'hint', 'Click a team to project them as the winner — they advance to the next round. This is exactly what the public "Show projected results" toggle displays. Games marked 🔒 have a real result set (a score or a chosen winner) so they cannot be projected; click one to edit or clear that result.'));
+    var head = el('div', 'toolbar');
+    head.appendChild(el('h3', null, 'Projected Bracket'));
+    var isPublic = state.data.showProjections === true;
+    var vis = el('span', 'sync-state ' + (isPublic ? 'dirty' : 'clean'),
+      isPublic ? '👁 Visible to the public' : '🔒 Private — not visible to the public');
+    vis.title = 'Change this under Site Settings → Projections';
+    head.appendChild(vis);
+    head.appendChild(el('span', 'grow'));
+    panel.appendChild(head);
+    panel.appendChild(el('p', 'hint', 'Click a team to project them as the winner — they advance to the next round. Games marked 🔒 have a real result set (a score or a chosen winner) so they cannot be projected; click one to edit or clear that result.'));
 
     var toolbar = el('div', 'toolbar');
     toolbar.style.marginBottom = '12px';
