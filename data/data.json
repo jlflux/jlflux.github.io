@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-08T23:39:29.771Z"
+    "updated": "2026-09-12T05:59:34.197Z"
   },
   "newsNote": "All classifications are updated after Week 2. We aren't projecting anything yet, so some teams may be higher or lower than expected based on limited results. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -10,68 +10,68 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "Too early to tell, but don't forget that Mary Montgomery's games don't count toward championship play and they are banned from the postseason.",
+          "note": "Too early to tell, but don't forget that Mary Montgomery's games don't count toward championship play and they are banned from the postseason.\n\nFairhope and Robertsdale play this coming week and the winner will be sitting in a good position going into the break. Looks like Alma Bryant and Davidson will be fighting for the final spot.",
           "teams": [
             {
-              "id": "tm_00a3",
-              "name": "Baker",
-              "overall": "2-1",
-              "region": "1-0",
+              "id": "tm_00a4",
+              "name": "Daphne",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00a6",
               "name": "Fairhope",
-              "overall": "2-1",
+              "overall": "3-1",
               "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00a4",
-              "name": "Daphne",
-              "overall": "2-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00a7",
-              "name": "Foley",
-              "overall": "1-2",
-              "region": "0-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00a2",
-              "name": "Alma Bryant",
-              "overall": "1-2",
-              "region": "0-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00a5",
-              "name": "Davidson",
-              "overall": "0-3",
-              "region": "0-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00a9",
               "name": "Robertsdale",
-              "overall": "0-2",
-              "region": "0-0",
+              "overall": "1-3",
+              "region": "1-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a3",
+              "name": "Baker",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a7",
+              "name": "Foley",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a2",
+              "name": "Alma Bryant",
+              "overall": "1-3",
+              "region": "0-2",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00a5",
+              "name": "Davidson",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00a8",
               "name": "Mary Montgomery*",
-              "overall": "1-2",
+              "overall": "1-3",
               "region": "0-0",
               "rating": "",
               "status": "out"
@@ -80,139 +80,139 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "Too early to tell.",
+          "note": "Too early to tell.\n\nCentral and Auburn play this coming week to determine who is in the driver's seat heading into the region break. Dothan and Enterprise also have a very important game this coming week,",
           "teams": [
             {
               "id": "tm_00ac",
               "name": "Central-Phenix City",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00aa",
               "name": "Auburn",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00ad",
               "name": "Dothan",
-              "overall": "2-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00ag",
-              "name": "Opelika",
-              "overall": "1-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00ae",
-              "name": "Enterprise",
-              "overall": "2-1",
-              "region": "0-1",
+              "overall": "2-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00ab",
               "name": "Carver-Montgomery",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ag",
+              "name": "Opelika",
               "overall": "1-2",
-              "region": "0-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00af",
               "name": "JAG",
-              "overall": "0-2",
-              "region": "0-1",
+              "overall": "1-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00ae",
+              "name": "Enterprise",
+              "overall": "2-2",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00ah",
               "name": "Smiths Station",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             }
           ]
         },
         "3": {
           "name": "Region 3",
-          "note": "Too early to tell. But yes, we've moved Thompson to high because they have been absolutely dominant.",
+          "note": "Too early to tell. But yes, we've moved Thompson to high because they have been absolutely dominant.\n\nThis coming week, the games to keep an eye on are Prattville at Hewitt, Spain Park at Vestavia, and Hoover at Oak Mountain. Oak Mountain isn't favored against Hoover, but this is now a must win for both teams. \n\nThis region will continue playing out, but there is a chance a good team gets left out of the playoffs in the #7 spot. It's just whether or not Oak Mountain can steal a win or two.",
           "teams": [
             {
               "id": "tm_00an",
               "name": "Thompson",
-              "overall": "3-0",
-              "region": "1-0",
+              "overall": "4-0",
+              "region": "2-0",
               "rating": "",
               "status": "high"
             },
             {
               "id": "tm_00al",
               "name": "Prattville",
-              "overall": "3-0",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00am",
-              "name": "Spain Park",
-              "overall": "3-0",
-              "region": "1-0",
+              "overall": "4-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00ai",
               "name": "Hewitt-Trussville",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00am",
+              "name": "Spain Park",
+              "overall": "3-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00ap",
               "name": "Vestavia Hills",
-              "overall": "2-1",
-              "region": "0-1",
+              "overall": "3-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00aj",
               "name": "Hoover",
-              "overall": "2-1",
-              "region": "0-1",
+              "overall": "2-2",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00ak",
               "name": "Oak Mountain",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00ao",
               "name": "Tuscaloosa County",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "low"
             }
@@ -220,37 +220,45 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "Too early to tell.",
+          "note": "Too early to tell, and we won't get any clarity on the top three teams until after the break most likely. ",
           "teams": [
             {
               "id": "tm_00ax",
               "name": "Sparkman",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00aw",
               "name": "James Clemens",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00ar",
               "name": "Buckhorn",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00av",
               "name": "Huntsville",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_00aq",
+              "name": "Bob Jones",
+              "overall": "2-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
@@ -258,31 +266,23 @@
               "id": "tm_00as",
               "name": "Gadsden City",
               "overall": "1-2",
-              "region": "0-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_00aq",
-              "name": "Bob Jones",
-              "overall": "1-2",
-              "region": "0-1",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00at",
               "name": "Grissom",
-              "overall": "0-2",
-              "region": "0-1",
+              "overall": "0-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00au",
               "name": "Hazel Green",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
