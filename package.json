@@ -1,0 +1,23 @@
+{
+  "name": "alpreps-bracketology",
+  "version": "1.0.0",
+  "description": "Brackets and region standings for the AHSAA high school football playoffs, with a browser-based admin suite and one-click publishing. Hosted on Vercel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlflux/jlflux.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlflux/jlflux.github.io/issues"
+  },
+  "homepage": "https://github.com/jlflux/jlflux.github.io#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
