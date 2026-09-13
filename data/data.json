@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-13T01:18:35.461Z"
+    "updated": "2026-09-13T01:29:44.697Z"
   },
   "newsNote": "All classifications are through Week 2, however, 6A is done through Week 3. We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -4366,69 +4366,69 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "Too early to tell.",
+          "note": "St. Paul's just defeated Glenwood, so they are solidly in the top 4 right now. Most of the big games will take place after week 5.",
           "teams": [
-            {
-              "id": "tm_000u",
-              "name": "Glenwood",
-              "overall": "3-0",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_000w",
               "name": "McGill-Toolen",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000x",
               "name": "Montgomery Catholic",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0010",
               "name": "UMS-Wright",
-              "overall": "2-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000t",
-              "name": "Faith Academy",
-              "overall": "1-1",
-              "region": "0-1",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000z",
               "name": "St. Paul's",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000u",
+              "name": "Glenwood",
+              "overall": "3-1",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000t",
+              "name": "Faith Academy",
               "overall": "1-2",
-              "region": "0-1",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000y",
               "name": "St. Michael",
-              "overall": "0-2",
-              "region": "0-1",
+              "overall": "0-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000v",
               "name": "Houston Academy",
-              "overall": "0-2",
-              "region": "0-1",
+              "overall": "0-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -4436,69 +4436,69 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "Too early to tell.",
+          "note": "Briarwood and Madison Academy play this week to determine who will sit at the top with American Christian before the week 5 region break. \n\nJohn Carroll and Randolph play when we come back to region play in week 6 which could determine who the fourth seed is.",
           "teams": [
             {
               "id": "tm_0012",
               "name": "Briarwood",
-              "overall": "3-0",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0016",
-              "name": "Randolph",
-              "overall": "3-0",
-              "region": "1-0",
+              "overall": "4-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0011",
               "name": "American Christian",
-              "overall": "2-0",
-              "region": "1-0",
+              "overall": "3-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0015",
               "name": "Madison Academy",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0016",
+              "name": "Randolph",
+              "overall": "3-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0013",
               "name": "John Carroll",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "2-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0014",
               "name": "Lee-Scott",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0018",
               "name": "Westminster Christian",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0017",
               "name": "St. John Paul II",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
