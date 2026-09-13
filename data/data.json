@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-13T01:29:44.697Z"
+    "updated": "2026-09-13T01:36:22.871Z"
   },
   "newsNote": "All classifications are through Week 2, however, 6A is done through Week 3. We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -4616,69 +4616,69 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "Too early to tell.",
+          "note": "Providence Christian and Cottage Hill Christian is the main game to keep an eye on this week.",
           "teams": [
             {
               "id": "tm_0002",
               "name": "Bayside Academy",
-              "overall": "2-0",
-              "region": "1-0",
+              "overall": "3-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0004",
               "name": "Mobile Christian",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0006",
               "name": "Providence Christian",
-              "overall": "1-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0007",
-              "name": "St. Luke's",
-              "overall": "1-1",
-              "region": "1-0",
+              "overall": "2-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0003",
               "name": "Cottage Hill Christian",
-              "overall": "1-1",
-              "region": "0-1",
+              "overall": "2-1",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0007",
+              "name": "St. Luke's",
+              "overall": "1-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_9escg93",
               "name": "Snook Christian",
-              "overall": "1-1",
-              "region": "0-1",
+              "overall": "1-2",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0001",
               "name": "Bayshore Christian",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0005",
               "name": "Northside Methodist",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -4686,8 +4686,24 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "Too early to tell.",
+          "note": "St. James and Montgomery Academy is the main game to keep an eye on this week.",
           "teams": [
+            {
+              "id": "tm_000e",
+              "name": "Trinity",
+              "overall": "3-1",
+              "region": "2-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000c",
+              "name": "St. James",
+              "overall": "2-2",
+              "region": "2-0",
+              "rating": "",
+              "status": "medium"
+            },
             {
               "id": "tm_000d",
               "name": "Montgomery Academy",
@@ -4697,33 +4713,17 @@
               "status": "medium"
             },
             {
-              "id": "tm_000e",
-              "name": "Trinity",
-              "overall": "2-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000c",
-              "name": "St. James",
-              "overall": "1-0",
-              "region": "1-0",
+              "id": "tm_000b",
+              "name": "Prattville Christian",
+              "overall": "3-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0009",
               "name": "Fort Dale",
-              "overall": "1-1",
-              "region": "0-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000b",
-              "name": "Prattville Christian",
-              "overall": "2-1",
+              "overall": "1-2",
               "region": "0-1",
               "rating": "",
               "status": "medium"
@@ -4731,16 +4731,16 @@
             {
               "id": "tm_0008",
               "name": "Alabama Christian",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000a",
               "name": "Pike Liberal Arts",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -4748,8 +4748,16 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "Too early to tell.",
+          "note": "This region schedule is a little odd because of Hope Christian's early game, but they are off to a good start at 2-0. They play Victory Christian this week where they can all but guarantee a playoff spot with a win.\n\nTuscaloosa Academy and Pickens Academy play this week as well.",
           "teams": [
+            {
+              "id": "tm_6cfkgh3",
+              "name": "Hope Christian Academy",
+              "overall": "2-1",
+              "region": "2-0",
+              "rating": "",
+              "status": "medium"
+            },
             {
               "id": "tm_000k",
               "name": "Tuscaloosa Academy",
@@ -4759,25 +4767,17 @@
               "status": "medium"
             },
             {
-              "id": "tm_000i",
-              "name": "Pickens Academy",
-              "overall": "3-0",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_6cfkgh3",
-              "name": "Hope Christian Academy",
-              "overall": "1-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_000j",
               "name": "Donoho",
-              "overall": "2-1",
+              "overall": "3-1",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000i",
+              "name": "Pickens Academy",
+              "overall": "3-1",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -4785,24 +4785,24 @@
             {
               "id": "tm_000l",
               "name": "Victory Christian",
-              "overall": "1-1",
-              "region": "0-1",
+              "overall": "2-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000h",
               "name": "Holy Spirit",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000g",
               "name": "Ellwood Christian",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -4810,21 +4810,13 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "Too early to tell.",
+          "note": "Westbrook and Decatur Heritage play this week as do Whitesburg and Lindsay Lane.",
           "teams": [
             {
               "id": "tm_000r",
               "name": "Westbrook Christian",
-              "overall": "2-0",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_000o",
-              "name": "Lindsay Lane",
-              "overall": "2-0",
-              "region": "1-0",
+              "overall": "3-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
@@ -4838,33 +4830,41 @@
             },
             {
               "id": "tm_000n",
-              "name": "Decatur Heritage",
-              "overall": "0-1",
-              "region": "0-0",
+              "name": "Decatur Heritage Christian",
+              "overall": "1-1",
+              "region": "1-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000p",
               "name": "Mars Hill",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_000o",
+              "name": "Lindsay Lane Christian",
+              "overall": "2-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000q",
               "name": "Shoals Christian",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_000m",
               "name": "Coosa Christian",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
