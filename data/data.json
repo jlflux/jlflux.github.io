@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-13T01:39:46.081Z"
+    "updated": "2026-09-13T01:42:23.718Z"
   },
   "newsNote": "All classifications are through Week 3. We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -521,17 +521,17 @@
               "status": "medium"
             },
             {
-              "id": "tm_008e",
-              "name": "Blount",
-              "overall": "2-2",
+              "id": "tm_008g",
+              "name": "Saraland",
+              "overall": "2-1",
               "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_008g",
-              "name": "Saraland",
-              "overall": "2-1",
+              "id": "tm_008e",
+              "name": "Blount",
+              "overall": "2-2",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -575,17 +575,17 @@
           "note": "Russell County and Benjamin Russell play this week to determine that tiebreaker, but Pike Road will have to wait until after their bye week to face either of them. It's been easy for the Patriots so far in region play.\n\nWetumpka and Percy Julian play this week to break the tie for fourth.",
           "teams": [
             {
-              "id": "tm_008o",
-              "name": "Russell County",
-              "overall": "4-0",
+              "id": "tm_008m",
+              "name": "Pike Road",
+              "overall": "3-1",
               "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_008m",
-              "name": "Pike Road",
-              "overall": "3-1",
+              "id": "tm_008o",
+              "name": "Russell County",
+              "overall": "4-0",
               "region": "2-0",
               "rating": "",
               "status": "medium"
