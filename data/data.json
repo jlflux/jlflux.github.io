@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-13T01:02:00.659Z"
+    "updated": "2026-09-13T01:18:35.461Z"
   },
   "newsNote": "All classifications are through Week 2, however, 6A is done through Week 3. We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -3610,69 +3610,69 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "Too early to tell.",
+          "note": "Marengo vs McIntosh, Fruitdale vs Southern Choctaw and Choctaw County vs Leroy are the games to watch this week.",
           "teams": [
-            {
-              "id": "tm_001a",
-              "name": "Fruitdale",
-              "overall": "1-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001f",
-              "name": "Southern Choctaw",
-              "overall": "1-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_001b",
               "name": "Leroy",
-              "overall": "1-2",
-              "region": "1-0",
+              "overall": "2-2",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001d",
               "name": "McIntosh",
-              "overall": "1-2",
-              "region": "1-0",
+              "overall": "2-2",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0019",
               "name": "Choctaw County",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "2-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001c",
               "name": "Marengo",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001a",
+              "name": "Fruitdale",
               "overall": "1-2",
-              "region": "0-1",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001f",
+              "name": "Southern Choctaw",
+              "overall": "1-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001g",
               "name": "Washington County",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001e",
               "name": "Millry",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -3680,69 +3680,69 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "Too early to tell.",
+          "note": "This is a six-way tie that definitely needs to play out a bit to resolve itself.",
           "teams": [
-            {
-              "id": "tm_001o",
-              "name": "Samson",
-              "overall": "2-0",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_001k",
               "name": "Elba",
-              "overall": "2-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001j",
-              "name": "Brantley",
-              "overall": "2-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001h",
-              "name": "Abbeville",
-              "overall": "1-2",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001l",
               "name": "Florala",
-              "overall": "2-1",
-              "region": "0-1",
+              "overall": "3-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001m",
               "name": "Kinston",
+              "overall": "3-1",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001o",
+              "name": "Samson",
               "overall": "2-1",
-              "region": "0-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001n",
               "name": "Pleasant Home",
-              "overall": "1-1",
-              "region": "0-1",
+              "overall": "2-1",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001j",
+              "name": "Brantley",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001h",
+              "name": "Abbeville",
+              "overall": "1-3",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001i",
               "name": "Barbour County",
-              "overall": "1-1",
-              "region": "0-1",
+              "overall": "1-2",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -3750,69 +3750,69 @@
         },
         "3": {
           "name": "Region 3",
-          "note": "Too early to tell.",
+          "note": "Main game to keep an eye on this week is RC Hatch and JF Shields.",
           "teams": [
             {
               "id": "tm_001t",
               "name": "Linden",
-              "overall": "3-0",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001r",
-              "name": "JF Shields",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "4-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001w",
               "name": "University Charter",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001u",
               "name": "RC Hatch",
-              "overall": "1-2",
-              "region": "1-0",
+              "overall": "2-2",
+              "region": "2-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001r",
+              "name": "JF Shields",
+              "overall": "2-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001q",
               "name": "Francis Marion",
-              "overall": "1-1",
-              "region": "0-1",
+              "overall": "1-2",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001s",
               "name": "Keith",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001p",
               "name": "Breakthrough Charter",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001v",
               "name": "Sweet Water",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -3820,69 +3820,69 @@
         },
         "4": {
           "name": "Region 4",
-          "note": "Too early to tell.",
+          "note": "Maplesville plays Verbena and Billingsley plays McKenzie to help make the picture a little clearer heading into the mid-season region break.",
           "teams": [
             {
               "id": "tm_0021",
               "name": "Maplesville",
-              "overall": "2-0",
-              "region": "1-0",
+              "overall": "3-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0024",
               "name": "Verbena",
-              "overall": "2-0",
-              "region": "1-0",
+              "overall": "3-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001x",
               "name": "Billingsley",
-              "overall": "1-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0023",
-              "name": "Red Level",
-              "overall": "1-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_001z",
-              "name": "Central-Hayneville",
               "overall": "2-1",
-              "region": "0-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0022",
               "name": "McKenzie",
-              "overall": "1-1",
-              "region": "0-1",
+              "overall": "2-1",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0023",
+              "name": "Red Level",
+              "overall": "1-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_001z",
+              "name": "Central-Hayneville",
+              "overall": "2-2",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0020",
               "name": "Georgiana",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_001y",
               "name": "Calhoun",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -3890,69 +3890,69 @@
         },
         "5": {
           "name": "Region 5",
-          "note": "Too early to tell.",
+          "note": "Berry and Sulligent play this week among the top 4, but likely we will still have a pretty big tie at the top heading into the halfway point of the season.",
           "teams": [
             {
               "id": "tm_0027",
               "name": "Hubbertville",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0025",
               "name": "Berry",
-              "overall": "1-1",
-              "region": "1-0",
+              "overall": "2-1",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002a",
               "name": "Pickens County",
-              "overall": "1-2",
-              "region": "1-0",
+              "overall": "2-2",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002c",
               "name": "Sulligent",
-              "overall": "1-2",
-              "region": "1-0",
+              "overall": "2-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0026",
               "name": "Brilliant",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0028",
               "name": "Lynn",
-              "overall": "0-2",
-              "region": "0-1",
+              "overall": "0-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002b",
               "name": "South Lamar",
-              "overall": "0-2",
-              "region": "0-1",
+              "overall": "0-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0029",
               "name": "Marion County",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -3960,20 +3960,28 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "Too early to tell.",
+          "note": "Winterboro and Woodland face off this week.",
           "teams": [
             {
               "id": "tm_002j",
               "name": "Winterboro",
-              "overall": "3-0",
-              "region": "1-0",
+              "overall": "4-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002k",
               "name": "Woodland",
-              "overall": "2-1",
+              "overall": "3-1",
+              "region": "2-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002e",
+              "name": "Fayetteville",
+              "overall": "1-2",
               "region": "1-0",
               "rating": "",
               "status": "medium"
@@ -3981,16 +3989,8 @@
             {
               "id": "tm_002i",
               "name": "Wadley",
-              "overall": "2-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002e",
-              "name": "Fayetteville",
-              "overall": "0-2",
-              "region": "0-0",
+              "overall": "2-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
@@ -4005,16 +4005,16 @@
             {
               "id": "tm_002f",
               "name": "LaFayette",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002h",
               "name": "Notasulga",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -4022,69 +4022,69 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "Too early to tell.",
+          "note": "",
           "teams": [
             {
               "id": "tm_002l",
               "name": "Addison",
-              "overall": "3-0",
-              "region": "1-0",
+              "overall": "4-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002r",
               "name": "Red Bay",
-              "overall": "3-0",
-              "region": "1-0",
+              "overall": "4-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002o",
               "name": "Hackleburg",
-              "overall": "2-0",
-              "region": "1-0",
+              "overall": "3-0",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002m",
               "name": "Belgreen",
-              "overall": "2-1",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_002n",
-              "name": "Cherokee",
-              "overall": "1-1",
-              "region": "0-1",
+              "overall": "2-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002p",
               "name": "Meek",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002n",
+              "name": "Cherokee",
               "overall": "1-2",
-              "region": "0-1",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002q",
               "name": "Phillips",
-              "overall": "1-2",
-              "region": "0-1",
+              "overall": "1-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002s",
               "name": "Waterloo",
-              "overall": "0-2",
-              "region": "0-1",
+              "overall": "0-3",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
@@ -4092,44 +4092,44 @@
         },
         "8": {
           "name": "Region 8",
-          "note": "Too early to tell.",
+          "note": "Ragland and Spring Garden play this week to see who is in the driver's seat for first place heading into the region break.",
           "teams": [
-            {
-              "id": "tm_002v",
-              "name": "Gaylesville",
-              "overall": "2-0",
-              "region": "1-0",
-              "rating": "",
-              "status": "medium"
-            },
             {
               "id": "tm_002w",
               "name": "Ragland",
-              "overall": "1-2",
-              "region": "1-0",
+              "overall": "2-2",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002x",
               "name": "Spring Garden",
-              "overall": "1-2",
-              "region": "1-0",
+              "overall": "2-2",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_002z",
-              "name": "Woodville",
-              "overall": "2-0",
-              "region": "0-0",
+              "id": "tm_002v",
+              "name": "Gaylesville",
+              "overall": "2-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_002t",
               "name": "Appalachian",
-              "overall": "1-2",
+              "overall": "2-2",
+              "region": "1-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_002z",
+              "name": "Woodville",
+              "overall": "2-1",
               "region": "0-1",
               "rating": "",
               "status": "medium"
@@ -4145,8 +4145,8 @@
             {
               "id": "tm_002y",
               "name": "Valley Head",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
               "status": "medium"
             }
