@@ -2,9 +2,9 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-19T04:03:57.801Z"
+    "updated": "2026-09-19T19:39:13.976Z"
   },
-  "newsNote": "6A is updated through Week 4, All other classifications are through Week 3. We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
+  "newsNote": "5A & 6A is updated through Week 4, all other classifications are through Week 3. We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
     "6A": {
       "regions": {
@@ -502,45 +502,45 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "Gulf Shores got a huge double digit win over Saraland, then barely squeaked out a win over Blount - a team who won by 1 in triple overtime over winless BC Rain.\n\nNot totally sure what will happen in this region, but Blount and Spanish Fort face off this weekend to give us a few more answers.\n\nSaraland was out for blood after that loss and took down Theodore by 50 points, so this is still wide open.",
+          "note": "Gulf Shores already has a big win over Saraland, but Spanish Fort still has to play both. The Toros face Gulf Shores on October 16, and Saraland the next week in the final week of region play.\n\nBehind them, Theodore is leading now for the fourth spot but face Blount after their bye week and still have Spanish Fort and Gulf Shores. ",
           "teams": [
             {
               "id": "tm_008d",
               "name": "Gulf Shores",
-              "overall": "4-0",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
-              "status": "medium"
+              "status": "high"
             },
             {
               "id": "tm_008h",
               "name": "Spanish Fort",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008g",
               "name": "Saraland",
-              "overall": "2-1",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008e",
-              "name": "Blount",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "3-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008i",
               "name": "Theodore",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "3-2",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_008e",
+              "name": "Blount",
+              "overall": "2-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
@@ -548,209 +548,209 @@
               "id": "tm_008f",
               "name": "Murphy",
               "overall": "1-2",
-              "region": "1-1",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008b",
               "name": "Baldwin County",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
               "id": "tm_008c",
               "name": "Elberta",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             }
           ]
         },
         "2": {
           "name": "Region 2",
-          "note": "Russell County and Benjamin Russell play this week to determine that tiebreaker, but Pike Road will have to wait until after their bye week to face either of them. It's been easy for the Patriots so far in region play.\n\nWetumpka and Percy Julian play this week to break the tie for fourth.",
+          "note": "Pike Road and Benjamin Russell are now set to face off for sole possession of first place on October 9th. Pike Road gets Russell County before that though and Wetumpka after.",
           "teams": [
             {
               "id": "tm_008m",
               "name": "Pike Road",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
               "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008o",
-              "name": "Russell County",
-              "overall": "4-0",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
               "id": "tm_008j",
               "name": "Benjamin Russell",
-              "overall": "2-1",
-              "region": "2-0",
+              "overall": "3-1",
+              "region": "3-0",
+              "rating": "",
+              "status": "low"
+            },
+            {
+              "id": "tm_008o",
+              "name": "Russell County",
+              "overall": "4-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008q",
               "name": "Wetumpka",
-              "overall": "3-1",
-              "region": "1-1",
+              "overall": "4-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008l",
               "name": "Percy Julian",
-              "overall": "2-2",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008k",
-              "name": "Park Crossing",
-              "overall": "2-2",
-              "region": "0-2",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_008p",
-              "name": "Stanhope Elmore",
-              "overall": "0-3",
-              "region": "0-2",
+              "overall": "2-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008n",
               "name": "Rehobeth",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
+            },
+            {
+              "id": "tm_008k",
+              "name": "Park Crossing",
+              "overall": "2-3",
+              "region": "0-3",
+              "rating": "",
+              "status": "low"
+            },
+            {
+              "id": "tm_008p",
+              "name": "Stanhope Elmore",
+              "overall": "0-4",
+              "region": "0-3",
+              "rating": "",
+              "status": "low"
             }
           ]
         },
         "3": {
           "name": "Region 3",
-          "note": "Hillcrest may be the best team in 5A this year the way they are playing so far, but you can't count McAdory out. Those two teams face off on October 9th at Hillcrest.\n\nIt's a battle behind them to determine 3rd and 4th and we need to let it play out.",
+          "note": "Hillcrest may be the best team in 5A this year the way they are playing so far, but you can't count McAdory out. Those two teams face off on October 9th at Hillcrest.\n\nIt's a battle behind them to determine 3rd and 4th and we need to let it play out. Central and Bessemer City have pulled a game ahead and they face off October 9th as well.",
           "teams": [
             {
               "id": "tm_008u",
               "name": "Hillcrest-Tuscaloosa",
-              "overall": "4-0",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
-              "status": "medium"
+              "status": "high"
             },
             {
               "id": "tm_008w",
               "name": "McAdory",
-              "overall": "4-0",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
-              "status": "medium"
+              "status": "high"
             },
             {
               "id": "tm_008t",
               "name": "Central-Tuscaloosa",
-              "overall": "3-1",
-              "region": "1-1",
+              "overall": "4-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008r",
               "name": "Bessemer City",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "3-2",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008x",
               "name": "Northridge",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "2-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008y",
               "name": "Paul Bryant",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "2-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008s",
               "name": "Brookwood",
-              "overall": "1-2",
-              "region": "0-2",
+              "overall": "1-3",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
               "id": "tm_008v",
               "name": "Hueytown",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             }
           ]
         },
         "4": {
           "name": "Region 4",
-          "note": "Homewood has rebounded nicely from their Briarwood loss to take down Mountain Brook by 20 and Pelham by 35. Calera is off to a sneaky 3-0 start, but face Ramsay this week in a battle that may help determine who will fight for a playoff spot.\n\nDespite the loss to Homewood, Mountain Brook looked strong against Helena and we believe is still a favorite for the #2 seed. They face Ramsay and Calera after the Week 5 region break and end with Pelham.\n\nPelham has a lot of work to do to catch back up now with losses already to Homewood and Helena. ",
+          "note": "Calera dropped their first game of the season to Ramsay, which has now set up a big game between the Rams and Mountain Brook when region play returns. A Ramsay win will knock Mountain Brook to playing for third and set up a region title game between Homewood and Ramsay in the final week. A Mountain Brook win will make it where a Ramsay win over Homewood will cause a 3-way tie, which as of right now would go to Homewood (based on non-region tiebreakers).\n\nHelena fell to Homewood but still has that win over Pelham to help them. It could come down to Calera vs Helena at the end to determine who is fourth, but Pelham is not out of it.",
           "teams": [
             {
               "id": "tm_0093",
               "name": "Homewood",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
               "rating": "",
-              "status": "medium"
+              "status": "high"
             },
             {
               "id": "tm_0096",
               "name": "Ramsay",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
+              "rating": "",
+              "status": "high"
+            },
+            {
+              "id": "tm_0094",
+              "name": "Mountain Brook",
+              "overall": "3-2",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_008z",
               "name": "Calera",
-              "overall": "3-0",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0094",
-              "name": "Mountain Brook",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "3-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0092",
               "name": "Helena",
-              "overall": "2-1",
-              "region": "1-1",
+              "overall": "3-2",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
@@ -758,149 +758,149 @@
               "id": "tm_0095",
               "name": "Pelham",
               "overall": "2-2",
-              "region": "0-2",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0090",
               "name": "Chelsea",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
               "id": "tm_0091",
               "name": "Chilton County",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             }
           ]
         },
         "5": {
           "name": "Region 5",
-          "note": "Parker is Parker, no shock they are here. If they beat Minor we will upgrade them to High. Gardendale has been the surprise team so far at 3-1 overall. Although they haven't played any truly tough teams, their 45-17 win over Jasper was impressive. Gardendale and Parker meet in the final week of region play in what is shaping up to be the early region title game.\n\nBehind them, it's a fight to see who will be teams 3 and 4. Still a lot of football left to play.",
+          "note": "Parker is Parker, no shock they are in first. They already beat Mortimer Jordan and Minor behind them. They end with Gardendale.\n\nBehind them, it's a fight to see who will be teams 3 and 4. Mortimer Jordan beat Gardendale who beat Jasper so we've got it in that order for now. Minor/Cullman/Huffman could still challenge for a final spot .",
           "teams": [
             {
               "id": "tm_0097",
               "name": "Parker",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
+              "rating": "",
+              "status": "high"
+            },
+            {
+              "id": "tm_009d",
+              "name": "Mortimer Jordan",
+              "overall": "4-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0099",
               "name": "Gardendale",
-              "overall": "3-1",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009d",
-              "name": "Mortimer Jordan",
-              "overall": "3-1",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009c",
-              "name": "Minor",
-              "overall": "2-1",
-              "region": "1-1",
+              "overall": "3-2",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009b",
               "name": "Jasper",
+              "overall": "3-2",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009c",
+              "name": "Minor",
               "overall": "2-2",
-              "region": "1-1",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0098",
               "name": "Cullman",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "2-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009a",
               "name": "Huffman",
-              "overall": "1-2",
-              "region": "0-2",
+              "overall": "2-2",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009e",
               "name": "Jackson-Olin",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             }
           ]
         },
         "6": {
           "name": "Region 6",
-          "note": "To no one's surprise - Clay and Oxford are at the top and play this weekend to determine who will be in the driver's seat after the region break.\n\nPell City is back eligible and faces St. Clair County for a chance to help solidify their playoff standing. If they lose, they will still need to beat Southside and Springville to end the season to make it in.",
+          "note": "Clay got up on Oxford and claimed their spot at the top alone...again\n\nPell City got a big win in appeals and a big win on the field over St. Clair County and just like that - they are sitting in third place. They still need to get a win over Southside to be comfortably in, but they are looking good for now. We don't know a lot about Southside yet because their only games are a loss to Clay and a win over Pinson, but they will for a spot too. So for now we have them fifth. St. Clair County and Southside could be fighting for the final spot in the final week of region play.",
           "teams": [
             {
               "id": "tm_009f",
               "name": "Clay-Chalkville",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
               "rating": "",
               "status": "high"
             },
             {
               "id": "tm_009g",
               "name": "Oxford",
-              "overall": "4-0",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009l",
-              "name": "St. Clair County",
-              "overall": "3-1",
-              "region": "1-1",
+              "overall": "4-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009h",
               "name": "Pell City",
-              "overall": "1-3",
-              "region": "1-1",
+              "overall": "2-3",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009l",
+              "name": "St. Clair County",
+              "overall": "3-2",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009j",
               "name": "Southside-Gadsden",
-              "overall": "2-1",
-              "region": "0-1",
+              "overall": "3-1",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009i",
               "name": "Pinson Valley",
-              "overall": "0-3",
-              "region": "0-1",
+              "overall": "0-4",
+              "region": "0-2",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
               "id": "tm_009k",
@@ -914,141 +914,141 @@
         },
         "7": {
           "name": "Region 7",
-          "note": "Florence has looked really strong this season, already getting wins now in region over Muscle Shoals and Russellville. We'll see if Athens can hold this pace, but regardless - this region had six playoff teams last year so there will be a couple that unfortunately just won't make the cut.",
+          "note": "This is a tough region with six playoff teams coming together in reclassification.\n\nFlorence has looked really strong this season, already getting wins now in region over Muscle Shoals and Russellville. \n\nRussellville and Muscle Shoals will play when we get back to region play on October 2. Muscle Shoals beat Austin who beat Athens, so we've got Athens on the outside looking in at the moment. \n\nHartselle dropped games to Russellville and Muscle Shoals, so they still have a chance to get back into it.",
           "teams": [
             {
               "id": "tm_009q",
               "name": "Florence",
-              "overall": "4-0",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009m",
-              "name": "Athens",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009t",
               "name": "Russellville",
-              "overall": "3-1",
-              "region": "1-1",
+              "overall": "4-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009s",
               "name": "Muscle Shoals",
-              "overall": "1-2",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009r",
-              "name": "Hartselle",
               "overall": "2-2",
-              "region": "1-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009n",
               "name": "Austin",
-              "overall": "1-3",
-              "region": "1-1",
+              "overall": "2-3",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009m",
+              "name": "Athens",
+              "overall": "3-2",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009r",
+              "name": "Hartselle",
+              "overall": "2-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009o",
               "name": "Decatur",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
               "id": "tm_009p",
               "name": "East Limestone",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             }
           ]
         },
         "8": {
           "name": "Region 8",
-          "note": "Arab and Boaz are looking strong after moving into this region (technically not moving up because they were 5A last year, but basically they did move up in competition). Fort Payne is always a contender, but barely snuck out a win over Columbia, so we'll see what they have later in the season when they face Arab and Boaz.\n\nDouglas got a big win over Mae Jemison to put them in that fourth spot for the time being.",
+          "note": "The season is looking hopefully for five teams right now, but the rest of region play will have to eliminate one of these teams. Douglas beat Mae Jemison who beat Fort Payne which is why Fort Payne is currently on the outside looking in. Douglas travels to Fort Payne on October 16. \n\nMeanwhile, Arab travels to Boaz that same weekend so we will know a lot more then.",
           "teams": [
             {
               "id": "tm_009v",
               "name": "Arab",
-              "overall": "4-0",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009w",
               "name": "Boaz",
-              "overall": "3-1",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_009z",
-              "name": "Fort Payne",
-              "overall": "2-2",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009y",
               "name": "Douglas",
-              "overall": "2-1",
-              "region": "1-1",
+              "overall": "3-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_00a1",
               "name": "Mae Jemison",
-              "overall": "1-2",
-              "region": "1-1",
+              "overall": "2-2",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_009z",
+              "name": "Fort Payne",
+              "overall": "2-3",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_009u",
               "name": "Albertville",
-              "overall": "2-2",
-              "region": "0-2",
+              "overall": "2-3",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
               "id": "tm_009x",
               "name": "Columbia",
-              "overall": "2-2",
-              "region": "0-2",
+              "overall": "2-3",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
               "id": "tm_00a0",
               "name": "Lee-Huntsville",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             }
           ]
         }
