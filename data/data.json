@@ -2,9 +2,9 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-20T01:56:52.109Z"
+    "updated": "2026-09-20T03:11:29.865Z"
   },
-  "newsNote": "4A-6A is updated through Week 4, all other classifications are through Week 3. We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
+  "newsNote": "3A-6A is updated through Week 4, all other classifications are through Week 3. We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
     "6A": {
       "regions": {
@@ -2074,36 +2074,36 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "",
+          "note": "This region is a little weird with TR Miller and WS Neal not playing until Week 10 when other regions would be done. So it will be a little uneven until the end of the season.",
           "teams": [
             {
               "id": "tm_004u",
               "name": "Jackson",
-              "overall": "2-2",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_004w",
-              "name": "TR Miller",
-              "overall": "2-1",
-              "region": "1-0",
+              "overall": "3-2",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_004y",
               "name": "WS Neal",
-              "overall": "1-2",
-              "region": "1-0",
+              "overall": "2-2",
+              "region": "2-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_004v",
               "name": "Opp",
-              "overall": "3-1",
+              "overall": "4-1",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004w",
+              "name": "TR Miller",
+              "overall": "2-2",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -2111,32 +2111,32 @@
             {
               "id": "tm_004r",
               "name": "Escambia County",
-              "overall": "3-1",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_004s",
-              "name": "Excel",
-              "overall": "1-2",
-              "region": "1-1",
+              "overall": "3-2",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_004t",
               "name": "Flomaton",
-              "overall": "1-2",
-              "region": "0-2",
+              "overall": "2-2",
+              "region": "1-2",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004s",
+              "name": "Excel",
+              "overall": "1-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_004x",
               "name": "Wilcox Central",
-              "overall": "1-2",
-              "region": "0-2",
+              "overall": "1-3",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             }
@@ -2149,64 +2149,64 @@
             {
               "id": "tm_0051",
               "name": "Bullock County",
-              "overall": "3-0",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0055",
-              "name": "Slocomb",
-              "overall": "2-1",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_004z",
-              "name": "Beulah",
-              "overall": "3-1",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0053",
-              "name": "Geneva",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "4-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0054",
               "name": "Pike County",
+              "overall": "3-2",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0055",
+              "name": "Slocomb",
               "overall": "2-2",
-              "region": "1-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0050",
               "name": "BT Washington",
-              "overall": "1-3",
-              "region": "1-1",
+              "overall": "2-3",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_004z",
+              "name": "Beulah",
+              "overall": "3-2",
+              "region": "1-2",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0053",
+              "name": "Geneva",
+              "overall": "2-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0056",
               "name": "Wicksburg",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "2-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0052",
               "name": "Daleville",
-              "overall": "0-3",
-              "region": "0-2",
+              "overall": "0-4",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             }
@@ -2219,64 +2219,64 @@
             {
               "id": "tm_0057",
               "name": "Bibb County",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005c",
               "name": "Pleasant Grove",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0058",
               "name": "Cordova",
-              "overall": "3-1",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_005b",
-              "name": "Hale County",
-              "overall": "2-2",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_005e",
-              "name": "West Blocton",
-              "overall": "1-2",
-              "region": "1-1",
+              "overall": "4-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005a",
               "name": "Fultondale",
+              "overall": "2-3",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005b",
+              "name": "Hale County",
+              "overall": "2-3",
+              "region": "1-2",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005e",
+              "name": "West Blocton",
               "overall": "1-3",
-              "region": "1-1",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0059",
               "name": "Corner",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005d",
               "name": "Tarrant",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             }
@@ -2289,64 +2289,64 @@
             {
               "id": "tm_005g",
               "name": "Childersburg",
-              "overall": "4-0",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005h",
               "name": "Cleburne County",
-              "overall": "4-0",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005i",
               "name": "Handley",
-              "overall": "2-0",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_005j",
-              "name": "Munford",
-              "overall": "1-2",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_005k",
-              "name": "Talladega",
-              "overall": "1-3",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_005f",
-              "name": "Ashville",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "3-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005m",
               "name": "White Plains",
-              "overall": "0-3",
-              "region": "0-2",
+              "overall": "1-3",
+              "region": "1-2",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005k",
+              "name": "Talladega",
+              "overall": "1-4",
+              "region": "1-2",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005j",
+              "name": "Munford",
+              "overall": "1-3",
+              "region": "1-2",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005f",
+              "name": "Ashville",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005l",
               "name": "Weaver",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             }
@@ -2359,64 +2359,64 @@
             {
               "id": "tm_005s",
               "name": "Hatton",
-              "overall": "4-0",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005p",
               "name": "East Lawrence",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "4-1",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005r",
               "name": "Haleyville",
-              "overall": "3-1",
-              "region": "2-0",
+              "overall": "3-2",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005n",
               "name": "Curry",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "3-2",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005q",
               "name": "Fayette County",
-              "overall": "2-2",
-              "region": "1-1",
+              "overall": "3-2",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005t",
               "name": "Oakman",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005u",
               "name": "Winfield",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005o",
               "name": "Danville",
-              "overall": "0-3",
-              "region": "0-2",
+              "overall": "0-4",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             }
@@ -2429,64 +2429,64 @@
             {
               "id": "tm_0060",
               "name": "Oneonta",
-              "overall": "4-0",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005v",
               "name": "Etowah",
-              "overall": "2-1",
-              "region": "2-0",
+              "overall": "3-1",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005w",
               "name": "Glencoe",
-              "overall": "2-1",
-              "region": "1-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_005z",
-              "name": "Holly Pond",
-              "overall": "2-1",
-              "region": "1-1",
+              "overall": "3-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0062",
               "name": "Vinemont",
+              "overall": "3-2",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_005z",
+              "name": "Holly Pond",
               "overall": "2-2",
-              "region": "1-1",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005y",
               "name": "Hokes Bluff",
-              "overall": "1-2",
-              "region": "1-1",
+              "overall": "1-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0061",
               "name": "Susan Moore",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_005x",
               "name": "Hanceville",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             }
@@ -2499,64 +2499,64 @@
             {
               "id": "tm_0063",
               "name": "Central-Florence",
-              "overall": "3-0",
-              "region": "2-0",
+              "overall": "4-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0068",
               "name": "Rogers",
-              "overall": "3-0",
-              "region": "2-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_0069",
-              "name": "West Limestone",
-              "overall": "2-1",
-              "region": "2-0",
+              "overall": "4-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_006a",
               "name": "Wilson",
-              "overall": "2-1",
-              "region": "1-1",
+              "overall": "3-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0067",
               "name": "Lauderdale County",
-              "overall": "1-3",
-              "region": "1-1",
+              "overall": "2-3",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0069",
+              "name": "West Limestone",
+              "overall": "2-2",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0064",
               "name": "Clements",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0065",
               "name": "Colbert Heights",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_0066",
               "name": "Elkmont",
-              "overall": "0-3",
-              "region": "0-2",
+              "overall": "0-4",
+              "region": "0-3",
               "rating": "",
               "status": "medium"
             }
@@ -2569,66 +2569,66 @@
             {
               "id": "tm_006h",
               "name": "Plainview",
-              "overall": "4-0",
-              "region": "2-0",
+              "overall": "5-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_006c",
               "name": "Geraldine",
-              "overall": "3-0",
-              "region": "2-0",
+              "overall": "4-0",
+              "region": "3-0",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_006f",
               "name": "New Hope",
-              "overall": "3-1",
-              "region": "1-1",
+              "overall": "4-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_006g",
               "name": "North Jackson",
-              "overall": "2-1",
-              "region": "1-1",
+              "overall": "3-1",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_006d",
               "name": "DAR",
-              "overall": "1-2",
-              "region": "1-1",
+              "overall": "1-3",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_006i",
               "name": "Sylvania",
-              "overall": "1-3",
-              "region": "1-1",
+              "overall": "1-4",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
             {
               "id": "tm_006e",
               "name": "Madison County",
-              "overall": "1-3",
-              "region": "0-2",
+              "overall": "1-4",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             },
             {
               "id": "tm_006b",
               "name": "Asbury",
-              "overall": "0-4",
-              "region": "0-2",
+              "overall": "0-5",
+              "region": "0-3",
               "rating": "",
-              "status": "medium"
+              "status": "low"
             }
           ]
         }
