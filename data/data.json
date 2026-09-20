@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-20T04:05:19.981Z"
+    "updated": "2026-09-20T04:09:46.906Z"
   },
   "newsNote": "All classifications are updated through Week 4 (9/18/26). We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -366,9 +366,9 @@
           "r5g0": {}
         },
         "projected": {
-          "r2g0": "top",
+          "r2g0": "bottom",
           "r1g1": "top",
-          "r1g3": "top",
+          "r1g3": "bottom",
           "r1g5": "bottom",
           "r1g7": "top",
           "r1g9": "bottom",
@@ -376,7 +376,7 @@
           "r1g13": "top",
           "r1g15": "bottom",
           "r2g7": "top",
-          "r2g6": "top",
+          "r2g6": "bottom",
           "r2g5": "bottom",
           "r2g4": "top",
           "r3g2": "top",
@@ -385,7 +385,7 @@
           "r2g3": "bottom",
           "r2g2": "top",
           "r2g1": "top",
-          "r3g0": "bottom",
+          "r3g0": "top",
           "r3g1": "top",
           "r4g0": "bottom",
           "r5g0": "top"
@@ -1135,11 +1135,11 @@
           "r1g2": "top",
           "r1g3": "top",
           "r1g4": "top",
-          "r1g5": "top",
+          "r1g5": "bottom",
           "r1g6": "top",
-          "r1g7": "top",
+          "r1g7": "bottom",
           "r1g8": "top",
-          "r1g9": "top",
+          "r1g9": "bottom",
           "r1g10": "top",
           "r1g11": "top",
           "r1g12": "top",
@@ -1150,17 +1150,17 @@
           "r2g6": "top",
           "r2g5": "top",
           "r2g4": "bottom",
-          "r2g3": "top",
+          "r2g3": "bottom",
           "r2g2": "top",
-          "r2g1": "top",
+          "r2g1": "bottom",
           "r2g0": "top",
-          "r3g0": "bottom",
+          "r3g0": "top",
           "r3g1": "top",
-          "r4g0": "top",
+          "r4g0": "bottom",
           "r3g3": "bottom",
-          "r3g2": "top",
-          "r4g1": "top",
-          "r5g0": "bottom"
+          "r3g2": "bottom",
+          "r4g1": "bottom",
+          "r5g0": "top"
         },
         "slots": [
           {
