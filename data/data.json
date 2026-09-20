@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-20T04:26:30.301Z"
+    "updated": "2026-09-20T04:26:42.174Z"
   },
   "newsNote": "All classifications are updated through Week 4 (9/18/26). We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -5142,5 +5142,5 @@
     "enabled": true,
     "text": "New to bracketology? Learn how these brackets, seeds and projections work."
   },
-  "showProjections": false
+  "showProjections": true
 }
