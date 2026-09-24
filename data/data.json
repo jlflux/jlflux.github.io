@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-20T04:26:42.174Z"
+    "updated": "2026-09-24T22:08:58.841Z"
   },
   "newsNote": "All classifications are updated through Week 4 (9/18/26). We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -1640,7 +1640,7 @@
         },
         "6": {
           "name": "Region 6",
-          "note": "Three teams have separated and still all have to play each other while Moody and Central play the final week of region play for what will likely be the fourth seed and making it into the playoffs.",
+          "note": "This region has been changed a bit with the recent news that Jacksonville has had to forfeit games. Jacksonville is now ineligible for the postseason and games against them don't count.",
           "teams": [
             {
               "id": "tm_007m",
@@ -1659,14 +1659,6 @@
               "status": "medium"
             },
             {
-              "id": "tm_007p",
-              "name": "Jacksonville",
-              "overall": "3-2",
-              "region": "3-0",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_007s",
               "name": "Moody",
               "overall": "2-3",
@@ -1678,7 +1670,7 @@
               "id": "tm_007o",
               "name": "Central-Clay County",
               "overall": "2-3",
-              "region": "1-2",
+              "region": "1-1",
               "rating": "",
               "status": "medium"
             },
@@ -1686,7 +1678,7 @@
               "id": "tm_007t",
               "name": "Sylacauga",
               "overall": "2-3",
-              "region": "0-3",
+              "region": "0-2",
               "rating": "",
               "status": "low"
             },
@@ -1694,7 +1686,7 @@
               "id": "tm_007r",
               "name": "Lincoln",
               "overall": "1-3",
-              "region": "0-3",
+              "region": "0-2",
               "rating": "",
               "status": "low"
             },
@@ -1705,6 +1697,14 @@
               "region": "0-3",
               "rating": "",
               "status": "low"
+            },
+            {
+              "id": "tm_007p",
+              "name": "Jacksonville",
+              "overall": "0-5",
+              "region": "",
+              "rating": "",
+              "status": "out"
             }
           ]
         },
