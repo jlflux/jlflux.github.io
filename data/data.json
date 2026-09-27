@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-27T15:44:14.588Z"
+    "updated": "2026-09-27T15:47:15.368Z"
   },
   "newsNote": "All classifications are updated through Week 4 (9/18/26). We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -2115,7 +2115,7 @@
             {
               "id": "tm_004y",
               "name": "WS Neal",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "2-0",
               "rating": "",
               "status": "medium"
@@ -2131,7 +2131,7 @@
             {
               "id": "tm_004w",
               "name": "TR Miller",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -2147,7 +2147,7 @@
             {
               "id": "tm_004t",
               "name": "Flomaton",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -2155,7 +2155,7 @@
             {
               "id": "tm_004s",
               "name": "Excel",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -2163,7 +2163,7 @@
             {
               "id": "tm_004x",
               "name": "Wilcox Central",
-              "overall": "1-3",
+              "overall": "2-3",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -2177,7 +2177,7 @@
             {
               "id": "tm_0051",
               "name": "Bullock County",
-              "overall": "4-0",
+              "overall": "5-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -2185,7 +2185,7 @@
             {
               "id": "tm_0054",
               "name": "Pike County",
-              "overall": "3-2",
+              "overall": "6-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -2201,7 +2201,7 @@
             {
               "id": "tm_0050",
               "name": "BT Washington",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -2217,7 +2217,7 @@
             {
               "id": "tm_0053",
               "name": "Geneva",
-              "overall": "2-3",
+              "overall": "3-3",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -2225,7 +2225,7 @@
             {
               "id": "tm_0056",
               "name": "Wicksburg",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -2233,7 +2233,7 @@
             {
               "id": "tm_0052",
               "name": "Daleville",
-              "overall": "0-4",
+              "overall": "1-4",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -2247,7 +2247,7 @@
             {
               "id": "tm_0057",
               "name": "Bibb County",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -2255,7 +2255,7 @@
             {
               "id": "tm_005c",
               "name": "Pleasant Grove",
-              "overall": "4-1",
+              "overall": "4-2",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -2271,7 +2271,7 @@
             {
               "id": "tm_005a",
               "name": "Fultondale",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -2287,7 +2287,7 @@
             {
               "id": "tm_005e",
               "name": "West Blocton",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -2295,7 +2295,7 @@
             {
               "id": "tm_0059",
               "name": "Corner",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -2333,7 +2333,7 @@
             {
               "id": "tm_005i",
               "name": "Handley",
-              "overall": "3-0",
+              "overall": "4-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -2341,7 +2341,7 @@
             {
               "id": "tm_005m",
               "name": "White Plains",
-              "overall": "1-3",
+              "overall": "2-3",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -2357,7 +2357,7 @@
             {
               "id": "tm_005j",
               "name": "Munford",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -2373,7 +2373,7 @@
             {
               "id": "tm_005l",
               "name": "Weaver",
-              "overall": "0-5",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -2411,7 +2411,7 @@
             {
               "id": "tm_005n",
               "name": "Curry",
-              "overall": "3-2",
+              "overall": "4-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -2427,7 +2427,7 @@
             {
               "id": "tm_005t",
               "name": "Oakman",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -2435,7 +2435,7 @@
             {
               "id": "tm_005u",
               "name": "Winfield",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -2443,7 +2443,7 @@
             {
               "id": "tm_005o",
               "name": "Danville",
-              "overall": "0-4",
+              "overall": "0-5",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -2457,7 +2457,7 @@
             {
               "id": "tm_0060",
               "name": "Oneonta",
-              "overall": "5-0",
+              "overall": "5-1",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -2465,7 +2465,7 @@
             {
               "id": "tm_005v",
               "name": "Etowah",
-              "overall": "3-1",
+              "overall": "3-2",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -2473,7 +2473,7 @@
             {
               "id": "tm_005w",
               "name": "Glencoe",
-              "overall": "3-1",
+              "overall": "3-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -2481,7 +2481,7 @@
             {
               "id": "tm_0062",
               "name": "Vinemont",
-              "overall": "3-2",
+              "overall": "4-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -2489,7 +2489,7 @@
             {
               "id": "tm_005z",
               "name": "Holly Pond",
-              "overall": "2-2",
+              "overall": "2-3",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -2497,7 +2497,7 @@
             {
               "id": "tm_005y",
               "name": "Hokes Bluff",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -2527,7 +2527,7 @@
             {
               "id": "tm_0063",
               "name": "Central-Florence",
-              "overall": "4-0",
+              "overall": "4-1",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -2535,7 +2535,7 @@
             {
               "id": "tm_0068",
               "name": "Rogers",
-              "overall": "4-0",
+              "overall": "4-1",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -2543,7 +2543,7 @@
             {
               "id": "tm_006a",
               "name": "Wilson",
-              "overall": "3-1",
+              "overall": "3-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -2559,7 +2559,7 @@
             {
               "id": "tm_0069",
               "name": "West Limestone",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -2573,17 +2573,17 @@
               "status": "medium"
             },
             {
-              "id": "tm_0065",
-              "name": "Colbert Heights",
-              "overall": "0-5",
+              "id": "tm_0066",
+              "name": "Elkmont",
+              "overall": "1-4",
               "region": "0-3",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_0066",
-              "name": "Elkmont",
-              "overall": "0-4",
+              "id": "tm_0065",
+              "name": "Colbert Heights",
+              "overall": "0-5",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -2605,7 +2605,7 @@
             {
               "id": "tm_006c",
               "name": "Geraldine",
-              "overall": "4-0",
+              "overall": "5-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -2621,7 +2621,7 @@
             {
               "id": "tm_006g",
               "name": "North Jackson",
-              "overall": "3-1",
+              "overall": "3-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -2629,7 +2629,7 @@
             {
               "id": "tm_006d",
               "name": "DAR",
-              "overall": "1-3",
+              "overall": "2-3",
               "region": "1-2",
               "rating": "",
               "status": "medium"
