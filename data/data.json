@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-27T15:39:44.102Z"
+    "updated": "2026-09-27T15:44:14.588Z"
   },
   "newsNote": "All classifications are updated through Week 4 (9/18/26). We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -1303,7 +1303,7 @@
             {
               "id": "tm_006m",
               "name": "Orange Beach",
-              "overall": "5-0",
+              "overall": "6-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -1319,7 +1319,7 @@
             {
               "id": "tm_006o",
               "name": "Vigor",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -1327,7 +1327,7 @@
             {
               "id": "tm_006k",
               "name": "Citronelle",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -1335,7 +1335,7 @@
             {
               "id": "tm_006l",
               "name": "LeFlore",
-              "overall": "3-2",
+              "overall": "4-2",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -1343,7 +1343,7 @@
             {
               "id": "tm_006n",
               "name": "Satsuma",
-              "overall": "3-2",
+              "overall": "4-2",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -1351,7 +1351,7 @@
             {
               "id": "tm_006j",
               "name": "BC Rain",
-              "overall": "0-5",
+              "overall": "0-6",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -1365,7 +1365,7 @@
             {
               "id": "tm_006q",
               "name": "Andalusia",
-              "overall": "4-1",
+              "overall": "4-2",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -1373,7 +1373,7 @@
             {
               "id": "tm_006t",
               "name": "Dale County",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1381,7 +1381,7 @@
             {
               "id": "tm_006u",
               "name": "Eufaula",
-              "overall": "3-2",
+              "overall": "3-3",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1389,7 +1389,7 @@
             {
               "id": "tm_006s",
               "name": "Carroll",
-              "overall": "4-1",
+              "overall": "4-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1397,7 +1397,7 @@
             {
               "id": "tm_006r",
               "name": "Ashford",
-              "overall": "3-2",
+              "overall": "3-3",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -1413,7 +1413,7 @@
             {
               "id": "tm_006w",
               "name": "New Brockton",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -1451,7 +1451,7 @@
             {
               "id": "tm_0075",
               "name": "Sipsey Valley",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1459,7 +1459,7 @@
             {
               "id": "tm_006y",
               "name": "Demopolis",
-              "overall": "2-2",
+              "overall": "2-3",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1475,7 +1475,7 @@
             {
               "id": "tm_0074",
               "name": "Shelby County",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -1513,7 +1513,7 @@
             {
               "id": "tm_007d",
               "name": "Valley",
-              "overall": "4-0",
+              "overall": "5-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -1521,7 +1521,7 @@
             {
               "id": "tm_0077",
               "name": "Charles Henderson",
-              "overall": "3-1",
+              "overall": "3-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1553,7 +1553,7 @@
             {
               "id": "tm_007c",
               "name": "Tallassee",
-              "overall": "0-5",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -1561,7 +1561,7 @@
             {
               "id": "tm_0076",
               "name": "Beauregard",
-              "overall": "0-5",
+              "overall": "0-6",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -1575,7 +1575,7 @@
             {
               "id": "tm_007i",
               "name": "Oak Grove",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -1583,8 +1583,24 @@
             {
               "id": "tm_007k",
               "name": "Wenonah",
-              "overall": "3-2",
+              "overall": "4-2",
               "region": "3-0",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007j",
+              "name": "Shades Valley",
+              "overall": "3-3",
+              "region": "2-1",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_007e",
+              "name": "Center Point",
+              "overall": "2-4",
+              "region": "1-2",
               "rating": "",
               "status": "medium"
             },
@@ -1597,25 +1613,9 @@
               "status": "medium"
             },
             {
-              "id": "tm_007j",
-              "name": "Shades Valley",
-              "overall": "3-2",
-              "region": "2-1",
-              "rating": "",
-              "status": "medium"
-            },
-            {
-              "id": "tm_007e",
-              "name": "Center Point",
-              "overall": "2-3",
-              "region": "1-2",
-              "rating": "",
-              "status": "medium"
-            },
-            {
               "id": "tm_007g",
               "name": "Fairfield",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -1645,7 +1645,7 @@
             {
               "id": "tm_007m",
               "name": "Alexandria",
-              "overall": "4-0",
+              "overall": "5-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -1661,7 +1661,7 @@
             {
               "id": "tm_007s",
               "name": "Moody",
-              "overall": "2-3",
+              "overall": "3-3",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1680,15 +1680,15 @@
               "overall": "2-3",
               "region": "0-2",
               "rating": "",
-              "status": "low"
+              "status": "medium"
             },
             {
               "id": "tm_007r",
               "name": "Lincoln",
-              "overall": "1-3",
+              "overall": "2-3",
               "region": "0-2",
               "rating": "",
-              "status": "low"
+              "status": "medium"
             },
             {
               "id": "tm_007n",
@@ -1701,7 +1701,7 @@
             {
               "id": "tm_007p",
               "name": "Jacksonville",
-              "overall": "0-5",
+              "overall": "1-5",
               "region": "",
               "rating": "",
               "status": "out"
@@ -1739,7 +1739,7 @@
             {
               "id": "tm_007x",
               "name": "Hamilton",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1747,7 +1747,7 @@
             {
               "id": "tm_007v",
               "name": "Brooks",
-              "overall": "2-3",
+              "overall": "3-3",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -1763,7 +1763,7 @@
             {
               "id": "tm_007y",
               "name": "Lawrence County",
-              "overall": "1-4",
+              "overall": "2-4",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -1771,7 +1771,7 @@
             {
               "id": "tm_0081",
               "name": "West Point",
-              "overall": "0-5",
+              "overall": "0-6",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -1785,7 +1785,7 @@
             {
               "id": "tm_008a",
               "name": "Scottsboro",
-              "overall": "4-0",
+              "overall": "5-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -1793,7 +1793,7 @@
             {
               "id": "tm_0086",
               "name": "Good Hope",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -1801,7 +1801,7 @@
             {
               "id": "tm_0083",
               "name": "Cherokee County",
-              "overall": "3-1",
+              "overall": "3-2",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -1825,7 +1825,7 @@
             {
               "id": "tm_0082",
               "name": "Brewer",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "2-2",
               "rating": "",
               "status": "medium"
@@ -1833,7 +1833,7 @@
             {
               "id": "tm_0089",
               "name": "Sardis",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -1841,7 +1841,7 @@
             {
               "id": "tm_0084",
               "name": "Crossville",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "0-4",
               "rating": "",
               "status": "low"
@@ -1849,7 +1849,7 @@
             {
               "id": "tm_0088",
               "name": "Hayden",
-              "overall": "0-5",
+              "overall": "0-6",
               "region": "0-4",
               "rating": "",
               "status": "low"
