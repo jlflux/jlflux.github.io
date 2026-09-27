@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-27T15:34:55.229Z"
+    "updated": "2026-09-27T15:39:44.102Z"
   },
   "newsNote": "All classifications are updated through Week 4 (9/18/26). We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -523,7 +523,7 @@
             {
               "id": "tm_008g",
               "name": "Saraland",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -547,7 +547,7 @@
             {
               "id": "tm_008f",
               "name": "Murphy",
-              "overall": "1-2",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -563,7 +563,7 @@
             {
               "id": "tm_008c",
               "name": "Elberta",
-              "overall": "0-5",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -572,7 +572,7 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "Pike Road and Benjamin Russell are now set to face off for sole possession of first place on October 9th. Pike Road gets Russell County before that though and Wetumpka after.",
+          "note": "Pike Road and Benjamin Russell are now set to face off for sole possession of first place on October 9th. Pike Road gets Russell County before that though and Wetumpka after.\n\nThis region did not look good in Week 5 with 3 of the top 4 losing.",
           "teams": [
             {
               "id": "tm_008m",
@@ -585,7 +585,7 @@
             {
               "id": "tm_008j",
               "name": "Benjamin Russell",
-              "overall": "3-1",
+              "overall": "3-2",
               "region": "3-0",
               "rating": "",
               "status": "low"
@@ -593,7 +593,7 @@
             {
               "id": "tm_008o",
               "name": "Russell County",
-              "overall": "4-1",
+              "overall": "4-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -601,7 +601,7 @@
             {
               "id": "tm_008q",
               "name": "Wetumpka",
-              "overall": "4-1",
+              "overall": "4-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -633,7 +633,7 @@
             {
               "id": "tm_008p",
               "name": "Stanhope Elmore",
-              "overall": "0-4",
+              "overall": "1-4",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -695,7 +695,7 @@
             {
               "id": "tm_008s",
               "name": "Brookwood",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -725,7 +725,7 @@
             {
               "id": "tm_0096",
               "name": "Ramsay",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "3-0",
               "rating": "",
               "status": "high"
@@ -733,7 +733,7 @@
             {
               "id": "tm_0094",
               "name": "Mountain Brook",
-              "overall": "3-2",
+              "overall": "4-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -741,7 +741,7 @@
             {
               "id": "tm_008z",
               "name": "Calera",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -757,7 +757,7 @@
             {
               "id": "tm_0095",
               "name": "Pelham",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -787,7 +787,7 @@
             {
               "id": "tm_0097",
               "name": "Parker",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "3-0",
               "rating": "",
               "status": "high"
@@ -803,7 +803,7 @@
             {
               "id": "tm_0099",
               "name": "Gardendale",
-              "overall": "3-2",
+              "overall": "3-3",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -819,7 +819,7 @@
             {
               "id": "tm_009c",
               "name": "Minor",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -835,7 +835,7 @@
             {
               "id": "tm_009a",
               "name": "Huffman",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -843,7 +843,7 @@
             {
               "id": "tm_009e",
               "name": "Jackson-Olin",
-              "overall": "1-4",
+              "overall": "2-4",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -865,7 +865,7 @@
             {
               "id": "tm_009g",
               "name": "Oxford",
-              "overall": "4-1",
+              "overall": "4-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -873,7 +873,7 @@
             {
               "id": "tm_009h",
               "name": "Pell City",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -881,7 +881,7 @@
             {
               "id": "tm_009l",
               "name": "St. Clair County",
-              "overall": "3-2",
+              "overall": "3-3",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -889,23 +889,23 @@
             {
               "id": "tm_009j",
               "name": "Southside-Gadsden",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "1-1",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_009i",
-              "name": "Pinson Valley",
-              "overall": "0-4",
+              "id": "tm_009k",
+              "name": "Springville",
+              "overall": "1-4",
               "region": "0-2",
               "rating": "",
               "status": "low"
             },
             {
-              "id": "tm_009k",
-              "name": "Springville",
-              "overall": "0-4",
+              "id": "tm_009i",
+              "name": "Pinson Valley",
+              "overall": "0-5",
               "region": "0-2",
               "rating": "",
               "status": "low"
@@ -927,7 +927,7 @@
             {
               "id": "tm_009t",
               "name": "Russellville",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -967,7 +967,7 @@
             {
               "id": "tm_009o",
               "name": "Decatur",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -989,7 +989,7 @@
             {
               "id": "tm_009v",
               "name": "Arab",
-              "overall": "5-0",
+              "overall": "6-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -1005,7 +1005,7 @@
             {
               "id": "tm_009y",
               "name": "Douglas",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1013,7 +1013,7 @@
             {
               "id": "tm_00a1",
               "name": "Mae Jemison",
-              "overall": "2-2",
+              "overall": "2-3",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -1037,7 +1037,7 @@
             {
               "id": "tm_009x",
               "name": "Columbia",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "0-3",
               "rating": "",
               "status": "low"
