@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-27T15:57:16.812Z"
+    "updated": "2026-09-27T15:58:51.049Z"
   },
   "newsNote": "All classifications are updated through Week 4 (9/18/26). We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -4490,12 +4490,12 @@
       "regions": {
         "1": {
           "name": "Region 1",
-          "note": "Still a three-way tie for first and a three-way tie for fourth going into the region break. A lot of football left to play. We've ranked teams based on a few head-to-head match-ups, but mostly on our ratings heading into the break.\n\nBriarwood and Montgomery Catholic face off this week in non-region play in a potential championship preview.",
+          "note": "Still a three-way tie for first and a three-way tie for fourth going into the region break. A lot of football left to play. We've ranked teams based on a few head-to-head match-ups, but mostly on our ratings heading into the break.",
           "teams": [
             {
               "id": "tm_000x",
               "name": "Montgomery Catholic",
-              "overall": "4-1",
+              "overall": "4-2",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -4519,7 +4519,7 @@
             {
               "id": "tm_000y",
               "name": "St. Michael",
-              "overall": "1-3",
+              "overall": "2-3",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -4543,7 +4543,7 @@
             {
               "id": "tm_000t",
               "name": "Faith Academy",
-              "overall": "1-3",
+              "overall": "2-3",
               "region": "0-3",
               "rating": "",
               "status": "medium"
@@ -4560,12 +4560,12 @@
         },
         "2": {
           "name": "Region 2",
-          "note": "Briarwood and American Christian are on a collision course for the region title and top 2 seeds and home field advantage in the playoffs. Briarwood hasn't struggled with anyone other than 5A #8 Homewood and they still won that.\n\nBriarwood and Montgomery Catholic face off this week in non-region play in a potential championship preview.",
+          "note": "Briarwood and American Christian are on a collision course for the region title and top 2 seeds and home field advantage in the playoffs. Briarwood hasn't struggled with anyone other than 5A #8 Homewood and they still won that.\n\nBriarwood defeated Montgomery Catholic in a great game 24-21 in what could be a state championship preview.",
           "teams": [
             {
               "id": "tm_0012",
               "name": "Briarwood",
-              "overall": "5-0",
+              "overall": "6-0",
               "region": "3-0",
               "rating": "",
               "status": "high"
@@ -4573,18 +4573,10 @@
             {
               "id": "tm_0011",
               "name": "American Christian",
-              "overall": "4-0",
+              "overall": "5-0",
               "region": "3-0",
               "rating": "",
               "status": "high"
-            },
-            {
-              "id": "tm_0015",
-              "name": "Madison Academy",
-              "overall": "3-2",
-              "region": "2-1",
-              "rating": "",
-              "status": "medium"
             },
             {
               "id": "tm_0016",
@@ -4595,18 +4587,18 @@
               "status": "medium"
             },
             {
-              "id": "tm_0013",
-              "name": "John Carroll",
+              "id": "tm_0015",
+              "name": "Madison Academy",
               "overall": "3-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
             },
             {
-              "id": "tm_0014",
-              "name": "Lee-Scott",
-              "overall": "0-5",
-              "region": "0-3",
+              "id": "tm_0013",
+              "name": "John Carroll",
+              "overall": "3-2",
+              "region": "2-1",
               "rating": "",
               "status": "medium"
             },
@@ -4622,6 +4614,14 @@
               "id": "tm_0017",
               "name": "St. John Paul II",
               "overall": "0-5",
+              "region": "0-3",
+              "rating": "",
+              "status": "medium"
+            },
+            {
+              "id": "tm_0014",
+              "name": "Lee-Scott",
+              "overall": "0-6",
               "region": "0-3",
               "rating": "",
               "status": "medium"
