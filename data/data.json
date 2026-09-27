@@ -2,7 +2,7 @@
   "schema": 1,
   "meta": {
     "season": "2026",
-    "updated": "2026-09-27T15:53:45.254Z"
+    "updated": "2026-09-27T15:57:16.812Z"
   },
   "newsNote": "All classifications are updated through Week 4 (9/18/26). We aren't projecting much yet, so some teams may be higher or lower than expected based on limited results. However, there are some projects in the bigger classifications. Follow us on X @ALPreps for more info!",
   "classifications": {
@@ -3707,7 +3707,7 @@
             {
               "id": "tm_001b",
               "name": "Leroy",
-              "overall": "3-2",
+              "overall": "4-2",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -3715,7 +3715,7 @@
             {
               "id": "tm_001d",
               "name": "McIntosh",
-              "overall": "3-2",
+              "overall": "3-3",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -3723,7 +3723,7 @@
             {
               "id": "tm_001f",
               "name": "Southern Choctaw",
-              "overall": "2-2",
+              "overall": "2-3",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -3739,7 +3739,7 @@
             {
               "id": "tm_001c",
               "name": "Marengo",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -3747,7 +3747,7 @@
             {
               "id": "tm_001a",
               "name": "Fruitdale",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -3755,7 +3755,7 @@
             {
               "id": "tm_001g",
               "name": "Washington County",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -3763,7 +3763,7 @@
             {
               "id": "tm_001e",
               "name": "Millry",
-              "overall": "0-5",
+              "overall": "0-6",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -3777,7 +3777,7 @@
             {
               "id": "tm_001k",
               "name": "Elba",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -3785,7 +3785,7 @@
             {
               "id": "tm_001m",
               "name": "Kinston",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -3793,7 +3793,7 @@
             {
               "id": "tm_001n",
               "name": "Pleasant Home",
-              "overall": "3-1",
+              "overall": "3-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -3801,7 +3801,7 @@
             {
               "id": "tm_001j",
               "name": "Brantley",
-              "overall": "3-2",
+              "overall": "4-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -3817,7 +3817,7 @@
             {
               "id": "tm_001o",
               "name": "Samson",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -3833,7 +3833,7 @@
             {
               "id": "tm_001i",
               "name": "Barbour County",
-              "overall": "1-3",
+              "overall": "2-3",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -3855,7 +3855,7 @@
             {
               "id": "tm_001w",
               "name": "University Charter",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -3871,7 +3871,7 @@
             {
               "id": "tm_001u",
               "name": "RC Hatch",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -3879,7 +3879,7 @@
             {
               "id": "tm_001v",
               "name": "Sweet Water",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -3887,7 +3887,7 @@
             {
               "id": "tm_001q",
               "name": "Francis Marion",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -3895,7 +3895,7 @@
             {
               "id": "tm_001s",
               "name": "Keith",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -3903,7 +3903,7 @@
             {
               "id": "tm_001p",
               "name": "Breakthrough Charter",
-              "overall": "0-5",
+              "overall": "0-6",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -3917,7 +3917,7 @@
             {
               "id": "tm_0022",
               "name": "McKenzie",
-              "overall": "4-0",
+              "overall": "5-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -3925,7 +3925,7 @@
             {
               "id": "tm_0021",
               "name": "Maplesville",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -3933,7 +3933,7 @@
             {
               "id": "tm_0024",
               "name": "Verbena",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -3941,7 +3941,7 @@
             {
               "id": "tm_001x",
               "name": "Billingsley",
-              "overall": "2-2",
+              "overall": "2-3",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -3949,7 +3949,7 @@
             {
               "id": "tm_001z",
               "name": "Central-Hayneville",
-              "overall": "3-2",
+              "overall": "3-3",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -3957,7 +3957,7 @@
             {
               "id": "tm_0020",
               "name": "Georgiana",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -3965,7 +3965,7 @@
             {
               "id": "tm_0023",
               "name": "Red Level",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -3973,7 +3973,7 @@
             {
               "id": "tm_001y",
               "name": "Calhoun",
-              "overall": "0-5",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -3987,7 +3987,7 @@
             {
               "id": "tm_0027",
               "name": "Hubbertville",
-              "overall": "4-1",
+              "overall": "5-1",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -4003,7 +4003,7 @@
             {
               "id": "tm_0025",
               "name": "Berry",
-              "overall": "2-2",
+              "overall": "2-3",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -4019,7 +4019,7 @@
             {
               "id": "tm_0028",
               "name": "Lynn",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -4057,7 +4057,7 @@
             {
               "id": "tm_002j",
               "name": "Winterboro",
-              "overall": "5-0",
+              "overall": "6-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -4065,7 +4065,7 @@
             {
               "id": "tm_002e",
               "name": "Fayetteville",
-              "overall": "2-2",
+              "overall": "2-3",
               "region": "2-0",
               "rating": "",
               "status": "medium"
@@ -4073,7 +4073,7 @@
             {
               "id": "tm_002k",
               "name": "Woodland",
-              "overall": "3-2",
+              "overall": "3-3",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -4081,7 +4081,7 @@
             {
               "id": "tm_002g",
               "name": "Loachapoka",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -4097,7 +4097,7 @@
             {
               "id": "tm_002f",
               "name": "LaFayette",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "0-2",
               "rating": "",
               "status": "medium"
@@ -4119,7 +4119,7 @@
             {
               "id": "tm_002l",
               "name": "Addison",
-              "overall": "5-0",
+              "overall": "6-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -4127,7 +4127,7 @@
             {
               "id": "tm_002r",
               "name": "Red Bay",
-              "overall": "5-0",
+              "overall": "6-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -4135,7 +4135,7 @@
             {
               "id": "tm_002o",
               "name": "Hackleburg",
-              "overall": "4-0",
+              "overall": "5-0",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -4159,7 +4159,7 @@
             {
               "id": "tm_002s",
               "name": "Waterloo",
-              "overall": "1-3",
+              "overall": "1-4",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -4167,7 +4167,7 @@
             {
               "id": "tm_002n",
               "name": "Cherokee",
-              "overall": "1-3",
+              "overall": "2-3",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -4175,7 +4175,7 @@
             {
               "id": "tm_002q",
               "name": "Phillips",
-              "overall": "1-4",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "low"
@@ -4189,7 +4189,7 @@
             {
               "id": "tm_002x",
               "name": "Spring Garden",
-              "overall": "3-2",
+              "overall": "3-3",
               "region": "3-0",
               "rating": "",
               "status": "medium"
@@ -4197,7 +4197,7 @@
             {
               "id": "tm_002w",
               "name": "Ragland",
-              "overall": "2-3",
+              "overall": "2-4",
               "region": "2-1",
               "rating": "",
               "status": "medium"
@@ -4205,7 +4205,7 @@
             {
               "id": "tm_002z",
               "name": "Woodville",
-              "overall": "3-1",
+              "overall": "4-1",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -4213,7 +4213,7 @@
             {
               "id": "tm_002t",
               "name": "Appalachian",
-              "overall": "2-2",
+              "overall": "2-3",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -4221,7 +4221,7 @@
             {
               "id": "tm_002u",
               "name": "Cedar Bluff",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "1-1",
               "rating": "",
               "status": "medium"
@@ -4229,7 +4229,7 @@
             {
               "id": "tm_002v",
               "name": "Gaylesville",
-              "overall": "2-2",
+              "overall": "3-2",
               "region": "1-2",
               "rating": "",
               "status": "medium"
@@ -4237,7 +4237,7 @@
             {
               "id": "tm_002y",
               "name": "Valley Head",
-              "overall": "0-5",
+              "overall": "1-5",
               "region": "0-3",
               "rating": "",
               "status": "low"
